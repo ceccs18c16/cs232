@@ -1,0 +1,336 @@
+Script started on Friday 31 January 2020 10:00:38 AM IST
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ ls
+work.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ ls -l
+total 0
+-rw-rw-r-- 1 cec-lab1 cec-lab1 0 Jan 31 10:00 work.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ ls -lt
+total 0
+-rw-rw-r-- 1 cec-lab1 cec-lab1 0 Jan 31 10:00 work.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ ls -ltr
+total 0
+-rw-rw-r-- 1 cec-lab1 cec-lab1 0 Jan 31 10:00 work.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ touch sort1.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat >sort1.txt
+5
+45
+66
+78
+2
+30
+21
+1
+^Z
+[1]+  Stopped                 cat > sort1.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ sort -n sort1,[K.txt
+1
+2
+5
+21
+30
+45
+66
+78
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ touch foss.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat >foss.txt
+hello every one hoe are you.
+^Z
+[2]+  Stopped                 cat > foss.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat foss.txt
+hello every one hoe are you.
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cut -f3 foss.txt
+hello every one hoe are you.
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ touch country.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat >country.txt
+An  America 
+Zambia
+Afganistha  an
+India
+Nepal
+Sudsa  an
+^Z
+[3]+  Stopped                 cat > country.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat country.txt
+America 
+Zambia
+Afganistan
+India
+Nepal
+Sudan
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cut -f3 country.txt
+America 
+Zambia
+Afganistan
+India
+Nepal
+Sudan
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cut -f3 country.txt[C[C[C[C[C[C[C[C[C[C[C[C
+America 
+Zambia
+Afganistan
+India
+Nepal
+Sudan
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cut -f-3
+hello
+hello
+
+
+hai
+hai
+^Z
+[4]+  Stopped                 cut -f-3
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ join r.country.txt r.[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktouch state.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat> >[Cstate.txt
+Kerala
+Tamil Nadu
+Andra p Pradesh
+^Z
+[5]+  Stopped                 cat > state.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ join r.country.txt r.state.txt
+join: r.country.txt: No such file or directory
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ join r.country.txt r.state.txt[16Pcat >state.txttouch state.txt[7Pcut -f-33 country.txt[4Pat[C[C[C[C[C[C[C[C[C[C[C[C>country.txt[1Pcountry.txt[4@ut -f3[C[C[C[C[C[C[C[C[C[C[C[C[4Pat[C[C[C[C[C[C[C[C[C[C[C[C>country.txttouch country.txt[1Pcut -f3 foss.txt[4Pat[C[C[C[C[C[C[C[C[C[4@ut -f3[C[C[C[C[C[C[C[C[Ctouch country.txt[1Pcat >country.txttouch country.txt[1Pcat >country.txt
+^[[A    ^Z
+[6]+  Stopped                 cat > country.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat >country.txtjoin r.country.txt r.state.txt[16Pcat >state.txttouch state.txt[7Pcut -f-33 country.txt[4Pat[C[C[C[C[C[C[C[C[C[C[C[C
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat country.txt>country.txt
+India
+America
+^Z
+[7]+  Stopped                 cat > country.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat >country.txt[1Pcountry.txt>country.txtjoin r.country.txt r.state.txt
+join: r.country.txt: No such file or directory
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ join r.country.txt r.state.txt[1Pstate.txt[1Pstate.txt[C[1P[1P
+join: state.txt:3: is not sorted: Andra Pradesh
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ sort state.txt
+Andra Pradesh
+Kerala
+Tamil Nadu
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ sort state.txt[12@join country.tx[C[C[C[C[C[C[C[C[C[C[C
+join: state.txt:3: is not sorted: Andra Pradesh
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ join country.txt state.txt[12Psor[C[C[C[C[C[C[C[C[C[C[C
+Andra Pradesh
+Kerala
+Tamil Nadu
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ join [K[K[K[K[Ksort america.txt
+sort: cannot read: america.txt: No such file or directory
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ sort america.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtc.txto.txtu.txtn.txtt.txtr.txty.txt
+America
+India
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ sort country.txtamerica.txt[2Pstate.txt[12@join country.tx[C[C[C[C[C[C[C[C[C[C[C
+join: state.txt:3: is not sorted: Andra Pradesh
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cut -b 1,2,3 state.txt
+Ker
+Tam
+And
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ touch name.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cart[K[Kt >name.txt
+Abhiram
+jerin
+Vivek
+^Z
+[8]+  Stopped                 cat > name.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ touch number.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat >touch.yxt[1Pyxttyxt[C[1Pxt.txt
+1
+2
+3
+^Z
+[9]+  Stopped                 cat > touch.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ join number.txt name.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ join number.txt name.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ join number.txt name.txt >ji[Koinfile.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat joinfile.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat joinfile.txt> joinfile.txt[1P joinfile.txt[C>joinfile.txt
+^[[A    ^Z
+[10]+  Stopped                 cat > joinfile.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat >joinfile.txt[1Pjoinfile.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat joinfile.txt>joinfile.txt[1Pjoinfile.txtjoin number.txt name.txt >joinfile.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ 1[Kjoin number.txt name.txt >joinfile.txt[Kjoin number.txt name.txt >joinfile.txt joinfile.txt [A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat joinfile.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat joinfile.txtjoin number.txt name.txt > joinfile.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pjoinfile.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat joinfile.txt>joinfile.txt[1Pjoinfile.txtjoin number.txt name.txt >joinfile.txt[K[10Pcat >touch.txttouch number.txt[3Pcat >name.txttouch name.txtcut -b 1,2,3 state.txt[4@join country.txt[C[C[C[C[C[C[C[C[C[C[10Psort country.txtamerica.txt[2Pstate.txt[12@join country.tx[C[C[C[C[C[C[C[C[C[C[C[12Psor[C[C[C[C[C[C[C[C[C[C[C[12@join country.tx[C[C[C[C[C[C[C[C[C[C[Cr.country.txt r.state.txt[14Pcat >country.txt[1Pcountry.txt>country.txtjoin r.country.txt r.state.txt[16Pcat >state.txttouch state.txt[7Pcut -f-33 country.txt[4Pat[C[C[C[C[C[C[C[C[C[C[C[C>country.txttouch country.txt[1Pcut -f3 foss.txt[4Pat[C[C[C[C[C[C[C[C[C>foss.txttouch foss.txtsort -n sort1.txt[3Pcat >sort1.txttouch sort1.txt[8Pls -ltr[K[K[Kman lseekgcc abcd.ccd Desktopgcc abcd.ccd Desktopgcc abcd.ccd Desktophmod 0777gcc abcd.ccd Desktopgcc abcd.ccd Desktopgcc abcd.ccd Desktopgcc abcd.cchmod 0777d Desktopgcc abcd.ccd Desktopgcc abcd.ccd Desktopgcc abcd.c[1Pman lseekls[K -ltrtouch sort1.txt[1Pcat >sort1.txtsort -n sort1.txt[3Ptouch foss.txt[1Pcat >foss.txt[1Pfoss.txt[4@ut -f3[C[C[C[C[C[C[C[C[Ctouch country.txt[1Pcat >country.txt[1Pcountry.txt[4@ut -f3[C[C[C[C[C[C[C[C[C[C[C[C-3[Ktouch state.txt[1Pcat >state.txtjoin r.country.txt r.state.txt[14Pcat >country.txt[1Pcountry.txt>country.txtjoin r.country.txt r.state.txt[4Pcountry.txt state.txt[12Psor[C[C[C[C[C[C[C[C[C[C[C[12@join country.tx[C[C[C[C[C[C[C[C[C[C[C[12Psor[C[C[C[C[C[C[C[C[C[C[Camerica.txtcountry.txtjoin country.txt state.txt[4Pcut -b 1,2,3[C[C[C[C[C[C[C[C[C[C[8Ptouch name.txt[1Pcat >name.txttouch number.txt[2Pcat >touch.txtjoin number.txt name.txt >joinfile.txt[22Pcat joinfile.txt>joinfile.txt[1Pjoinfile.txtjoin number.txt name.txt >joinfile.txt joinfile.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcat joinfile.txtjoin number.txt name.txt > joinfile.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pjoinfile.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ join number.txt name.txt >joinfile.txt joinfile.txt [A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1.txtt[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ join number.txt name.txt > joinfile1.txtt[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pjoinfile.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat joinfile.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat joinfile.txt[C[C1.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ join r.name.txt r.numd[Kber.txt
+join: r.name.txt: No such file or directory
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ car[Kt name.txt
+Abhiram
+jerin
+Vivek
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat number.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat number.txt[2Pame.txtjoin r.name.txt r.number.txt[11Pcat joinfile1.txt[1P.txtjoin number.txt name.txt > joinfile1.txtt[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pjoinfile.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat joinfile.txtjoin number.txt name.txt > joinfile.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pjoinfile.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat joinfile.txt>joinfile.txt[1Pjoinfile.txtjoin number.txt name.txt >joinfile.txt[K[10Pcat >touch.txttouch number.txt[3Pcat >name.txttouch name.txtcut -b 1,2,3 state.txt[4@join country.txt[C[C[C[C[C[C[C[C[C[C[4Pcut -b 1,2,3[C[C[C[C[C[C[C[C[C[C[8Ptouch name.txt[1Pcat >name.txttouch number.txt[2Pcat >touch.txtjoin number.txt name.txt >joinfile.txt[22Pcat joinfile.txt>joinfile.txt[1Pjoinfile.txtjoin number.txt name.txt >joinfile.txt joinfile.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjoin number.txt name.txt >joinfile.txt joinfile1.txtt[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [23Pcat joinfile.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1.txtjoin r.name.txt r.number.txt[16Pcat name.txtumber.txt[Kcat number.txt[2Pame.txtjoin r.name.txt r.number.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[6Pcat joinfile1.txt[1P.txtjoin number.txt name.txt > joinfile1.txtt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt name.txt > joinfile1.txt [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@t[1@o[1@u[1@ch.txt name.txt > joinfile1.txt [A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[C[C[C[C
+
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat joinfile1.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ cat joinfile1.txtjoin touch.txt name.txt > joinfile1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pcat number.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjoin touch.txt name.txt > joinfile1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit init
+Initialized empty Git repository in /home/cec-lab1/ceccs18c16/cs232/3101/.git/
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git pull http://github.com/ceccs18cxx/c s232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[Cinit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Reinitialized existing Git repository in /home/cec-lab1/ceccs18c16/cs232/3101/.git/
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git pull http://github.com/ceccs18c16/c s232
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From http://github.com/ceccs18c16/cs232
+ * branch            HEAD       -> FETCH_HEAD
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ ls
+country.txt  joinfile1.txt  name.txt    README.md  state.txt  work.txt
+foss.txt     joinfile.txt   number.txt  sort1.txt  touch.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ ls[C[K[Kmkdigit pull http://github.com/ceccs18c16/css232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[Cinit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpull http://github.com/ceccs18c16/css232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ mkdi[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Klos -a
+No command 'los' found, did you mean:
+ Command 'lvs' from package 'lvm2' (main)
+ Command 'bos' from package 'openafs-client' (universe)
+ Command 'ls' from package 'coreutils' (main)
+ Command 'les' from package 'atm-tools' (universe)
+ Command 'lrs' from package 'lrslib' (universe)
+ Command 'vos' from package 'openafs-client' (universe)
+ Command 'ols' from package 'speech-tools' (universe)
+ Command 'eos' from package 'elk-lapw' (universe)
+los: command not found
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git 31[K[Klos -a[2Pmkdigit pull http://github.com/ceccs18c16/css232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[Cinit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat joinfile1.txtjoin touch.txt name.txt > joinfile1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pcat number.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pame.txtjoin r.name.txt r.n.txt[6Pcat joinfile1.txt[1P.txtjoin number.txt name.txt > joinfile1.txtt[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pjoinfile.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C joinfile1.txtt[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [23Pcat joinfile.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1.txtjoin r.name.txt r.n.txt[11Pcat name.txtumber.txtjoin touch.txt name.txt > joinfile1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pgit initpull http://github.com/ceccs18c16/css232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ mkdi[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clos -a[2Pgit los -a[2Pmkdigit pull http://github.com/ceccs18c16/css232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[Cinit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat joinfile1.txtjoin touch.txt name.txt > joinfile1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[25Pcat number.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pame.txtjoin r.name.txt r.n.txt[6Pcat joinfile1.txt[1P.txtjoin number.txt name.txt > joinfile1.txtt[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pjoinfile.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat joinfile.txtjoin number.txt name.txt > joinfile.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pjoinfile.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat joinfile.txt>joinfile.txt[1Pjoinfile.txtjoin number.txt name.txt >joinfile.txt[K[10Pcat >touch.txttouch number.txt[3Pcat >name.txttouch name.txtcut -b 1,2,3 state.txt[4@join country.txt[C[C[C[C[C[C[C[C[C[C[10Psort country.txtamerica.txt[2Pstate.txt[12@join country.tx[C[C[C[C[C[C[C[C[C[C[C[12Psor[C[C[C[C[C[C[C[C[C[C[C[12@join country.tx[C[C[C[C[C[C[C[C[C[C[Cr.country.txt r.state.txt[14Pcat >country.txt[1Pcountry.txt>country.txtjoin r.country.txt r.state.txt[16Pcat >state.txttouch state.txt[7Pcut -f-33 country.txt[4Pat[C[C[C[C[C[C[C[C[C[C[C[C>country.txttouch country.txt[1Pcut -f3 foss.txt[4Pat[C[C[C[C[C[C[C[C[C>foss.txttouch foss.txtsort -n sort1.txt[3Pcat >sort1.txttouch sort1.txt[8Pls -ltr[K[K[Kman lseekgcc abcd.ccd Desktopgcc abcd.ccd Desktopgcc abcd.ccd Desktophmod 0777gcc abcd.ccd Desktopgcc abcd.ccd Desktopgcc abcd.ctouch abcd.txt[4Pcd Desktop[3Phmod 7rwxfoo.txt[3Pd Desktop[2Pman opencd Desktop[1Pgcc abc.ccd Desktop[1Pgcc abc.ccd Desktop[1Pgcc abc.ccd Desktop[1Pgcc abc.ccd Desktop[3P./a.outgcc abc.c[2P./a.outgcc abc.ccd Desktop[1Pgcc abc.ccd Desktop[1Pgcc abc.ccd Desktop[1Pgcc abc.c--versionedit foo.txttouch[C[C[C[C[C[C[C[C[3Pcd Desktopls[Ktouch foo.txt[5Pgit pushcommit -m "report added"[K[1@o[C[C[C[C[C[C[C[Ct add report.txt[2Pedit[C[C[C[C[C[C[C[C[C[C[C[8Pit pushcommit -m "linux commands"[17Padd --all[8Pcd ..ping 192.168.0.30route[Kifconfig -a[7Pfreein -s[1Pfreeuname -agrep 4 num.txt[1@cut -f2[C[C[C[C[C[C[C[C[Knano num.txt [2Pcat num.txt[1@|| >[C[C[C[C[C[C[C[Calias ||='ls -al'[1Psort -rn num.txt[8Pnano.txtsort -n num.txt[3Pcat >num.txt[5Pls -ltr[K[K[Kscript work.txtcd ceccs18c04/cs232/2401/linux\ commandss/[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csort -nk2 num.txt[5Pnano[C[C[C[C[C[C[C[Cfile.txtsort -rn num.txt[1P[C[C[C[C[C[C[C[C[C[3Pcat >num.txttestfile.txt > testfile.txt[Kman lsunlias ||alias ||='ls -al'[11Pman ls -lt[4P[C[C[C[C[C[Cman ls -l[4P[C[C[C[C[Cman ls[4Plsscript gitsc.txtexit[Kgit push -u origin masterremote add origin https://github.comm/ceccs18c04/cs232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[9Pcommit -m "added testfile"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[14Padd test.txt[3Pnano[C[C[C[C[C[C[C[C[Cgit pull http://github.com/ceccs18c04/css232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[Cinit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd cs232[3P232 cs232.mkdir cs232cd ceccs18c04/mkdir ceccs18c04sudo adduser s4c21[9Pman exitfork[2Pcreateman create[1Ploselseekwrite[1Preadopenwritelseek[1Preadopensudo visudoadduser admin2[8Pvisudoadduser admin1[8Pvisudoadduser admin1ls[Kcat > archana.txthost 192.168.01213 127.0.1.1netstat[K[4P/ +ping;ifconfig;man read;create;[1Pwrite;lseek;xdg-open;[4Popen;();[3Pdig;netstat;[4Parp;hostnameman hostname[4Piwconfigman iwconfigarp[Kman arphost google.com[Kman host[3Prouteman route[1Pnslookupman nslookupdig[Kman dignetstatman netstat[1Ptracerouteman trace route[1Proute[1Potping[Kman pingifconfig[4Pifconfigman ifconfigsudo adduser s6c2ping 192.168.1.10sudo adduser s6d21c21[9Pifconfig[4Pexitup eth0ifconfigman traceroot[5Ppingifconfig[4Pifconfig[5Pmanifconfig[5Pmansudo adduser student[K[6Ppasswdsudo adduser student[1Ppip install jupyter[8Psudo visudo[4Pcec@123sudo visudomysql -u root -ps5d1[C[C[C[7Puse aswinmysql -u s5d1 -p[7Puse aswinmysql -u s5d1 -proot[C[C[Cs5d2[C[C[C;p[C[C[C[C[C[C[C[C[C[8PUSE INFO;mysql -p s5d2 -p;[1Pu s5d2 -p[3Psudo poweroff[5Ppoweroffmysql -u root -pgeo[K[K -u root -p[10PMY SQLmysql -u root -p[1Pgl[C[C[C[C[C[C[C[C[C[C[1@ql [C[C[C[C[C[C[C[C[C[Cgrant all privileges on *.* to 's5c1'@'llocalhost' identified by 's5c1';[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [22Psudo adduser s5c2
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1pt-get -y install google-chrome-sttable[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[Cupdate[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pdduser s5c1mysql[Ksudo mysql[5PMysqlsudo apt-get install mysqlmysql[K[2Psqlmysqlsudo sumysql -u s5d1 -psudo userdel s5d1[5Prm user[C[C[C[C[Cmysql -u s5d1 -proot[C[C[Csudo adduser s5d2[1Pmysql -u root -p[9Psudo suadduser s5d1yes[Kmysql -u root -p[K-rootcd[Kec@123[2Pmysqlsudo adduser ceedeluser S2C3s3c32C36d1c26c2[Kudo deluser s4d2c42[1Pd26c2[Kudo deluser s6c2d12C33c3S2C3[1Padduser ceemysql[Kcec@123d[Kmysql --rootu[K root -pyes[Kadduser s5d1[5Psudo sumysql -u root -psudo adduser s5d2[1Pmysql -u root -ps5d1[C[C[C[4Prm user s5d1[5@sudo userdel[C[C[C[C[C[1Pmysql -u s5d1 -p[9Psudo su[2Pmysql[2Psqlmysqlsudo apt-get install mysqlMysql[Ksudo mysql[5Pmysqlsudo adduser s5c1pt-get update-y install google-chrome-sttable[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[22Pdduser s5c1
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2grant all privileges on *.* to 's5c1'@'llocalhost' identified by 's5c1';[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [23Pmysql -u root -p
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pgl[C[C[C[C[C[C[C[C[C[C[1@ql [C[C[C[C[C[C[C[C[C[C[10PMY SQLmysql -u root -p[Kgeo -u root -p[8Ppoweroffsudo poweroffmysql -u s5d2 -pp s5d2 -p;[8PUSE INFO;mysql -p s5d2 -p;u[C[C[C[C[C[C[C[C[C[Kroot[C[C[Cs5d1[C[C[C[7Puse aswinmysql -u s5d1 -p[7Puse aswinmysql -u s5d1 -proot[C[C[C[5Psudo visudo[4Pcec@123sudo visudopip install jupytersudo adduser studentpasswd[Ksudo adduser studentman[Kifconfig[5Pmanifconfigman ifconfig[4Ppingtraceroot[5Pifconfig[1Pup eth0[3Pexitifconfigsudo adduser s6c12d12ping 192.168.1.10sudo adduser s6c2[5Pman ifconfig[4Pifconfigman ifconfig[4Pping[4Ppingman tracerootute route[5Ptracerouteman netstat[4Pnetstatman dig[4Pdigman nslookup[4Pnslookupman route[4Prouteman host[4Phost google.com[8Pman arp[4Parpman iwconfig[4Piwconfigman hostname[4Phostnameman arp;netstat;[4Pdig;open();[2P;xdg-open;[3Plseek;write;create;[2Pread;ifconfig;[4Pping;[2P/ +netstathost 192.168.01213 127.0.1.1[11Pcat > archana.txtls[Ksudo adduser admin1[8Pvisudoadduser admin1[8Pvisudoadduser admin2[8Pvisudo[3Pman openreadlseekwrite[1Popenreadwritelseekclosereate[4Pcreateman forkexitsudo adduser s4c12[1Pmkdir ceccs18c04[2Pcd ceccs18c04/[3Pmkdir cs232[2Pcd cs232.[4P232 cs232git initpull http://github.com/ceccs18c04/css232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [26Pnano test.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@git add[C[C[C[C[C[C[C[C[Ccommit -m "added testfile"remote add origin https://github.comm/ceccs18c04/cs232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[14Ppush -u origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kscript gitsc.txtls[Kman ls[1Pls -l[4@man [C[C[C[C[C[3Pls -lt[4@man [C[C[C[C[C[C[Kalias ||='ls -al'[8Punlias ||[3Pman ls[3Pcat > testfile.txt[1Ptestfile.txt [5P>num.txtsort -n num.txt[1@r[C[C[C[C[C[C[C[C[C[3Pnano file.txt[1Pnum.txt[5@sort -nk2[C[C[C[C[C[C[C[Cexit[Kcd ceccs18c04/cs232/2401/linux\ commandss/[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [24Pscript work.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K -ltrcat >num.txtsort -n num.txt[7Pnano.txtsort -rn num.txtalias ||='ls -al'[5P|| > num.txt[1Pcat[C[C[C[C[C[C[C[Cnano num.txt cut[K -f2 num.txt[1Pgrep 4[C[C[C[C[C[C[C[C[6Puname -a[4Pfreein -s[1Pfreeifconfig -a[6Prouteping 192.168.0.30cd ..[Kgit add --allcommit -m "linux commands"push[Kedit report.txt[2@it add[C[C[C[C[C[C[C[C[C[C[C[7Pot commit[1P[C[C[C[C[C[C[C[C -m "report added"push[Ktouch foo.txtls[Kcd Desktoptouch foo.txtgedit[C[C[C[C[C[C[C[Ccc --version[4Pabc.ccd Desktop[1Pgcc abc.ccd Desktop[1Pgcc abc.ccd Desktop[1Pgcc abc.c[2P./a.outgcc abc.c[2P./a.outcd Desktop[1Pgcc abc.ccd Desktop[1Pgcc abc.ccd Desktop[1Pgcc abc.ccd Desktop[1Pgcc abc.ccd Desktop[2Pman opencd Desktophmod foo.txt[4Prwx[2P7d Desktoptouch abcd.txt[4Pgcc abcd.ccd Desktopgcc abcd.ccd Desktopgcc abcd.cchmod 0777d Desktopgcc abcd.ccd Desktopgcc abcd.ccd Desktopgcc abcd.c[1Pman lseekls[K -ltrtouch sort1.txt[1Pcat >sort1.txtsort -n sort1.txt[3Ptouch foss.txt[1Pcat >foss.txt[1Pfoss.txt[4@ut -f3[C[C[C[C[C[C[C[C[Ctouch country.txt[1Pcat >country.txt[1Pcountry.txt[4@ut -f3[C[C[C[C[C[C[C[C[C[C[C[C-3[Ktouch state.txt[1Pcat >state.txtjoin r.country.txt r.state.txt[14Pcat >country.txt[1Pcountry.txt>country.txtjoin r.country.txt r.state.txt[4Pcountry.txt state.txt[12Psor[C[C[C[C[C[C[C[C[C[C[C[12@join country.tx[C[C[C[C[C[C[C[C[C[C[C[12Psor[C[C[C[C[C[C[C[C[C[C[Camerica.txtcountry.txtjoin country.txt state.txt[4Pcut -b 1,2,3[C[C[C[C[C[C[C[C[C[C[8Ptouch name.txt[1Pcat >name.txttouch number.txt[2Pcat >touch.txtjoin number.txt name.txt >joinfile.txt[22Pcat joinfile.txt>joinfile.txt[1Pjoinfile.txtjoin number.txt name.txt >joinfile.txt joinfile.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pcat
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjoin number.txt name.txt >joinfile.txt joinfile1.txtt[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [23Pcat joinfile.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1.txtjoin r.name.txt r.n.txt[11Pcat name.txtumber.txtjoin touch.txt name.txt > joinfile1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pcat
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pgit initpull http://github.com/ceccs18c16/css232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ mkdi[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clos -a[2Pgit 
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty Git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+'git help -a' and 'git help -g' lists available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ sortgit los -a[2Pmkdi[K[K[K[Kls -as[K
+[0m[01;34m.[0m   country.txt  [01;34m.git[0m           joinfile.txt  number.txt  sort1.txt  touch.txt
+[01;34m..[0m  foss.txt     joinfile1.txt  name.txt      README.md   state.txt  work.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ mkdir 3101
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ mv 0[K-t 3101/ country.txt joinfile.txt nu mber,[K.txt sort1.txt touch.txt state.txt work.txt name.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ ls
+[0m[01;34m3101[0m  foss.txt  joinfile1.txt  README.md
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ mv -t 3101/ foss.txt joinfile.txt READM E.txt
+mv: cannot stat ‘joinfile.txt’: No such file or directory
+mv: cannot stat ‘README.txt’: No such file or directory
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ mv -t 3101/ foss.txt joinfile.txt READMEE.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1.txt README.txt[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+mv: cannot stat ‘foss.txt’: No such file or directory
+mv: cannot stat ‘README.txt’: No such file or directory
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ clear
+[H[2J]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git [K]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git A[Kadd -A
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git commit -m "some remarks"
+[master bb97ab1] some remarks
+ 10 files changed, 293 insertions(+)
+ create mode 100644 3101/country.txt
+ create mode 100644 3101/foss.txt
+ create mode 100644 3101/joinfile.txt
+ create mode 100644 3101/joinfile1.txt
+ create mode 100644 3101/name.txt
+ create mode 100644 3101/number.txt
+ create mode 100644 3101/sort1.txt
+ create mode 100644 3101/state.txt
+ create mode 100644 3101/touch.txt
+ create mode 100644 3101/work.txt
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git push[Kgit re,[Kmote add originhttps://github.com /ceccs1+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://github.com/ceccs1[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git remote add origin https://github.comm/ceccs1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit remote add origin https://github.co m/ceccs18cxx/cs232[C[1P/cs232[1P/cs2321/cs2326/cs232
+fatal: remote origin already exists.
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git push -u origin master
+fatal: repository 'https://github.com/ceccs1/' not found
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git push -u origin masterremote add origin https://github.comm/ceccs18c16/cs232
+fatal: remote origin already exists.
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git remote add origin https://github.comm/ceccs18c16/cs232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[14Ppush -u origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: repository 'https://github.com/ceccs1/' not found
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git push -u origin masterremote add origin https://github.comm/ceccs18c16/cs232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[14Ppush -u origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin https://github.comm/ceccs18c16/cs232
+fatal: remote origin already exists.
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git remote add origin https://github.comm/ceccs18c16/cs232
+fatal: remote origin already exists.
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git remote add origin https://github.comm/ceccs18c16/cs232[A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[14Ppush -u origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: repository 'https://github.com/ceccs1/' not found
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git push -u origin masterremote add origin https://github.comm/ceccs18c16/cs232go[K[Kgit init[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit init
+Reinitialized existing Git repository in /home/cec-lab1/ceccs18c16/cs232/3101/.git/
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git pull://github.com/ceccs18cxx/cs232[1P/cs232[C[1P/cs2321/cs2326/cs232
+git: 'pull://github.com/ceccs18c16/cs232' is not a git command. See 'git --help'.
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git add pull://github.com/ceccs18c16/cs232init[Kpush -u origin masterinit[Kpull://github.com/ceccs18c16/cs232add [K - A 
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git add -A pull://github.com/ceccs18c16/cs232 ://github.com/ceccs18c16/cs232 [A]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ [C[C[C[C[C[C[C[C[C[C[1P//github.com/ceccs18c16/cs232
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: '//github.com/ceccs18c16/cs232' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;cec-lab1@CC2-25: ~/ceccs18c16/cs232/3101cec-lab1@CC2-25:~/ceccs18c16/cs232/3101$ git pull //github.com/ceccs18c16/cs232add -A [Kpull //github.com/ceccs18c16/cs232[C[C[C[C[C[C[C[C[1P //github.com/ceccs18c16/cs232[1P //github.com/ceccs18c16/cs232[1P //github.com/ceccs18c16/cs232[1P //github.com/ceccs18c16/cs232

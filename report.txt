@@ -1,0 +1,47 @@
+CEC CS 18 c16
+Emmanuel Shine Joseph
+31/01/2020
+--------------------------------
+#1: Aim/task
+Familiarisation of linux commands
+---------------------------------
+Command/Shell script/Program name
+
+
+
+touch
+cut -f-3
+cat >
+ls
+pwd
+mkdir
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+sort1.txt
+country.txt
+state.txt
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+output received in the terminal.
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
