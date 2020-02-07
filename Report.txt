@@ -1,0 +1,47 @@
+CEC CS 18 c16
+07-02-2020
+Emmanuel Shine Joseph
+
+--------------------------------
+#1: Aim/task
+Networking tasks (t3)
+---------------------------------
+Command/Shell script/Program name
+
+ifconfig
+ifconfig -a
+ifconfig eth0
+route
+route add
+netstat -a
+
+
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+#ifconfig -interface configuration 
+#ifconfig - viewing all network setting
+#ifconfig -a - Display information of all network interfaces
+#ifconfig eth0- View network setting of specific interface
+#netstat -a - gives all the information about the networks.
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
