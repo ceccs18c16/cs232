@@ -703,5 +703,6 @@ unix  3      [ ]         STREAM     CONNECTED     27368
 unix  3      [ ]         STREAM     CONNECTED     25078    
 ]0;s4c2@CC2-25: ~/ceccs18c16/0602s4c2@CC2-25:~/ceccs18c16/0602$ host www.google.com
 Host www.google.com not found: 5(REFUSED)
-]0;s4c2@CC2-25: ~/ceccs18c16/0602s4c2@CC2-25:~/ceccs18c16/0602$ [K]0;s4c2@CC2-25: ~/ceccs18c16/0602s4c2@CC2-25:~/ceccs18c16/0602$ exit
+]0;s4c2@CC2-25: ~/ceccs18c16/0602s4c2@CC2-25:~/ceccs18c16/0602$ 
+[K]0;s4c2@CC2-25: ~/ceccs18c16/0602s4c2@CC2-25:~/ceccs18c16/0602$ exit
 Script done on Friday 07 February 2020 12:03:43 PM IST
