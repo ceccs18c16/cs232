@@ -1,0 +1,32 @@
+CEC CS 18 016
+Emmanuel Shine Joseph
+
+--------------------------------
+#1: Aim/task:Further Networking task(t4)
+---------------------------------
+Command/Shell script/Program name
+ssh
+rsync
+rsync -a
+
+
+
+Output: or Input & Output (whichever is applicable)
+
+ssh username@192.168.0.30 used to log into a remote machine and execute the commands.
+rsync -a filename user@192.168.0.30 is used to  copying files.
+
+Remarks if any:
+
+
+
+
+
+
+
+
+
+
+
+
+
