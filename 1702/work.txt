@@ -78,7 +78,8 @@ Remarks if any:
 
 
 $ ^[[A^[[A^[[A            exity 
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ gedit temp1.txt
 ]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ ssh cs18c16@192.168.0. 30[K[K[K30
 .
@@ -94,11 +95,13 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 17 11:04:57 2020 from 192.168.0.187
+Last login: Mon Feb 17 11:04:57 2020 from 192.168.0.187
+
 $ ls
 0702  3101  examples.desktop
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ rsync -a[K[Ktemp1.te[Kxt cs18c16@192.168.0.30
 ]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ rsync temp1.txt cs18c16@192.168.0.30:12[K702
 .
@@ -107,7 +110,8 @@ Connection to 192.168.0.30 closed.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c16@192.168.0.30's password: 
-]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ ssh rsync temp1.txt cs18c16@192.168.0.30:1702[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ ssh rsync temp1.txt cs18c16@192.168.0.30:1702[K
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -121,7 +125,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 17 11:13:29 2020 from 192.168.0.187
+Last login: Mon Feb 17 11:13:29 2020 from 192.168.0.187
+
 $ ls
 0702  1702  3101  examples.desktop
 $ cd 1702
@@ -138,7 +143,8 @@ $ cd 1702
 $ ^[[A^[[B^[[D            cd 1702/
 -sh: 9: cd: can't cd to 1702/
 $ exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ xrsync [1P[C[C[C[C[C[1P [1P [1P [1P [1P s s h [C c s 1 8 c 1 6 @ 1 9 2 . 1 6 8 . 0 . 3 0 
 .
               |
@@ -153,7 +159,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 402 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Feb 17 11:16:01 2020 from 192.168.0.187
+Last login: Mon Feb 17 11:16:01 2020 from 192.168.0.187
+
 $ ls
 0702  1702  3101  examples.desktop
 $ cd 1702
@@ -161,8 +168,11 @@ $ cd 1702
 $ cat 1702
 college of Engineering
 $ exit
-Connection to 192.168.0.30 closed.
-]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ gedit [19@ssh cs18c16@192.168.0.30[C[Krsync temp1.txt cs18c16@192.168.0.30:1702[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pgedit temp1.txtssh cs18c16@192.168.0.30[9Pgedit temp1.txtssh cs18c16@192.168.0.30[12@rsync temp1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:1702[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pssh cs18c16@192.168.0.30 gedit [Ktemp2.txt
+Connection to 192.168.0.30 closed.
+
+]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ gedit [19@ssh cs18c16@192.168.0.30[C[Krsync temp1.txt cs18c16@192.168.0.30:1702[K
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pssh[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pgedit temp1.txtssh cs18c16@192.168.0.30[9Pgedit temp1.txtssh cs18c16@192.168.0.30[12@rsync temp1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C:1702
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pssh cs18c16@192.168.0.30 gedit [Ktemp2.txt
 ]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ rsync -a temp2.txt ceccs18c16@192.168.0.30:./
 .
               |
@@ -170,21 +180,26 @@ Connection to 192.168.0.30 closed.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 ceccs18c16@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 ceccs18c16@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 ceccs18c16@192.168.0.30's password: 
-Permission denied (publickey,password).
+Permission denied (publickey,password).
+
 rsync: connection unexpectedly closed (0 bytes received so far) [sender]
 rsync error: unexplained error (code 255) at io.c(226) [sender=3.1.0]
-]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ rsync -a temp2.txt ceccs18c16@192.168.0.30:./[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pgedit temp2.txtrsync -a temp2.txt ceccs18c16@192.168.0.30:./[1Ps18c16@192.168.0.30:./[1Pcs18c16@192.168.0.30:./[1Ps18c16@192.168.0.30:./
+]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ rsync -a temp2.txt ceccs18c16@192.168.0.30:./
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Pgedit temp2.txtrsync -a temp2.txt ceccs18c16@192.168.0.30:./[1Ps18c16@192.168.0.30:./[1Pcs18c16@192.168.0.30:./[1Ps18c16@192.168.0.30:./
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs18c16@192.168.0.30's password: 
-]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ rsync -a temp2.txt cs18c16@192.168.0.30:./[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh rsync -a temp2.txt cs18c16@192.168.0.30:./[C[K[K[K[1P[1P cs18c16@192.168.0.30[1P[1P[1P[1P[1P[1P cs18c16@192.168.0.30[1P[1P[1P[1P[1P[1P[1P[1P[1Pssh [Kt cs18c16@192.168.0.30[1P cs18c16@192.168.0.30s cs18c16@192.168.0.30f cs18c16@192.168.0.30t cs18c16@192.168.0.30p cs18c16@192.168.0.30
+]0;s4c2@CC2-25: ~/ceccs18c16/1702s4c2@CC2-25:~/ceccs18c16/1702$ rsync -a temp2.txt cs18c16@192.168.0.30:./
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh rsync -a temp2.txt cs18c16@192.168.0.30:./[C[K[K[K[1P[1P cs18c16@192.168.0.30[1P[1P[1P[1P[1P[1P cs18c16@192.168.0.30[1P[1P[1P[1P[1P[1P[1P[1P[1Pssh [Kt cs18c16@192.168.0.30[1P cs18c16@192.168.0.30s cs18c16@192.168.0.30f cs18c16@192.168.0.30t cs18c16@192.168.0.30p cs18c16@192.168.0.30
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
