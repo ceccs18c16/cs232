@@ -1,0 +1,670 @@
+Script started on Friday 28 February 2020 09:43:09 AM IST
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ gedit student.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ cat student.txt
+CHN18CS002 ABHIITHP 
+CHN18CS003 ABIN BINU SAM 
+CHN18CS005 ADHIL SHAHANAD K K 
+CHN18CS006 ADWAITH SIVAN 
+CHN18CS007 Aju George Jacob 
+CHN18CS008 AKHIL RAVINDRAN 
+CHN18CS012 ALKA ANNA SABU 
+CHN18CS015 Amal Ramachandran 
+CHN18CS018 ANJANA S 
+CHN18CS023 ARAVIND R 
+CHN18CS024 ARJUN A 
+CHN18CS025 ARJUN G KRISHNA 
+CHN18CS028 ASHIK DAVID ABRAHAM 
+CHN18CS029 Ashna A 
+CHN18CS035 DEEPA MARIAM GEORGE 
+CHN18CS037 DEVIKA J 
+CHN18CS039 Emmanuel Shine Joseph 
+CHN18CS043 GEORGE MANI 
+CHN18CS046 GOPIKA PRADEEP 
+CHN18CS047 GOPIKA SURESH 
+CHN18CS048 GOPUDAS KM 
+CHN18CS049 GOVIND KARTHA 
+CHN18CS051 HABEL JAMES GEORGE 
+CHN18CS052 HARI S R 
+CHN18CS053 HELEENA ANNA VARGHESE 
+CHN18CS055 lrene Maria Zachariah 
+CHN18CS056 JALENA MATHEW 
+CHN18CS057 JEENU CHACKO 
+CHN18CS060 Jessal John Mammen 
+CHN18CS061 Jesswin W Varghese 
+CHN18CS063 Jibin Joseph 
+CHN18CS064 JISA SURENDRAN 
+CHN18CS068 Jonathan John Varghese 
+CHN18CS069 JOSHENA JOSEPH 
+CHN18CS071 JUSTIN JOSEPH 
+CHN18CS073 KAVYA M 
+CHN18CS076 KIRAN U 
+CHN18CS079 Manu Mathew 
+CHN18CS080 MARGRET JAISON 
+CHN18CS082 Muhammad Jalal 
+CHN18CS083 MUNISH KUMAR 
+CHN18CS084 NAJEEB 
+CHN18CS090 NIMMY GEORGE 
+CHN18CS092 NIVEA GIGEN 
+CHN18CS093 Nivya Maria Mathew 
+CHN18CS095 PARVATHY KRISHNAN 
+CHN18CS096 PARVATHY SANTHOSH 
+CHN18CS097 Prayank P Nair 
+CHN18CS100 Remya C 
+CHN18CS101 REMYA RAVEEDRANATHAN
+CHN18CS103 RINU ELISABATH MATHEW 
+CHN18CS104 Rojin K Sunny 
+CHN18CS108 SARATH KUMAR S 
+CHN18CS109 SAURAV K.J. 
+CHN18CS110 SEBA SUSAN MATHEW 
+CHN18CS111 SHILPA SAJAN PUNNOOSE
+CHN18CS113 SONA SEBASTIAN 
+CHN18CS114 SOUMYAMOL S 
+CHN18CS115 SREEJITH MURALI 
+CHN18CS118 THEJUS R 
+CHN18CS120 VISHNUSS 
+CHN18CS121 VISHWANATH R ATHREY 
+CHN18CS122 VIVEK K P 
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ gedit script.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ ./script.txt
+bash: ./script.txt: Permission denied
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ chmod +x script.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ chmod +x script.txt[7P./script.txt
+join: students.txt: No such file or directory
+./script.txt: line 69: ©: command not found
+./script.txt: line 70: Terms: command not found
+./script.txt: line 71: Privacy: command not found
+./script.txt: line 72: Security: command not found
+./script.txt: line 73: Status: command not found
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ ./script.txtchmod +x script.txt[7P./script.txtgedit script.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ gedit script.txt[4P./script.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ ls
+cgpa.txt        result_CHN.txt  [0m[01;32mscript.txt~[0m  student.txt~
+result_CHN.pdf  [01;32mscript.txt[0m      student.txt  work.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ cat cgf[Kpa.txt
+CHN18CS002 ABHIITHP  failed in 6
+CHN18CS003 ABIN BINU SAM  9.11
+CHN18CS005 ADHIL SHAHANAD K K  7.94
+CHN18CS006 ADWAITH SIVAN  failed in 2
+CHN18CS007 Aju George Jacob  8.56
+CHN18CS008 AKHIL RAVINDRAN  8.44
+CHN18CS012 ALKA ANNA SABU  7.94
+CHN18CS015 Amal Ramachandran  failed in 1
+CHN18CS018 ANJANA S  9.67
+CHN18CS023 ARAVIND R  8.56
+CHN18CS024 ARJUN A  failed in 4
+CHN18CS025 ARJUN G KRISHNA  8.06
+CHN18CS028 ASHIK DAVID ABRAHAM  failed in 2
+CHN18CS029 Ashna A  9.33
+CHN18CS035 DEEPA MARIAM GEORGE  9.22
+CHN18CS037 DEVIKA J  8.22
+CHN18CS039 Emmanuel Shine Joseph  8.50
+CHN18CS043 GEORGE MANI  8.61
+CHN18CS046 GOPIKA PRADEEP  7.89
+CHN18CS047 GOPIKA SURESH  failed in 1
+CHN18CS048 GOPUDAS KM  failed in 4
+CHN18CS049 GOVIND KARTHA  8.78
+CHN18CS051 HABEL JAMES GEORGE  failed in 2
+CHN18CS052 HARI S R  failed in 4
+CHN18CS053 HELEENA ANNA VARGHESE  failed in 1
+CHN18CS055 lrene Maria Zachariah  8.17
+CHN18CS056 JALENA MATHEW  8.11
+CHN18CS057 JEENU CHACKO  8.17
+CHN18CS060 Jessal John Mammen  failed in 3
+CHN18CS061 Jesswin W Varghese  failed in 5
+CHN18CS063 Jibin Joseph  8.28
+CHN18CS064 JISA SURENDRAN  failed in 1
+CHN18CS068 Jonathan John Varghese  8.11
+CHN18CS069 JOSHENA JOSEPH  8.28
+CHN18CS071 JUSTIN JOSEPH  failed in 3
+CHN18CS073 KAVYA M  8.83
+CHN18CS076 KIRAN U  failed in 1
+CHN18CS079 Manu Mathew  7.67
+CHN18CS080 MARGRET JAISON  9.44
+CHN18CS082 Muhammad Jalal  failed in 1
+CHN18CS083 MUNISH KUMAR  failed in 1
+CHN18CS084 NAJEEB  8.00
+CHN18CS090 NIMMY GEORGE  failed in 5
+CHN18CS092 NIVEA GIGEN  9.33
+CHN18CS093 Nivya Maria Mathew  9.44
+CHN18CS095 PARVATHY KRISHNAN  9.44
+CHN18CS096 PARVATHY SANTHOSH  8.11
+CHN18CS097 Prayank P Nair  failed in 2
+CHN18CS100 Remya C  failed in 1
+CHN18CS101 REMYA RAVEEDRANATHAN failed in 1
+CHN18CS103 RINU ELISABATH MATHEW  9.00
+CHN18CS104 Rojin K Sunny  8.83
+CHN18CS108 SARATH KUMAR S  7.56
+CHN18CS109 SAURAV K.J.  7.33
+CHN18CS110 SEBA SUSAN MATHEW  failed in 3
+CHN18CS111 SHILPA SAJAN PUNNOOSE 8.56
+CHN18CS113 SONA SEBASTIAN  7.89
+CHN18CS114 SOUMYAMOL S  failed in 3
+CHN18CS115 SREEJITH MURALI  failed in 1
+CHN18CS118 THEJUS R  failed in 2
+CHN18CS120 VISHNUSS  failed in 2
+CHN18CS121 VISHWANATH R ATHREY  7.78
+CHN18CS122 VIVEK K P  9.00
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ ls
+cgpa.txt        result_CHN.txt  [0m[01;32mscript.txt[0m   student.txt   work.txt
+result_CHN.pdf  [01;34ms1[0m              [01;32mscript.txt~[0m  student.txt~
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ mkdir s2
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ cd s2
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ touch student.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ gedit st[K[K[K[K[K[K[K[Kls
+student.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ cat student.txt 
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ cat student.txt [1@ [1@>[1@ 
+CHN18CS002 ABHIITHP 
+CHN18CS003 ABIN BINU SAM 
+CHN18CS005 ADHIL SHAHANAD K K 
+CHN18CS006 ADWAITH SIVAN 
+CHN18CS007 Aju George Jacob 
+CHN18CS008 AKHIL RAVINDRAN 
+CHN18CS012 ALKA ANNA SABU 
+CHN18CS015 Amal Ramachandran 
+CHN18CS018 ANJANA S 
+CHN18CS023 ARAVIND R 
+CHN18CS024 ARJUN A 
+CHN18CS025 ARJUN G KRISHNA 
+CHN18CS028 ASHIK DAVID ABRAHAM 
+CHN18CS029 Ashna A 
+CHN18CS035 DEEPA MARIAM GEORGE 
+CHN18CS037 DEVIKA J 
+CHN18CS039 Emmanuel Shine Joseph 
+CHN18CS043 GEORGE MANI 
+CHN18CS046 GOPIKA PRADEEP 
+CHN18CS047 GOPIKA SURESH 
+CHN18CS048 GOPUDAS KM 
+CHN18CS049 GOVIND KARTHA 
+CHN18CS051 HABEL JAMES GEORGE 
+CHN18CS052 HARI S R 
+CHN18CS053 HELEENA ANNA VARGHESE 
+CHN18CS055 lrene Maria Zachariah 
+CHN18CS056 JALENA MATHEW 
+CHN18CS057 JEENU CHACKO 
+CHN18CS060 Jessal John Mammen 
+CHN18CS061 Jesswin W Varghese 
+CHN18CS063 Jibin Joseph 
+CHN18CS064 JISA SURENDRAN 
+CHN18CS068 Jonathan John Varghese 
+CHN18CS069 JOSHENA JOSEPH 
+CHN18CS071 JUSTIN JOSEPH 
+CHN18CS073 KAVYA M 
+CHN18CS076 KIRAN U 
+CHN18CS079 Manu Mathew 
+CHN18CS080 MARGRET JAISON 
+CHN18CS082 Muhammad Jalal 
+CHN18CS083 MUNISH KUMAR 
+CHN18CS084 NAJEEB 
+CHN18CS090 NIMMY GEORGE 
+CHN18CS092 NIVEA GIGEN 
+CHN18CS093 Nivya Maria Mathew 
+CHN18CS095 PARVATHY KRISHNAN 
+CHN18CS096 PARVATHY SANTHOSH 
+CHN18CS097 Prayank P Nair 
+CHN18CS100 Remya C 
+CHN18CS101 REMYA RAVEEDRANATHAN
+CHN18CS103 RINU ELISABATH MATHEW 
+CHN18CS104 Rojin K Sunny 
+CHN18CS108 SARATH KUMAR S 
+CHN18CS109 SAURAV K.J. 
+CHN18CS110 SEBA SUSAN MATHEW 
+CHN18CS111 SHILPA SAJAN PUNNOOSE
+CHN18CS113 SONA SEBASTIAN 
+CHN18CS114 SOUMYAMOL S 
+CHN18CS115 SREEJITH MURALI 
+CHN18CS118 THEJUS R 
+CHN18CS120 VISHNUSS 
+CHN18CS121 VISHWANATH R ATHREY 
+CHN18CS122 VIVEK K P ^C
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ cat student.txt 
+CHN18CS002 ABHIITHP 
+CHN18CS003 ABIN BINU SAM 
+CHN18CS005 ADHIL SHAHANAD K K 
+CHN18CS006 ADWAITH SIVAN 
+CHN18CS007 Aju George Jacob 
+CHN18CS008 AKHIL RAVINDRAN 
+CHN18CS012 ALKA ANNA SABU 
+CHN18CS015 Amal Ramachandran 
+CHN18CS018 ANJANA S 
+CHN18CS023 ARAVIND R 
+CHN18CS024 ARJUN A 
+CHN18CS025 ARJUN G KRISHNA 
+CHN18CS028 ASHIK DAVID ABRAHAM 
+CHN18CS029 Ashna A 
+CHN18CS035 DEEPA MARIAM GEORGE 
+CHN18CS037 DEVIKA J 
+CHN18CS039 Emmanuel Shine Joseph 
+CHN18CS043 GEORGE MANI 
+CHN18CS046 GOPIKA PRADEEP 
+CHN18CS047 GOPIKA SURESH 
+CHN18CS048 GOPUDAS KM 
+CHN18CS049 GOVIND KARTHA 
+CHN18CS051 HABEL JAMES GEORGE 
+CHN18CS052 HARI S R 
+CHN18CS053 HELEENA ANNA VARGHESE 
+CHN18CS055 lrene Maria Zachariah 
+CHN18CS056 JALENA MATHEW 
+CHN18CS057 JEENU CHACKO 
+CHN18CS060 Jessal John Mammen 
+CHN18CS061 Jesswin W Varghese 
+CHN18CS063 Jibin Joseph 
+CHN18CS064 JISA SURENDRAN 
+CHN18CS068 Jonathan John Varghese 
+CHN18CS069 JOSHENA JOSEPH 
+CHN18CS071 JUSTIN JOSEPH 
+CHN18CS073 KAVYA M 
+CHN18CS076 KIRAN U 
+CHN18CS079 Manu Mathew 
+CHN18CS080 MARGRET JAISON 
+CHN18CS082 Muhammad Jalal 
+CHN18CS083 MUNISH KUMAR 
+CHN18CS084 NAJEEB 
+CHN18CS090 NIMMY GEORGE 
+CHN18CS092 NIVEA GIGEN 
+CHN18CS093 Nivya Maria Mathew 
+CHN18CS095 PARVATHY KRISHNAN 
+CHN18CS096 PARVATHY SANTHOSH 
+CHN18CS097 Prayank P Nair 
+CHN18CS100 Remya C 
+CHN18CS101 REMYA RAVEEDRANATHAN
+CHN18CS103 RINU ELISABATH MATHEW 
+CHN18CS104 Rojin K Sunny 
+CHN18CS108 SARATH KUMAR S 
+CHN18CS109 SAURAV K.J. 
+CHN18CS110 SEBA SUSAN MATHEW 
+CHN18CS111 SHILPA SAJAN PUNNOOSE
+CHN18CS113 SONA SEBASTIAN 
+CHN18CS114 SOUMYAMOL S 
+CHN18CS115 SREEJITH MURALI 
+CHN18CS118 THEJUS R 
+CHN18CS120 VISHNUSS 
+CHN18CS121 VISHWANATH R ATHREY 
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ gedit script.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ ls
+student.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ gedit script2.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ gedit script2.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ ./script2.txt
+bash: ./script2.txt: Permission denied
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ cgh[K[Khmod +x script2.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ chmod +x script2.txt[7P./script2.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ ls
+cgpa2.txt  result2.pdf  result_CHN.txt  [0m[01;32mscript2.txt[0m  script2.txt~  student.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ cat cgpa2.txt 
+CHN18CS002 ABHIITHP  failed in 4
+CHN18CS003 ABIN BINU SAM  9.33
+CHN18CS005 ADHIL SHAHANAD K K  8.06
+CHN18CS006 ADWAITH SIVAN  failed in 3
+CHN18CS007 Aju George Jacob  8.56
+CHN18CS008 AKHIL RAVINDRAN  7.94
+CHN18CS012 ALKA ANNA SABU  8.22
+CHN18CS015 Amal Ramachandran  failed in 4
+CHN18CS018 ANJANA S  9.33
+CHN18CS023 ARAVIND R  7.89
+CHN18CS024 ARJUN A  failed in 3
+CHN18CS025 ARJUN G KRISHNA  8.11
+CHN18CS028 ASHIK DAVID ABRAHAM  failed in 2
+CHN18CS029 Ashna A  9.17
+CHN18CS035 DEEPA MARIAM GEORGE  9.17
+CHN18CS037 DEVIKA J  8.44
+CHN18CS039 Emmanuel Shine Joseph  8.17
+CHN18CS043 GEORGE MANI  8.06
+CHN18CS046 GOPIKA PRADEEP  failed in 2
+CHN18CS047 GOPIKA SURESH  failed in 1
+CHN18CS048 GOPUDAS KM  failed in 4
+CHN18CS049 GOVIND KARTHA  8.56
+CHN18CS051 HABEL JAMES GEORGE  failed in 2
+CHN18CS052 HARI S R  failed in 5
+CHN18CS053 HELEENA ANNA VARGHESE  7.72
+CHN18CS055 lrene Maria Zachariah  failed in 1
+CHN18CS056 JALENA MATHEW  8.39
+CHN18CS057 JEENU CHACKO  8.06
+CHN18CS060 Jessal John Mammen  failed in 1
+CHN18CS061 Jesswin W Varghese  failed in 2
+CHN18CS063 Jibin Joseph  8.44
+CHN18CS064 JISA SURENDRAN  failed in 1
+CHN18CS068 Jonathan John Varghese  7.83
+CHN18CS069 JOSHENA JOSEPH  8.22
+CHN18CS071 JUSTIN JOSEPH  failed in 3
+CHN18CS073 KAVYA M  8.83
+CHN18CS076 KIRAN U  failed in 1
+CHN18CS079 Manu Mathew  7.89
+CHN18CS080 MARGRET JAISON  9.33
+CHN18CS082 Muhammad Jalal  7.89
+CHN18CS083 MUNISH KUMAR  failed in 4
+CHN18CS084 NAJEEB  7.78
+CHN18CS090 NIMMY GEORGE  failed in 5
+CHN18CS092 NIVEA GIGEN  8.83
+CHN18CS093 Nivya Maria Mathew  9.61
+CHN18CS095 PARVATHY KRISHNAN  9.11
+CHN18CS096 PARVATHY SANTHOSH  8.00
+CHN18CS097 Prayank P Nair  8.06
+CHN18CS100 Remya C  8.83
+CHN18CS101 REMYA RAVEEDRANATHAN 7.94
+CHN18CS103 RINU ELISABATH MATHEW  9.00
+CHN18CS104 Rojin K Sunny  9.11
+CHN18CS108 SARATH KUMAR S  failed in 3
+CHN18CS109 SAURAV K.J.  failed in 2
+CHN18CS110 SEBA SUSAN MATHEW  failed in 1
+CHN18CS111 SHILPA SAJAN PUNNOOSE 8.33
+CHN18CS113 SONA SEBASTIAN  8.50
+CHN18CS114 SOUMYAMOL S  failed in 1
+CHN18CS115 SREEJITH MURALI  8.72
+CHN18CS118 THEJUS R  8.06
+CHN18CS120 VISHNUSS  7.11
+CHN18CS121 VISHWANATH R ATHREY  8.22
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ touch fname.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ ftp cs[K[K[K[K[K[Kcat > fname [K.txt
+hello world     ,Good morning ton  all of you.
+^C
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ ftp cs18c16@192.168.0.30
+ftp: cs18c16@192.168.0.30: Name or service not known
+ftp> sftp cs18c16@192.168.0.30
+?Invalid command
+ftp> exit
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s2s4c2@CC2-25:~/ceccs18c16/2802/s2$ sftp cs18c16@`[K192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c16@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0702                1702                3101                examples.desktop    
+temp2.txt           
+sftp> mkdir 2802
+sftp> cd 2[Ksftp> cd 2802/
+sftp> mkdir s1
+sftp> cd s1
+sftp> put result_CHN.txt
+Uploading result_CHN.txt to /home/cs18c16/2802/s1/result_CHN.txt
+result_CHN.txt                                  0%    0     0.0KB/s   --:-- ETAresult_CHN.txt                                100%   46KB  46.1KB/s   00:00    
+sftp> put result_CHN.txt[K[K[Kpdf
+stat result_CHN.pdf: No such file or directory
+sftp> put result_CHN.pdf
+stat result_CHN.pdf: No such file or directory
+sftp> put cgpa.txt
+stat cgpa.txt: No such file or directory
+sftp> put script.txt
+stat script.txt: No such file or directory
+sftp> put script.txt[11G[2Pcgpa.txt[11Gresult_CHN.pdftxt[7Gcd s1[K[K[K[K[Kput script2.txt
+Uploading script2.txt to /home/cs18c16/2802/s1/script2.txt
+script2.txt                                     0%    0     0.0KB/s   --:-- ETAscript2.txt                                   100% 1511     1.5KB/s   00:00    
+sftp> put cgpa2.txt
+Uploading cgpa2.txt to /home/cs18c16/2802/s1/cgpa2.txt
+cgpa2.txt                                       0%    0     0.0KB/s   --:-- ETAcgpa2.txt                                     100% 2119     2.1KB/s   00:00    
+sftp> put result2.,pdfpdf[Kpdf
+Uploading result2.pdf to /home/cs18c16/2802/s1/result2.pdf
+result2.pdf                                     0%    0     0.0KB/s   --:-- ETAresult2.pdf                                   100%   28KB  27.5KB/s   00:00    
+sftp> pi[Kut student.txt
+Uploading student.txt to /home/cs18c16/2802/s1/student.txt
+student.txt                                     0%    0     0.0KB/s   --:-- ETAstudent.txt                                   100% 1655     1.6KB/s   00:00    
+sftp> ls
+cgpa2.txt       result2.pdf     result_CHN.txt  script2.txt     student.txt     
+sftp> 
+sftp> pwd
+Remote working directory: /home/cs18c16/2802/s1
+sftp> cd ../
+sftp> ls
+s1  
+sftp> cs[Kd ../
+sftp> ls
+0702                1702                2802                3101                
+examples.desktop    temp2.txt           
+sftp> cd 2802
+sftp> ls
+s1  
+sftp> mkdir s2[K[K[K[K[K[K[Kcd s1
+sftp> ls
+cgpa2.txt       result2.pdf     result_CHN.txt  script2.txt     student.txt     
+sftp>  cat result_CHN.xt[K[Ktxt
+Invalid command.
+sftp> delete result_CHN.txt
+Invalid command.
+sftp> help
+Available commands:
+bye                                Quit sftp
+cd path                            Change remotScript started on Friday 28 February 2020 10:28:47 AM IST
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ ftp [K[K[K[Ksftp 1[Kcec18c19[K6@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ cd s1
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s1s4c2@CC2-25:~/ceccs18c16/2802/s1$ cd s1sftp cec18c16@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+Couldn't read packet: Connection reset by peer
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s1s4c2@CC2-25:~/ceccs18c16/2802/s1$ ftp cs [K18c16@192.168.0.30
+ftp: cs18c16@192.168.0.30: Name or service not known
+ftp> exit
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s1s4c2@CC2-25:~/ceccs18c16/2802/s1$ sftp cec18[K[K[K[K[K[K[K[K[K[Kcd ../
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ mkdir[K[K[K[K[Knao[Kno index.html
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6              File: index.html                                  [22;35H[ New File ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[1;71H(B[0;7mModified[3;11H(B[0m[34m</tr>[4;9H</tbody>[5;7H</table>[6;7H<b><br>[7;9H<br>[8;7H</b></div>[10;9H<div align="center"><a href="https://github.com/ceccs18c47/cs232">[39m(B[mLink $[11;3H[34m</body>[12d</html>[22d[39m(B[m[K[12;8H[9d[6;8H[3d[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top">[39m(B[m   Screenshots: [34m<br>[4;33H<a href="/cs17d/cs18c47/2402/1.png">[39m(B[m 1,[34m</a>[5;33H<a href="/cs17d/cs18c47/2402/2.png">[39m(B[m 2, [34m</a>[6;33H<a href="/cs17d/cs18c47/2402/3.png">[39m(B[m 3, [34m</a>[7;33H<a href="/cs17d/cs18c47/2402/4.png">[39m(B[m 4, [34m</a>[8;33H<a href="/cs17d/cs18c47/2402/5.png">[39m(B[m 5, [34m</a>[9;33H<a href="/cs17d/cs18c47/2402/6.png">[39m(B[m 6 [34m</a>[12;13H</td>[10d[39m(B[m[7d[4d[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top">[39m(B[m5[34m<br>[4;13H</td>[5;13H<td valign="top">[39m(B[m(t6)[34m<br>[6;13H</td>[7;13H<td valign="top">[39m(B[mNo work file[34m<br>[8;13H</td>[9;13H<td valign="top">[39m(B[m24-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs17d/cs18c47/2402/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[11;8H[39m(B[m[8d[5d[2;21r[2;1H[10T[1;24r[3;13H[34m</td>[4;13H<td valign="top">[39m(B[m10-02-2020[34m<br>[5;13H</td>[6;13H<td valign="top"><a href="/cs17d/cs18c47/1002/report.txt">[39m(B[mreport.tx$[7;13H[34m</td>[8;13H<td valign="top"><br>[9;13H</td>[10;11H</tr>[11;11H<tr>[12d</td>[8G[39m(B[m[9d[6d[3d[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top"><br>[4;13H</td>[5;11H</tr>[6;11H<tr>[7d</td>[8;13H<td valign="top">[39m(B[m4[34m<br>[9;13H</td>[10;13H<td valign="top">[39m(B[m(t7), (t8)[34m<br>[11;13H</td>[12;13H<td valign="top"><a href="/cs17d/cs18c47/1002/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[10;8H[7d[4d[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top">[39m(B[m3[34m<br>[4;13H</td>[5;13H<td valign="top">[39m(B[m(t2), (t9)[34m<br>[6;13H</td>[7;13H<td valign="top"><a href="/cs17d/cs18c47/0302/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[8;13H[34m</td>[9;13H<td valign="top">[39m(B[m03-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs17d/cs18c47/0302/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[11;8H[39m(B[m[8d[5d[3;16r[16;1H[4S[1;24r[3;21r[3;1H[10T[1;24r[3;13H[34m<td valign="top"><a href="/cs17d/cs18c47/2701/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[4;13H[34m</td>[5;13H<td valign="top">[39m(B[m27-01-2020[34m<br>[6;13H</td>[7;13H<td valign="top"><a href="/cs17d/cs18c47/2701/report.txt">[39m(B[mreport.tx$[8;13H[34m</td>[9;13H<td valign="top"><br>[10;13H</td>[11;11H</tr>[12;11H<tr>[13;30H[39m(B[m3[34m<br>[39m(B[m[K[15;30H(t2), (t9)[17;59H[34mwork.txt">[39m(B[mwork.txt[34m</a[19;30H[39m(B[m03-02-2020[34m<br>[21;11H[39m(B[m  [34m<td valign="top"><a href="/cs17d/cs18c47/0302/report.txt">[39m(B[mreport.tx$[12;8H[9d[6d[3d[3;12r[12;1H[4S[1;24r[3;21r[3;1H[10T[1;24r[3;13H[34m<td valign="top"><a href="/cs17d/cs18c47/2001/report.txt">[39m(B[mreport.tx$[4;13H[34m</td>[5;13H<td valign="top"><br>[6;13H</td>[7;11H</tr>[8;11H<tr>[9d<td valign="top">[39m(B[m2[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[m(t3), (t4), (t5)[34m<br>[12;13H</td>[13;59Hwork.txt">[39m(B[mwork.txt[34m</a[15;30H[39m(B[m27-01-2020[34m<br>[17;11H[39m(B[m  [34m<td valign="top"><a href="/cs17d/cs18c47/2701/report.txt">[39m(B[mreport.tx$[18;11H  [34m</td>[19;13H<td valign="top"><br>[20;13H</td>[21;11H</tr>[10;8H[39m(B[m[7d[4d[2;21r[2;1H[10T[1;24r[3;11H[34m</tr>[4;11H<tr>[5d<td valign="top">[39m(B[m1[34m<br>[6;13H</td>[7;13H<td valign="top">[39m(B[m(t1)[34m<br>[8;13H</td>[9;13H<td valign="top"><a href="/cs17d/cs18c47/2001/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[10;13H[34m</td>[11;13H<td valign="top">[39m(B[m24-01-2020[34m<br>[12;13H</td>[11;8H[39m(B[m[8d[5d[2;21r[2;1H[10T[1;24r[3;13H[34m</td>[4;13H<td valign="top">[39m(B[mCode Link[34m<br>[5;13H</td>[6;13H<td valign="top">[39m(B[mDate of [34m<br>[7;15H[39m(B[mUpload[34m<br>[8;13H</td>[9;13H<td valign="top">[39m(B[mDescription/Link[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[mResult/Link[34m<br>[12;13H</td>[8G[39m(B[m[9d[6d[3d Home page of cs18c47 Sample[34m<br>[4;7H</b>[39m(B[m[K[5d[K[6;9H[34m<br><br>[39m(B[m[K[7d [34m<table width="100%" border="1" cellspacing="2" cellpadding="2">[8;9H<tbody>[39m(B[m[K[9;11H[34m<tr>[39m(B[m[K[10d[34mtd valign="top"><b>[39m(B[mNo[34m</b><br>[11;14H/td>[39m(B[m[K[12;14H[34mtd valign="top">[39m(B[mExperiment Description[34m<br>[13;11H[39m(B[m  [34m</td>[14;11H[39m(B[m  [34m<td valign="top">[39m(B[mCode Link[34m<br>[15;14H/td>[39m(B[m[K[16;14H[34mtd valign="top">[39m(B[mDate of [34m<br>[17;13H[39m(B[m  Upload[34m<br>[39m(B[m[K[19;30HDescription/Link[34m<br>[39m(B[m[K[21;30HResult/Link[34m<br>[10;8H[39m(B[m[7d[4d[2;21r[2;1H[10T[1;24r[4;1H[34m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[5d<html>[6;3H<head>[7;5H<meta http-equiv="content-type" content="text/html; charset=UTF-8">[8;5H<title>[39m(B[mcs18c47[34m</title>[9;3H</head>[10;3H<body>[11;5H<div align="center">[39m(B[mS4C[34m<b>[39m(B[m CS232 Free and Open Source Software Lab[34m<br>[12;9H<br>[11;8H[39m(B[m[8d[5d[3d[6;8H[9d[12d[15d[18d  [21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;13H[34m<td valign="top">[39m(B[mExperiment Description[34m<br>[13;13H</td>[14;13H<td valign="top">[39m(B[mCode Link[34m<br>[15;13H</td>[16;13H<td valign="top">[39m(B[mDate of [34m<br>[17;15H[39m(B[mUpload[34m<br>[18;13H</td>[19;13H<td valign="top">[39m(B[mDescription/Link[34m<br>[20;13H</td>[21;13H<td valign="top">[39m(B[mResult/Link[34m<br>[14;8H[39m(B[m[17d[18d[19d[20d[21d7[3;21r8[10S[1;24r[9;21r[9;1H[5T[1;24r[9;13H[34m<td valign="top">[39m(B[mDescription/Link[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[mResult/Link[34m<br>[12;13H</td>[13;11H</tr>[14;11H<tr>[39m(B[m[K[15d[34mtd valign="top">[39m(B[m1[34m<br>[16;14H/td>[39m(B[m[K[17;13H[34m<td valign="top">[39m(B[m(t1)[34m<br>[18;13H</td>[19;13H<td valign="top"><a href="/cs17d/cs18c47/2001/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[20;13H[34m</td>[21;13H<td valign="top">[39m(B[m24-01-2020[34m<br>[12;8H[39m(B[m[13d[14d[15d[18d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top"><a href="/cs17d/cs18c47/2001/report.txt">[39m(B[mreport.tx$[14;13H[34m</td>[15;13H<td valign="top"><br>[16;13H</td>[17;11H</tr>[18;11H<tr>[19d<td valign="top">[39m(B[m2[34m<br>[20;13H</td>[21;13H<td valign="top">[39m(B[m(t3), (t4), (t5)[34m<br>[12;8H[39m(B[m[13d[16d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top"><a href="/cs17d/cs18c47/2701/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[14;13H[34m</td>[15;13H<td valign="top">[39m(B[m27-01-2020[34m<br>[16;13H</td>[17;13H<td valign="top"><a href="/cs17d/cs18c47/2701/report.txt">[39m(B[mreport.tx$[18;13H[34m</td>[19;13H<td valign="top"><br>[20;13H</td>[21;11H</tr>[12;8H[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d[2;21r[2;1H[4T[1;24r[3;13H[34m<td valign="top"><a href="/cs17d/cs18c47/2701/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[4;13H[34m</td>[5;13H<td valign="top">[39m(B[m27-01-2020[34m<br>[6;13H</td>[7;55H7[13;30H[39m(B[m3[15dt2), (t9)[34m<br>[39m(B[m[K[17;54H[34m0302[19;30H[39m(B[m03-02[21;54H[34m0302[12;8H[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;21r8[10S[1;24r[9;21r[9;1H[4T[1;24r[9;13H[34m<td valign="top">[39m(B[m03-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs17d/cs18c47/0302/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[13;30H<br>[39m(B[m[K[15;11H[34m</tr>[39m(B[m[K[16;11H[34m<tr>[17d</td>[18;13H<td valign="top">[39m(B[m4[34m<br>[19;13H</td>[20;13H<td valign="top">[39m(B[m(t7), (t8)[34m<br>[21;13H</td>[12;8H[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m<td valign="top"><a href="/cs17d/cs18c47/1002/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[13;13H[34m</td>[14;13H<td valign="top">[39m(B[m10-02-2020[34m<br>[15;13H</td>[16;13H<td valign="top"><a href="/cs17d/cs18c47/1002/report.txt">[39m(B[mreport.tx$[17;13H[34m</td>[18;13H<td valign="top"><br>[19;13H</td>[20;11H</tr>[21;11H<tr>[12;8H[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top">[39m(B[m5[34m<br>[14;13H</td>[15;13H<td valign="top">[39m(B[m(t6)[34m<br>[16;13H</td>[17;13H<td valign="top">[39m(B[mNo work file[34m<br>[18;13H</td>[19;13H<td valign="top">[39m(B[m24-02-2020[34m<br>[20;13H</td>[21;13H<td valign="top"><a href="/cs17d/cs18c47/2402/report.txt">[39m(B[mreport.tx$[12;8H[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top">[39m(B[m   Screenshots: [34m<br>[14;33H<a href="/cs17d/cs18c47/2402/1.png">[39m(B[m 1,[34m</a>[15;33H<a href="/cs17d/cs18c47/2402/2.png">[39m(B[m 2, [34m</a>[16;33H<a href="/cs17d/cs18c47/2402/3.png">[39m(B[m 3, [34m</a>[17;33H<a href="/cs17d/cs18c47/2402/4.png">[39m(B[m 4, [34m</a>[18;33H<a href="/cs17d/cs18c47/2402/5.png">[39m(B[m 5, [34m</a>[19;33H<a href="/cs17d/cs18c47/2402/6.png">[39m(B[m 6 [34m</a>[12;8H[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;11H</tr>[14;9H</tbody>[15;7H</table>[16;7H<b><br>[17;9H<br>[18;7H</b></div>[20;9H<div align="center"><a href="https://github.com/ceccs18c47/cs232">[39m(B[mLink $[21;3H[34m</body>[12d[39m(B[m[13d[A[A[A[A[A[A[A[A[A[3;8H[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top">[39m(B[m5[34m<br>[4;13H</td>[5;13H<td valign="top">[39m(B[m(t6)[34m<br>[6;13H</td>[7;13H<td valign="top">[39m(B[mNo work file[34m<br>[8;13H</td>[9;13H<td valign="top">[39m(B[m24-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs17d/cs18c47/2402/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[8G[39m(B[m[A[A[A[A[A[A[A[A[A[2;21r[2;1H[10T[1;24r[3;13H[34m</td>[4;13H<td valign="top">[39m(B[m10-02-2020[34m<br>[5;13H</td>[6;13H<td valign="top"><a href="/cs17d/cs18c47/1002/report.txt">[39m(B[mreport.tx$[7;13H[34m</td>[8;13H<td valign="top"><br>[9;13H</td>[10;11H</tr>[11;11H<tr>[12d</td>[8G[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top">[39m(B[m   Screenshots: [34m<br>[14;33H<a href="/cs17d/cs18c47/2402/1.png">[39m(B[m 1,[34m</a>[15;33H<a href="/cs17d/cs18c47/2402/2.png">[39m(B[m 2, [34m</a>[16;33H<a href="/cs17d/cs18c47/2402/3.png">[39m(B[m 3, [34m</a>[17;33H<a href="/cs17d/cs18c47/2402/4.png">[39m(B[m 4, [34m</a>[18;33H<a href="/cs17d/cs18c47/2402/5.png">[39m(B[m 5, [34m</a>[19;33H<a href="/cs17d/cs18c47/2402/6.png">[39m(B[m 6 [34m</a>[12;8H[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;11H</tr>[14;9H</tbody>[15;7H</table>[16;7H<b><br>[17;9H<br>[18;7H</b></div>[20;9H<div align="center"><a href="https://github.com/ceccs18c47/cs232">[39m(B[mLink $[21;3H[34m</body>[12d[39m(B[m[13d[A[A[A[A[A[A[A[A[A[3;8H[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top">[39m(B[m5[34m<br>[4;13H</td>[5;13H<td valign="top">[39m(B[m(t6)[34m<br>[6;13H</td>[7;13H<td valign="top">[39m(B[mNo work file[34m<br>[8;13H</td>[9;13H<td valign="top">[39m(B[m24-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs17d/cs18c47/2402/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[8G[39m(B[m[A[A[A[A[A[A[A[A[A[2;21r[2;1H[10T[1;24r[3;13H[34m</td>[4;13H<td valign="top">[39m(B[m10-02-2020[34m<br>[5;13H</td>[6;13H<td valign="top"><a href="/cs17d/cs18c47/1002/report.txt">[39m(B[mreport.tx$[7;13H[34m</td>[8;13H<td valign="top"><br>[9;13H</td>[10;11H</tr>[11;11H<tr>[12d</td>[8G[39m(B[m[A[10;8H[A[A[A[A[A[A[A[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top"><br>[4;13H</td>[5;11H</tr>[6;11H<tr>[7d</td>[8;13H<td valign="top">[39m(B[m4[34m<br>[9;13H</td>[10;13H<td valign="top">[39m(B[m(t7), (t8)[34m<br>[11;13H</td>[12;13H<td valign="top"><a href="/cs17d/cs18c47/1002/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[12;8H[A[A[A[A[A[A[A[A[A[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top">[39m(B[m3[34m<br>[4;13H</td>[5;13H<td valign="top">[39m(B[m(t2), (t9)[34m<br>[6;13H</td>[7;13H<td valign="top"><a href="/cs17d/cs18c47/0302/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[8;13H[34m</td>[9;13H<td valign="top">[39m(B[m03-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs17d/cs18c47/0302/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[8G[39m(B[m[A[A[A[A[A[A[A[A[A[3;16r[16;1H[4S[1;24r[3;21r[3;1H[10T[1;24r[3;13H[34m<td valign="top"><a href="/cs17d/cs18c47/2701/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[4;13H[34m</td>[5;13H<td valign="top">[39m(B[m27-01-2020[34m<br>[6;13H</td>[7;13H<td valign="top"><a href="/cs17d/cs18c47/2701/report.txt">[39m(B[mreport.tx$[8;13H[34m</td>[9;13H<td valign="top"><br>[10;13H</td>[11;11H</tr>[12;11H<tr>[13;30H[39m(B[m3[34m<br>[39m(B[m[K[15;30H(t2), (t9)[17;59H[34mwork.txt">[39m(B[mwork.txt[34m</a[19;30H[39m(B[m03-02-2020[34m<br>[21;11H[39m(B[m  [34m<td valign="top"><a href="/cs17d/cs18c47/0302/report.txt">[39m(B[mreport.tx$[12;8H[A[A[A[A[11d[14d[17d[14d[11d[8d[5d[3;12r[12;1H[4S[1;24r[3;21r[3;1H[10T[1;24r[3;13H[34m<td valign="top"><a href="/cs17d/cs18c47/2001/report.txt">[39m(B[mreport.tx$[4;13H[34m</td>[5;13H<td valign="top"><br>[6;13H</td>[7;11H</tr>[8;11H<tr>[9d<td valign="top">[39m(B[m2[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[m(t3), (t4), (t5)[34m<br>[12;13H</td>[13;59Hwork.txt">[39m(B[mwork.txt[34m</a[15;30H[39m(B[m27-01-2020[34m<br>[17;11H[39m(B[m  [34m<td valign="top"><a href="/cs17d/cs18c47/2701/report.txt">[39m(B[mreport.tx$[18;11H  [34m</td>[19;13H<td valign="top"><br>[20;13H</td>[21;11H</tr>[12;8H[39m(B[m[9d[6d[3d[2;21r[2;1H[10T[1;24r[3;11H[34m</tr>[4;11H<tr>[5d<td valign="top">[39m(B[m1[34m<br>[6;13H</td>[7;13H<td valign="top">[39m(B[m(t1)[34m<br>[8;13H</td>[9;13H<td valign="top"><a href="/cs17d/cs18c47/2001/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[10;13H[34m</td>[11;13H<td valign="top">[39m(B[m24-01-2020[34m<br>[12;13H</td>[10;8H[39m(B[m[7d[4d[2;21r[2;1H[10T[1;24r[3;13H[34m</td>[4;13H<td valign="top">[39m(B[mCode Link[34m<br>[5;13H</td>[6;13H<td valign="top">[39m(B[mDate of [34m<br>[7;15H[39m(B[mUpload[34m<br>[8;13H</td>[9;13H<td valign="top">[39m(B[mDescription/Link[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[mResult/Link[34m<br>[12;13H</td>[11;8H[39m(B[m[8d[5d[3d Home page of cs18c47 Sample[34m<br>[4;7H</b>[39m(B[m[K[5d[K[6;9H[34m<br><br>[39m(B[m[K[7d [34m<table width="100%" border="1" cellspacing="2" cellpadding="2">[8;9H<tbody>[39m(B[m[K[9;11H[34m<tr>[39m(B[m[K[10d[34mtd valign="top"><b>[39m(B[mNo[34m</b><br>[11;14H/td>[39m(B[m[K[12;14H[34mtd valign="top">[39m(B[mExperiment Description[34m<br>[13;11H[39m(B[m  [34m</td>[14;11H[39m(B[m  [34m<td valign="top">[39m(B[mCode Link[34m<br>[15;14H/td>[39m(B[m[K[16;14H[34mtd valign="top">[39m(B[mDate of [34m<br>[17;13H[39m(B[m  Upload[34m<br>[39m(B[m[K[19;30HDescription/Link[34m<br>[39m(B[m[K[21;30HResult/Link[34m<br>[12;8H[39m(B[m[9d[6d[3;8H[2;21r[2;1H[10T[1;24r[4;1H[34m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[5d<html>[6;3H<head>[7;5H<meta http-equiv="content-type" content="text/html; charset=UTF-8">[8;5H<title>[39m(B[mcs18c47[34m</title>[9;3H</head>[10;3H<body>[11;5H<div align="center">[39m(B[mS4C[34m<b>[39m(B[m CS232 Free and Open Source Software Lab[34m<br>[12;9H<br>[10;8H[39m(B[m[7d[4d[A[4;8H[5d[6;8H[7d[8d[C[C[C[Ccs18c47[4d<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[8;18H[1P[1P1[34m</title>[8;18H[39m(B[m6[34m</title>[8;19H[39m(B[m[9;10H[10d[11;19H[C[C[C[C[C[CS4C[C[C[C CS23[12;13H[13d        Home page of cs18c47[1P[1P1 Sample[34m<br>[13;28H[39m(B[m6 Sample[34m<br>[13;29H[39m(B[m[14;11H[15;6H[16;17H[17;29H[18;16H[19d[20;29H[21;18H7[2;22r8[22d[10S[1;24r[2;1H[K[12;13H[34m<td valign="top">[39m(B[mExperiment Description[34m<br>[13;13H</td>[14;13H<td valign="top">[39m(B[mCode Link[34m<br>[15;13H</td>[16;13H<td valign="top">[39m(B[mDate of [34m<br>[17;15H[39m(B[mUpload[34m<br>[18;13H</td>[19;13H<td valign="top">[39m(B[mDescription/Link[34m<br>[20;13H</td>[21;13H<td valign="top">[39m(B[mResult/Link[34m<br>[12;29H[39m(B[m[13;18H[14;29H[15;18H[16;29H[17;25H[18;18H[19;29H[20;18H[21;29H7[3;21r8[10S[1;24r[9;21r[9;1H[5T[1;24r[9;13H[34m<td valign="top">[39m(B[mDescription/Link[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[mResult/Link[34m<br>[12;13H</td>[13;11H</tr>[14;11H<tr>[39m(B[m[K[15d[34mtd valign="top">[39m(B[m1[34m<br>[16;14H/td>[39m(B[m[K[17;13H[34m<td valign="top">[39m(B[m(t1)[34m<br>[18;13H</td>[19;13H<td valign="top"><a href="/cs17d/cs18c47/2001/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[20;13H[34m</td>[21;13H<td valign="top">[39m(B[m24-01-2020[34m<br>[12;18H[39m(B[m[13d[14d[15;29H[16;18H[17;29H[18;18H[19;29H[20;18H[21d [A[A           [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34m/cs18c47/2001/work.txt">[39m(B[mwork.txt[34m</a>[19;44H[39m(B[m[34m/cs18c47/2001/work.txt">[39m(B[mwork.txt[34m</a><[19;43H[39m(B[m[34m8/cs18c47/2001/work.txt">[39m(B[mwork.txt[34m</a>[19;44H[39m(B[m[34mc/cs18c47/2001/work.txt">[39m(B[mwork.txt[34m</a[19;45H[39m(B[m[C[C[C[C[C[C[C[C[34m/2001/work.txt">[39m(B[mwork.txt[34m</a>[19;52H[39m(B[m[34m/2001/work.txt">[39m(B[mwork.txt[34m</a><[19;51H[39m(B[m[34m1/2001/work.txt">[39m(B[mwork.txt[34m</a>[19;52H[39m(B[m[34m6/2001/work.txt">[39m(B[mwork.txt[34m</a[19;53H[39m(B[m[C[C[C[C[34m1/work.txt">[39m(B[mwork.txt[34m</a>[19;56H[39m(B[m[34m1/work.txt">[39m(B[mwork.txt[34m</a><[19;55H[39m(B[m[34m1/work.txt">[39m(B[mwork.txt[34m</a><b[19;54H[39m(B[m[34m31/work.txt">[39m(B[mwork.txt[34m</a><[19;55H[39m(B[m[C[34m1/work.txt">[39m(B[mwork.txt[34m</a>[19;56H[39m(B[m[34m01/work.txt">[39m(B[mwork.txt[34m</a[19;57H[39m(B[m[C[C[C[C[C[C[C[C[C[C[C[Cwork.[20;18H[21;44H7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top"><a href="/cs17d/cs18c47/2001/report.txt">[39m(B[mreport.tx$[14;13H[34m</td>[15;13H<td valign="top"><br>[16;13H</td>[17;11H</tr>[18;11H<tr>[19d<td valign="top">[39m(B[m2[34m<br>[20;13H</td>[21;13H<td valign="top">[39m(B[m(t3), (t4), (t5)[34m<br>[12;18H[39m(B[m[13;38H[14;18H[15;34H[16;18H[17d[18d[19;35H[20;18H[21;38H7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top"><a href="/cs17d/cs18c47/2701/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[14;13H[34m</td>[15;13H<td valign="top">[39m(B[m27-01-2020[34m<br>[16;13H</td>[17;13H<td valign="top"><a href="/cs17d/cs18c47/2701/report.txt">[39m(B[mreport.tx$[18;13H[34m</td>[19;13H<td valign="top"><br>[20;13H</td>[21;11H</tr>[12;18H[39m(B[m[13;38H[14;18H[15;38H[16;18H[17d            [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34m/cs18c47/2701/report.txt">[39m(B[mreport.txt[17;44H[34m\/cs18c47/2701/report.txt">[39m(B[mreport.tx[17;45H[34m/cs18c47/2701/report.txt">[39m(B[mreport.txt[17;44H[34m/cs18c47/2701/report.txt">[39m(B[mreport.txt[34m<[17;43H[39m(B[m[34m/cs18c47/2701/report.txt">[39m(B[mreport.txt[34m</[17;42H[39m(B[m[34m1/cs18c47/2701/report.txt">[39m(B[mreport.txt[34m<[17;43H[39m(B[m[34m8/cs18c47/2701/report.txt">[39m(B[mreport.txt[17;44H[34mc/cs18c47/2701/report.txt">[39m(B[mreport.tx[17;45H[C[C[C[C[C[C[C[C[34m/2701/report.txt">[39m(B[mreport.txt[17;52H[34m/2701/report.txt">[39m(B[mreport.txt[34m<[17;51H[39m(B[m[34m1/2701/report.txt">[39m(B[mreport.txt[17;52H[34m6/2701/report.txt">[39m(B[mreport.tx[17;53H[C[C[C[34m01/report.txt">[39m(B[mreport.txt[17;55H[34m01/report.txt">[39m(B[mreport.txt[34m<[17;54H[39m(B[m[C[34m01/report.txt">[39m(B[mreport.txt[17;55H[34m701/report.txt">[39m(B[mreport.tx[17;56H[C[34m1/report.txt">[39m(B[mreport.txt[17;56H[34m01/report.txt">[39m(B[mreport.tx[17;57H[34m21/report.txt">[39m(B[mreport.t[17;58H[34m1/report.txt">[39m(B[mreport.tx[17;57H[34m21/report.txt">[39m(B[mreport.t[17;58H[C[34m/report.txt">[39m(B[mreport.tx[17;58H[C[C[C[C[C[C[C[C[C[C[C[C[Creport.t$ort.txt[34m</a><br>[39m(B[m[K[8Gt    [1K [34m<td valign="top"><a href="/cs18c/cs18c16/0702/report.txt">[39m(B[mreport.tx$[17;79H[16;18H[15;44H[14;18H[13;78H[12;18H[11;50H[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[12;18H[13;34H[14;18H[15;34H[16;18H[17;34H[18;18H[19;34H[20;18H[21d[2;21r[2;1H[4T[1;24r[3;13H[34m<td valign="top"><a href="/cs17d/cs18c47/2701/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[4;13H[34m</td>[5;13H<td valign="top">[39m(B[m27-01-2020[34m<br>[6;13H</td>[7;43H8c[51G16/0702[13;30H[39m(B[m3[15dt2), (t9)[34m<br>[17;54H0302[19;30H[39m(B[m03-02[21;43H[34m7d[51G47/03[12;15H[39m(B[m[13;34H[14;18H[15;34H[1P4), (t9)[34m<br>[15;33H[39m(B[m), (t9)[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[16;18H[17;34H[C[C[C[C[C[C[C[C[C[C[C[34m/cs18c47/0302/work.txt">[39m(B[mwork.txt[34m</a>[17;44H[39m(B[m[34m/cs18c47/0302/work.txt">[39m(B[mwork.txt[34m</a><[17;43H[39m(B[m[34m/cs18c47/0302/work.txt">[39m(B[mwork.txt[34m</a><b[17;42H[39m(B[m[34m1/cs18c47/0302/work.txt">[39m(B[mwork.txt[34m</a><[17;43H[39m(B[m[34m8/cs18c47/0302/work.txt">[39m(B[mwork.txt[34m</a>[17;44H[39m(B[m[34mc/cs18c47/0302/work.txt">[39m(B[mwork.txt[34m</a[17;45H[39m(B[m[C[C[C[C[C[C[C[C[34m/0302/work.txt">[39m(B[mwork.txt[34m</a>[17;52H[39m(B[m[34m/0302/work.txt">[39m(B[mwork.txt[34m</a><[17;51H[39m(B[m[34m1/0302/work.txt">[39m(B[mwork.txt[34m</a>[17;52H[39m(B[m[34m6/0302/work.txt">[39m(B[mwork.txt[34m</a[17;53H[39m(B[m[18;18H[19;44H[20;18H[19;44H[18;18H[17;53H[16;18H[15;38H[14;18H[13;35H[12;15H[A[C[10;18H[9;34H[8;18H[7;53H[6;18H[5;44H[4;18H[3;53H[3;12r[12;1H[4S[1;24r[3;21r[3;1H[10T[1;24r[3;13H[34m<td valign="top"><a href="/cs17d/cs18c47/2001/report.txt">[39m(B[mreport.tx$[4;13H[34m</td>[5;13H<td valign="top"><br>[6;13H</td>[7;11H</tr>[8;11H<tr>[9d<td valign="top">[39m(B[m2[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[m(t3)[34m<br>[12;13H</td>[13;43H7d[51G47/2701/work.txt">[39m(B[mwork.txt[34m</a[15;30H[39m(B[m27-01-2020[34m<br>[17;11H[39m(B[m  [34m<td valign="top"><a href="/cs18c/cs18c16/0702/report.txt">[39m(B[mreport.tx$[18;11H  [34m</td>[19;13H<td valign="top"><br>[20;13H</td>[21;11H</tr>[12;18H[39m(B[m[11;38H[10;18H[9;35H[8;15H[A[C[6;18H[5;34H[4;18H[3;53H[2;21r[2;1H[10T[1;24r[3;11H[34m</tr>[4;11H<tr>[5d<td valign="top">[39m(B[m1[34m<br>[6;13H</td>[7;13H<td valign="top">[39m(B[m(t1)[34m<br>[8;13H</td>[9;13H<td valign="top"><a href="/cs18c/cs18c16/3101/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[10;13H[34m</td>[11;13H<td valign="top">[39m(B[m24-01-2020[34m<br>[12;13H</td>[39m(B[m[11;44H[10;18H[9;53H[8;18H[7;38H[6;18H[5;35H[4;15H[A[C[2;21r[2;1H[10T[1;24r[3;13H[34m</td>[4;13H<td valign="top">[39m(B[mCode Link[34m<br>[5;13H</td>[6;13H<td valign="top">[39m(B[mDate of [34m<br>[7;15H[39m(B[mUpload[34m<br>[8;13H</td>[9;13H<td valign="top">[39m(B[mDescription/Link[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[mResult/Link[34m<br>[12;13H</td>[39m(B[m[11;45H[10;18H[9;50H[8;18H[7;25H[6;42H[5;18H[4;43H[3;18H[3;9HHome page of cs18c16 Sample[34m<br>[4;7H</b>[39m(B[m[K[5d[K[6;9H[34m<br><br>[39m(B[m[K[7d [34m<table width="100%" border="1" cellspacing="2" cellpadding="2">[8;9H<tbody>[39m(B[m[K[9;11H[34m<tr>[39m(B[m[K[10d[34mtd valign="top"><b>[39m(B[mNo[34m</b><br>[11;14H/td>[39m(B[m[K[12;14H[34mtd valign="top">[39m(B[mExperiment Description[34m<br>[13;11H[39m(B[m  [34m</td>[14;11H[39m(B[m  [34m<td valign="top">[39m(B[mCode Link[34m<br>[15;14H/td>[39m(B[m[K[16;14H[34mtd valign="top">[39m(B[mDate of [34m<br>[17;13H[39m(B[m  Upload[34m<br>[39m(B[m[K[19;30HDescription/Link[34m<br>[39m(B[m[K[21;30HResult/Link[34m<br>[12;53H[39m(B[m[11;18H[10;43H[9;15H[A[C[7;53H[8;16H[9d[10;43H[11;18H[12;53H[13;18H[14;43H[15;18H[16;42H[17;25H[18;18H[19;50H[20;18H[21;45H7[3;21r8[10S[1;24r[9;21r[9;1H[5T[1;24r[9;13H[34m<td valign="top">[39m(B[mDescription/Link[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[mResult/Link[34m<br>[12;13H</td>[13;11H</tr>[14;11H<tr>[39m(B[m[K[15d[34mtd valign="top">[39m(B[m1[34m<br>[16;14H/td>[39m(B[m[K[17;13H[34m<td valign="top">[39m(B[m(t1)[34m<br>[18;13H</td>[19;13H<td valign="top"><a href="/cs18c/cs18c16/3101/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[20;13H[34m</td>[21;13H<td valign="top">[39m(B[m24-01-2020[34m<br>[12;18H[39m(B[m[13d[14d[15;35H[16;18H[17;38H[18;18H[19;53H[20;18H[21;44H[20;18H[19;53H[18;18H[17;38H[18;18H[19;53H[20;18H[21;44H7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top"><a href="/cs17d/cs18c47/2001/report.txt">[39m(B[mreport.tx$[14;13H[34m</td>[15;13H<td valign="top"><br>[16;13H</td>[17;11H</tr>[18;11H<tr>[19d<td valign="top">[39m(B[m2[34m<br>[20;13H</td>[21;13H<td valign="top">[39m(B[m(t3)[34m<br>[12;18H[39m(B[m[11;44H[1P[1P3-01-2020[34m<br>[11;31H[39m(B[m1-01-2020[34m<br>[11;32H[39m(B[m[12;18H[13;32H[14;18H[15;32H[16;18H[17d[18d[19;32H[20;18H[21;32H7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top"><a href="/cs17d/cs18c47/2701/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[14;13H[34m</td>[15;13H<td valign="top">[39m(B[m27-01-2020[34m<br>[16;13H</td>[17;13H<td valign="top"><a href="/cs18c/cs18c16/0702/report.txt">[39m(B[mreport.tx$[18;13H[34m</td>[19;13H<td valign="top"><br>[20;13H</td>[21;11H</tr>[12;18H[39m(B[m[13;32H[14;18H[15d            [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C27[1P[1Po-01-2020[34m<br>[15;31H[39m(B[m7-01-2020[34m<br>[15;32H[39m(B[m-01[1P2-2020[34m<br>[15;35H[39m(B[m[16;18H[17;35H[18;18H[19;34H[20;18H[21d[2;21r[2;1H[4T[1;24r[3;13H[34m<td valign="top"><a href="/cs17d/cs18c47/2701/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[4;13H[34m</td>[5;13H<td valign="top">[39m(B[mo7-02-2020[34m<br>[6;13H</td>[7;43H8c[51G16/0702[13;30H[39m(B[m3[15dt4[17;43H[34m8c[51G16/0302[19;30H[39m(B[m03[21;43H[34m7d[51G47/03[12;15H[39m(B[m[13;35H[14;18H[15;35H[16;18H[17;35H[18;18H[19;35H[1P[1P1-02-2020[34m<br>[19;31H[39m(B[m7-02-2020[34m<br>[19;32H[39m(B[m[20;18H[21;32H7[3;21r8[10S[1;24r[9;21r[9;1H[4T[1;24r[9;13H[34m<td valign="top">[39m(B[m17-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs17d/cs18c47/0302/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[13;30H<br>[39m(B[m[K[15;11H[34m</tr>[39m(B[m[K[16;11H[34m<tr>[17d</td>[18;13H<td valign="top">[39m(B[m4[34m<br>[19;13H</td>[20;13H<td valign="top">[39m(B[m(t7), (t8)[34m<br>[21;13H</td>[12;18H[39m(B[m[11;32H[C[C[C[C[C[C[C[C[C[C[C[C[C[34m/cs18c47/0302/report.txt">[39m(B[mreport.txt[11;44H[34m/cs18c47/0302/report.txt">[39m(B[mreport.txt[34m<[11;43H[39m(B[m[34m/cs18c47/0302/report.txt">[39m(B[mreport.txt[34m</[11;42H[39m(B[m[34m1/cs18c47/0302/report.txt">[39m(B[mreport.txt[34m<[11;43H[39m(B[m[34m8/cs18c47/0302/report.txt">[39m(B[mreport.txt[11;44H[34mc/cs18c47/0302/report.txt">[39m(B[mreport.tx[11;45H[C[C[C[C[C[C[C[C[34m/0302/report.txt">[39m(B[mreport.txt[11;52H[34m/0302/report.txt">[39m(B[mreport.txt[34m<[11;51H[39m(B[m[34m1/0302/report.txt">[39m(B[mreport.txt[11;52H[34m6/0302/report.txt">[39m(B[mreport.tx[11;53H[C[C[C[34m02/report.txt">[39m(B[mreport.txt[11;55H[34m2/report.txt">[39m(B[mreport.txt[34m<[11;54H[39m(B[m[34m102/report.txt">[39m(B[mreport.txt[11;55H[34m702/report.txt">[39m(B[mreport.tx[11;56H[10;18H[9;44H[8;18H[7;56H[6;18H[5;38H[4;18H[3;35H[3;16r[16;1H[4S[1;24r[3;21r[3;1H[10T[1;24r[3;13H[34m<td valign="top"><a href="/cs17d/cs18c47/2701/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[4;13H[34m</td>[5;13H<td valign="top">[39m(B[mo7-02-2020[34m<br>[6;13H</td>[7;13H<td valign="top"><a href="/cs18c/cs18c16/0702/report.txt">[39m(B[mreport.tx$[8;13H[34m</td>[9;13H<td valign="top"><br>[10;13H</td>[11;11H</tr>[12;11H<tr>[13;30H[39m(B[m3[34m<br>[39m(B[m[K[15;30H(t4)[34m<br>[39m(B[m[K[17;54H[34m0302/work.txt">[39m(B[mwork.txt[34m</a[19;30H[39m(B[m17-02-2020[34m<br>[21;11H[39m(B[m  [34m<td valign="top"><a href="/cs18c/cs18c16/1702/report.txt">[39m(B[mreport.tx$[12;15H[13;35H[14;18H[15;38H[16;18H[17;56H[34m02/work.txt">[39m(B[mwork.txt[34m</a>[17;55H[39m(B[m[34m2/work.txt">[39m(B[mwork.txt[34m</a><[17;54H[39m(B[m[34m102/work.txt">[39m(B[mwork.txt[34m</a>[17;55H[39m(B[m[34m702/work.txt">[39m(B[mwork.txt[34m</a[17;56H[39m(B[m[16;18H[15;38H[14;18H[13;35H[12;15H[A[C[10;18H[9;34H[8;18H[7;56H[6;18H[5;44H[4;18H[3;56H[C[C[C[34m/work.txt">[39m(B[mwork.txt[34m</a>[3;57H[39m(B[m[34m/work.txt">[39m(B[mwork.txt[34m</a><[3;56H[39m(B[m[34m/work.txt">[39m(B[mwork.txt[34m</a><b[3;55H[39m(B[m[34m/work.txt">[39m(B[mwork.txt[34m</a><br>[3;54H[39m(B[m[34mo/work.txt">[39m(B[mwork.txt[34m</a><b[39m(B[m$[3;55H[34m/work.txt">[39m(B[mwork.txt[34m</a><br>[3;54H[39m(B[m[34m0/work.txt">[39m(B[mwork.txt[34m</a><b[39m(B[m$[3;55H[34m7/work.txt">[39m(B[mwork.txt[34m</a><[3;56H[39m(B[m[34m0/work.txt">[39m(B[mwork.txt[34m</a>[3;57H[39m(B[m[34m2/work.txt">[39m(B[mwork.txt[34m</a[3;58H[39m(B[m[34m/0702/work.txt">[39m(B[mwork.txt[34m</a>[3;52H[39m(B[m[34m/0702/work.txt">[39m(B[mwork.txt[34m</a><[3;51H[39m(B[m[34m1/0702/work.txt">[39m(B[mwork.txt[34m</a>[3;52H[39m(B[m[34m6/0702/work.txt">[39m(B[mwork.txt[34m</a[3;53H[39m(B[m[C[34m/cs18c16/0702/work.txt">[39m(B[mwork.txt[34m</a>[3;44H[39m(B[m[34m/cs18c16/0702/work.txt">[39m(B[mwork.txt[34m</a><[3;43H[39m(B[m[34m8/cs18c16/0702/work.txt">[39m(B[mwork.txt[34m</a>[3;44H[39m(B[m[34mc/cs18c16/0702/work.txt">[39m(B[mwork.txt[34m</a[3;45H[39m(B[m[4;18H[5;44H[6;18H[7;45H[8;18H[9;34H[10;18H[11d[12d[13;35H[14;18H[15;38H[16;18H[17;45H[18;18H[19;44H[20;18H[21;45H7[3;21r8[10S[1;24r[9;21r[9;1H[4T[1;24r[9;13H[34m<td valign="top">[39m(B[m17-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs18c/cs18c16/1702/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[13;30H<br>[39m(B[m[K[15;11H[34m</tr>[39m(B[m[K[16;11H[34m<tr>[17d</td>[18;13H<td valign="top">[39m(B[m4[34m<br>[19;13H</td>[20;13H<td valign="top">[39m(B[m(t7), (t8)[34m<br>[21;13H</td>[12;18H[39m(B[m[13;34H[14;18H[15d[16d[17;18H[18;35H[19;18H[20;44H[21;18H[20;44H8)[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K[34m<br>[39m(B[m[K)[34m<br>[39m(B[m[K[32G2)[34m<br>[33G[39m(B[m),[34m<br>[39m(B[m([34m<br>[39m(B[mt[34m<br>[39m(B[m5[34m<br>[39m(B[m)[34m<br>[39m(B[m,[34m<br>[39m(B[mt[34m<br>[39m(B[m[34m<br>[39m(B[m[K([34m<br>[39m(B[mt[34m<br>[39m(B[m9[34m<br>[39m(B[m)[34m<br>[39m(B[m[21;18H7[3;22r8[22d[10S[1;24r[12;13H[34m<td valign="top"><a href="/cs17d/cs18c47/1002/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[13;13H[34m</td>[14;13H<td valign="top">[39m(B[m10-02-2020[34m<br>[15;13H</td>[16;13H<td valign="top"><a href="/cs17d/cs18c47/1002/report.txt">[39m(B[mreport.tx$[17;13H[34m</td>[18;13H<td valign="top"><br>[19;13H</td>[20;11H</tr>[21;11H<tr>[12;44H[39m(B[m[C[34m/cs18c47/1002/work.txt">[39m(B[mwork.txt[34m</a>[12;44H[39m(B[m[34m/cs18c47/1002/work.txt">[39m(B[mwork.txt[34m</a><[12;43H[39m(B[m[34m/cs18c47/1002/work.txt">[39m(B[mwork.txt[34m</a><b[12;42H[39m(B[m[34m1/cs18c47/1002/work.txt">[39m(B[mwork.txt[34m</a><[12;43H[39m(B[m[34m8/cs18c47/1002/work.txt">[39m(B[mwork.txt[34m</a>[12;44H[39m(B[m[34mc/cs18c47/1002/work.txt">[39m(B[mwork.txt[34m</a[12;45H[39m(B[m[C[C[C[C[C[C[C[C[34m/1002/work.txt">[39m(B[mwork.txt[34m</a>[12;52H[39m(B[m[34m/1002/work.txt">[39m(B[mwork.txt[34m</a><[12;51H[39m(B[m[34m1/1002/work.txt">[39m(B[mwork.txt[34m</a>[12;52H[39m(B[m[34m6/1002/work.txt">[39m(B[mwork.txt[34m</a[12;53H[39m(B[m[C[C[C[C[34m2/work.txt">[39m(B[mwork.txt[34m</a>[12;55H[39m(B[m[34m02/work.txt">[39m(B[mwork.txt[34m</a><[12;54H[39m(B[m[34m202/work.txt">[39m(B[mwork.txt[34m</a>[12;55H[39m(B[m[34m802/work.txt">[39m(B[mwork.txt[34m</a[12;56H[39m(B[m[13;18H[14;44H[1P[1P2-02-2020[34m<br>[14;31H[39m(B[m8-02-2020[34m<br>[14;32H[39m(B[m[15;18H[16d            [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34md/cs18c47/1002/report.txt">[39m(B[mreport.txt[16;43H[34m8d/cs18c47/1002/report.txt">[39m(B[mreport.tx[16;44H[C[34m/cs18c47/1002/report.txt">[39m(B[mreport.txt[16;44H[34mc/cs18c47/1002/report.txt">[39m(B[mreport.tx[16;45H[C[C[C[C[C[C[C[C[34m/1002/report.txt">[39m(B[mreport.txt[16;52H[34m/1002/report.txt">[39m(B[mreport.txt[34m<[16;51H[39m(B[m[34m1/1002/report.txt">[39m(B[mreport.txt[16;52H[34m6/1002/report.txt">[39m(B[mreport.tx[16;53H[C[C[C[C[C[34m2/report.txt">[39m(B[mreport.txt[16;55H[34m02/report.txt">[39m(B[mreport.txt[34m<[16;54H[39m(B[m[34m202/report.txt">[39m(B[mreport.txt[16;55H[34m802/report.txt">[39m(B[mreport.tx[16;56H[17;18H[18;34H[19;18H[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top">[39m(B[m5[34m<br>[14;13H</td>[15;13H<td valign="top">[39m(B[m(t6)[34m<br>[16;13H</td>[17;13H<td valign="top">[39m(B[mNo work file[34m<br>[18;13H</td>[19;13H<td valign="top">[39m(B[m24-02-2020[34m<br>[20;13H</td>[21;13H<td valign="top"><a href="/cs17d/cs18c47/2402/report.txt">[39m(B[mreport.tx$[12;18H[13;35H[14;18H[15;38H[16;18H[17;46H[18;18H[19;44H[20;18H[21;56H7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top">[39m(B[m   Screenshots: [34m<br>[14;33H<a href="/cs17d/cs18c47/2402/1.png">[39m(B[m 1,[34m</a>[15;33H<a href="/cs17d/cs18c47/2402/2.png">[39m(B[m 2, [34m</a>[16;33H<a href="/cs17d/cs18c47/2402/3.png">[39m(B[m 3, [34m</a>[17;33H<a href="/cs17d/cs18c47/2402/4.png">[39m(B[m 4, [34m</a>[18;33H<a href="/cs17d/cs18c47/2402/5.png">[39m(B[m 5, [34m</a>[19;33H<a href="/cs17d/cs18c47/2402/6.png">[39m(B[m 6 [34m</a>[12;18H[39m(B[m[13;50H[14;56H[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;11H</tr>[14;9H</tbody>[15;7H</table>[16;7H<b><br>[17;9H<br>[18;7H</b></div>[20;9H<div align="center"><a href="https://github.com/ceccs18c47/cs232">[39m(B[mLink $[21;3H[34m</body>[12;18H[39m(B[m[13d[14;17H[15d[16d[17d[18;17H[19d[20;56H[21;10H7[2;22r8[22d[10S[1;24r[2;1H[K[12d[34m</html>[39m(B[m[13d[12;8H[11;10H[10;56H[A[8;17H[A[A[C[A[C[4;17H[A[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top">[39m(B[m   Screenshots: [34m<br>[4;33H<a href="/cs17d/cs18c47/2402/1.png">[39m(B[m 1,[34m</a>[5;33H<a href="/cs17d/cs18c47/2402/2.png">[39m(B[m 2, [34m</a>[6;33H<a href="/cs17d/cs18c47/2402/3.png">[39m(B[m 3, [34m</a>[7;33H<a href="/cs17d/cs18c47/2402/4.png">[39m(B[m 4, [34m</a>[8;33H<a href="/cs17d/cs18c47/2402/5.png">[39m(B[m 5, [34m</a>[9;33H<a href="/cs17d/cs18c47/2402/6.png">[39m(B[m 6 [34m</a>[12;13H</td>[39m(B[m[A[A[9;56H[A[A[A[A[A[3;50H[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top">[39m(B[m5[34m<br>[4;13H</td>[5;13H<td valign="top">[39m(B[m(t6)[34m<br>[6;13H</td>[7;13H<td valign="top">[39m(B[mNo work file[34m<br>[8;13H</td>[9;13H<td valign="top">[39m(B[m24-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs17d/cs18c47/2402/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[39m(B[m[11;56H[10;18H[9;44H[8;18H[7;46H[6;18H[5;38H[4;18H[3;35H[2;21r[2;1H[10T[1;24r[3;13H[34m</td>[4;13H<td valign="top">[39m(B[m28-02-2020[34m<br>[5;13H</td>[6;13H<td valign="top"><a href="/cs18c/cs18c16/2802/report.txt">[39m(B[mreport.tx$[7;13H[34m</td>[8;13H<td valign="top"><br>[9;13H</td>[10;11H</tr>[11;11H<tr>[12d</td>[39m(B[m[A[A[C[9;18H[8;34H[7;18H[6;56H[5;18H[4;44H[3;18H[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top"><br>[4;13H</td>[5;11H</tr>[6;11H<tr>[7d</td>[8;13H<td valign="top">[39m(B[m4[34m<br>[9;13H</td>[10;13H<td valign="top">[39m(B[m(t2),(t5),(t9)[34m<br>[11;13H</td>[12;13H<td valign="top"><a href="/cs18c/cs18c16/2802/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[12;56H[11;18H[10;48H[9;18H[8;35H[7;18H[A[A[C[4;18H[3;34H[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top">[39m(B[m3[34m<br>[4;13H</td>[5;13H<td valign="top">[39m(B[m(t4)[34m<br>[6;13H</td>[7;13H<td valign="top"><a href="/cs18c/cs18c16/1702/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[8;13H[34m</td>[9;13H<td valign="top">[39m(B[m17-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs18c/cs18c16/1702/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[39m(B[m[11;56H[10;18H[9;44H[8;18H[7;56H[6;18H[5;38H[4;18H[3;35H[3;16r[16;1H[4S[1;24r[3;21r[3;1H[10T[1;24r[3;13H[34m<td valign="top"><a href="/cs18c/cs18c16/0702/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[4;13H[34m</td>[5;13H<td valign="top">[39m(B[mo7-02-2020[34m<br>[6;13H</td>[7;13H<td valign="top"><a href="/cs18c/cs18c16/0702/report.txt">[39m(B[mreport.tx$[8;13H[34m</td>[9;13H<td valign="top"><br>[10;13H</td>[11;11H</tr>[12;11H<tr>[13;30H[39m(B[m3[34m<br>[39m(B[m[K[15;30H(t4)[34m<br>[39m(B[m[K[17;59H[34mwork.txt">[39m(B[mwork.txt[34m</a[19;30H[39m(B[m17-02-2020[34m<br>[21;11H[39m(B[m  [34m<td valign="top"><a href="/cs18c/cs18c16/1702/report.txt">[39m(B[mreport.tx$[12;15H[A[C[10;18H[9;34H[8;18H[7;56H[6;18H[5;44H[4;18H[3;56H[3;12r[12;1H[4S[1;24r[3;21r[3;1H[10T[1;24r[3;13H[34m<td valign="top"><a href="/cs17d/cs18c47/2001/report.txt">[39m(B[mreport.tx$[4;13H[34m</td>[5;13H<td valign="top"><br>[6;13H</td>[7;11H</tr>[8;11H<tr>[9d<td valign="top">[39m(B[m2[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[m(t3)[34m<br>[12;13H</td>[13;59Hwork.txt">[39m(B[mwork.txt[34m</a[15;30H[39m(B[mo7-02-2020[34m<br>[17;11H[39m(B[m  [34m<td valign="top"><a href="/cs18c/cs18c16/0702/report.txt">[39m(B[mreport.tx$[18;11H  [34m</td>[19;13H<td valign="top"><br>[20;13H</td>[21;11H</tr>[12;18H[39m(B[m[11;38H[10;18H[9;35H[8;15H[A[C[6;18H[5;34H[4;18H[3;56H[2;21r[2;1H[10T[1;24r[3;11H[34m</tr>[4;11H<tr>[5d<td valign="top">[39m(B[m1[34m<br>[6;13H</td>[7;13H<td valign="top">[39m(B[m(t1)[34m<br>[8;13H</td>[9;13H<td valign="top"><a href="/cs18c/cs18c16/3101/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[10;13H[34m</td>[11;13H<td valign="top">[39m(B[m31-01-2020[34m<br>[12;13H</td>[39m(B[m[11;44H[10;18H[9;56H[8;18H[7;38H[6;18H[5;35H[4;15H[A[C[2;21r[2;1H[10T[1;24r[3;13H[34m</td>[4;13H<td valign="top">[39m(B[mCode Link[34m<br>[5;13H</td>[6;13H<td valign="top">[39m(B[mDate of [34m<br>[7;15H[39m(B[mUpload[34m<br>[8;13H</td>[9;13H<td valign="top">[39m(B[mDescription/Link[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[mResult/Link[34m<br>[12;13H</td>[39m(B[m[11;45H[10;18H[9;50H[8;18H[7;25H[6;42H[5;18H[4;43H[3;18H[3;9HHome page of cs18c16 Sample[34m<br>[4;7H</b>[39m(B[m[K[5d[K[6;9H[34m<br><br>[39m(B[m[K[7d [34m<table width="100%" border="1" cellspacing="2" cellpadding="2">[8;9H<tbody>[39m(B[m[K[9;11H[34m<tr>[39m(B[m[K[10d[34mtd valign="top"><b>[39m(B[mNo[34m</b><br>[11;14H/td>[39m(B[m[K[12;14H[34mtd valign="top">[39m(B[mExperiment Description[34m<br>[13;11H[39m(B[m  [34m</td>[14;11H[39m(B[m  [34m<td valign="top">[39m(B[mCode Link[34m<br>[15;14H/td>[39m(B[m[K[16;14H[34mtd valign="top">[39m(B[mDate of [34m<br>[17;13H[39m(B[m  Upload[34m<br>[39m(B[m[K[19;30HDescription/Link[34m<br>[39m(B[m[K[21;30HResult/Link[34m<br>[12;56H[39m(B[m[11;18H[10;43H[9;15H[A[C[7;56H[6;17H[5;6H[4;11H[3;40H[2;21r[2;1H[10T[1;24r[4;1H[34m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[5d<html>[6;3H<head>[7;5H<meta http-equiv="content-type" content="text/html; charset=UTF-8">[8;5H<title>[39m(B[mcs18c16[34m</title>[9;3H</head>[10;3H<body>[11;5H<div align="center">[39m(B[mS4C[34m<b>[39m(B[m CS232 Free and Open Source Software Lab[34m<br>[12;9H<br>[39m(B[m[11;56H[10;9H[A[C[8;27H[7;56H[6;9H[A[4;56H[A[4;56H[5;7H[6;9H[7;56H[8;27H[9;10H[10d[11;56H[12;13H[13;40H[14;11H[15;6H[16;17H[17;56H[18;16H[19d[20;43H[21;18H7[2;22r8[22d[10S[1;24r[2;1H[K[12;13H[34m<td valign="top">[39m(B[mExperiment Description[34m<br>[13;13H</td>[14;13H<td valign="top">[39m(B[mCode Link[34m<br>[15;13H</td>[16;13H<td valign="top">[39m(B[mDate of [34m<br>[17;15H[39m(B[mUpload[34m<br>[18;13H</td>[19;13H<td valign="top">[39m(B[mDescription/Link[34m<br>[20;13H</td>[21;13H<td valign="top">[39m(B[mResult/Link[34m<br>[12;56H[39m(B[m[13;18H[14;43H[15;18H[16;42H[17;25H[18;18H[19;50H[20;18H[21;45H7[3;21r8[10S[1;24r[9;21r[9;1H[5T[1;24r[9;13H[34m<td valign="top">[39m(B[mDescription/Link[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[mResult/Link[34m<br>[12;13H</td>[13;11H</tr>[14;11H<tr>[39m(B[m[K[15d[34mtd valign="top">[39m(B[m1[34m<br>[16;14H/td>[39m(B[m[K[17;13H[34m<td valign="top">[39m(B[m(t1)[34m<br>[18;13H</td>[19;13H<td valign="top"><a href="/cs18c/cs18c16/3101/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[20;13H[34m</td>[21;13H<td valign="top">[39m(B[m31-01-2020[34m<br>[12;18H[39m(B[m[13d[14d[15;35H[16;18H[17;38H[18;18H[19;56H[20;18H[21;44H7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top"><a href="/cs17d/cs18c47/2001/report.txt">[39m(B[mreport.tx$[14;13H[34m</td>[15;13H<td valign="top"><br>[16;13H</td>[17;11H</tr>[18;11H<tr>[19d<td valign="top">[39m(B[m2[34m<br>[20;13H</td>[21;13H<td valign="top">[39m(B[m(t3)[34m<br>[12;18H[39m(B[m[13d            [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34m/cs18c47/2001/report.txt">[39m(B[mreport.txt[13;44H[34m/cs18c47/2001/report.txt">[39m(B[mreport.txt[34m<[13;43H[39m(B[m[34m8/cs18c47/2001/report.txt">[39m(B[mreport.txt[13;44H[34mc/cs18c47/2001/report.txt">[39m(B[mreport.tx[13;45H[C[C[C[C[C[C[C[C[34m/2001/report.txt">[39m(B[mreport.txt[13;52H[34m/2001/report.txt">[39m(B[mreport.txt[34m<[13;51H[39m(B[m[34m1/2001/report.txt">[39m(B[mreport.txt[13;52H[34m6/2001/report.txt">[39m(B[mreport.tx[13;53H[C[C[C[34m1/report.txt">[39m(B[mreport.txt[13;55H[34m01/report.txt">[39m(B[mreport.txt[34m<[13;54H[39m(B[m[34m301/report.txt">[39m(B[mreport.txt[13;55H[34m101/report.txt">[39m(B[mreport.tx[13;56H[14;18H[15;34H[16;18H[17d[18d[19;35H[20;18H[21;38H7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top"><a href="/cs18c/cs18c16/0702/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[14;13H[34m</td>[15;13H<td valign="top">[39m(B[mo7-02-2020[34m<br>[16;13H</td>[17;13H<td valign="top"><a href="/cs18c/cs18c16/0702/report.txt">[39m(B[mreport.tx$[18;13H[34m</td>[19;13H<td valign="top"><br>[20;13H</td>[21;11H</tr>[12;18H[39m(B[m[13;56H[14;18H[15;44H[16d        [17d[18d[19d[20d[21d[2;21r[2;1H[4T[1;24r[3;13H[34m<td valign="top"><a href="/cs18c/cs18c16/0702/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[4;13H[34m</td>[5;13H<td valign="top">[39m(B[mo7-02-2020[34m<br>[6;13H</td>[7;54H0702[13;30H[39m(B[m3[15dt4[17;54H[34m1[19;30H[39m(B[m1[21;54H[34m1[12;9H[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;21r8[10S[1;24r[9;21r[9;1H[4T[1;24r[9;13H[34m<td valign="top">[39m(B[m17-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs18c/cs18c16/1702/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[13;30H<br>[39m(B[m[K[15;11H[34m</tr>[39m(B[m[K[16;11H[34m<tr>[17d</td>[18;13H<td valign="top">[39m(B[m4[34m<br>[19;13H</td>[20;13H<td valign="top">[39m(B[m(t2),(t5),(t9)[34m<br>[21;13H</td>[12;9H[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m<td valign="top"><a href="/cs18c/cs18c16/2802/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[13;13H[34m</td>[14;13H<td valign="top">[39m(B[m28-02-2020[34m<br>[15;13H</td>[16;13H<td valign="top"><a href="/cs18c/cs18c16/2802/report.txt">[39m(B[mreport.tx$[17;13H[34m</td>[18;13H<td valign="top"><br>[19;13H</td>[20;11H</tr>[21;11H<tr>[12;9H[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top">[39m(B[m5[34m<br>[14;13H</td>[15;13H<td valign="top">[39m(B[m(t6)[34m<br>[16;13H</td>[17;13H<td valign="top">[39m(B[mNo work file[34m<br>[18;13H</td>[19;13H<td valign="top">[39m(B[m24-02-2020[34m<br>[20;13H</td>[21;13H<td valign="top"><a href="/cs17d/cs18c47/2402/report.txt">[39m(B[mreport.tx$[12;9H[13d[14d[15d[16d[17d[20d[3;22r[22;1H[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top">[39m(B[m   Screenshots: [34m<br>[14;33H<a href="/cs17d/cs18c47/2402/1.png">[39m(B[m 1,[34m</a>[15;33H<a href="/cs17d/cs18c47/2402/2.png">[39m(B[m 2, [34m</a>[16;33H<a href="/cs17d/cs18c47/2402/3.png">[39m(B[m 3, [34m</a>[17;33H<a href="/cs17d/cs18c47/2402/4.png">[39m(B[m 4, [34m</a>[18;33H<a href="/cs17d/cs18c47/2402/5.png">[39m(B[m 5, [34m</a>[19;33H<a href="/cs17d/cs18c47/2402/6.png">[39m(B[m 6 [34m</a>[13;9H[39m(B[m[10d[7d[10d[13d[16d[19d[3;22r[22;1H[10S[1;24r[12;13H[34m</td>[13;11H</tr>[14;9H</tbody>[15;7H</table>[16;7H<b><br>[17;9H<br>[18;7H</b></div>[20;9H<div align="center"><a href="https://github.com/ceccs18c47/cs232">[39m(B[mLink $[21;3H[34m</body>[12;9H[39m(B[m[15d[18d[19d[2;22r[22;1H[10S[1;24r[2;1H[K[12d[34m</html>[39m(B[m[13d[12;8H[A[C[A[A[8;9H[A[A[A[A[A[2;21r[2;1H[10T[1;24r[3;13H[34m<td valign="top">[39m(B[m   Screenshots: [34m<br>[4;33H<a href="/cs17d/cs18c47/2402/1.png">[39m(B[m 1,[34m</a>[5;33H<a href="/cs17d/cs18c47/2402/2.png">[39m(B[m 2, [34m</a>[6;33H<a href="/cs17d/cs18c47/2402/3.png">[39m(B[m 3, [34m</a>[7;33H<a href="/cs17d/cs18c47/2402/4.png">[39m(B[m 4, [34m</a>[8;33H<a href="/cs17d/cs18c47/2402/5.png">[39m(B[m 5, [34m</a>[9;33H<a href="/cs17d/cs18c47/2402/6.png">[39m(B[m 6 [34m</a>[12;13H</td>[12;9H[39m(B[m[A[A[9;9H[A[A[8d[9d[10d[11d[12;9H[13d  [C[C[C[C[C [14;8H[34m[1K[13;15H[39m(B[m   [K[14;8H[1K[A   [13;22r[22;1H
+[1;24r[21;1H[34m</html>[12;18H[39m(B[m [13;8H[34m[1K[12;17H[39m(B[m   [K[13;8H[1K[12;13H[10;22r[22;1H
+[1;24r[11;1H[10;22r[22;1H
+[1;24r[10;1H[10;22r[22;1H
+[1;24r[9;76H [10;8H[34m[1K[9;75H[39m(B[m   [10;8H[1K[9;72H  [10;8H[34m[1K[9;68H[39m(B[m                                  [K[10;8H[1K[9;33H[9;25H[9;17H[9;9H[9;22r[22;1H
+[1;24r[8;77H [9;8H[34m[1K[8;76H[39m(B[m   [9;8H[1K[8;73H   [9;8H[34m[1K[8;68H[39m(B[m                                  [K[9;8H[1K[8;33H[8;25H[8;17H[8;9H[8;22r[22;1H
+[1;24r[7;77H [8;8H[34m[1K[7;76H[39m(B[m   [8;8H[1K[7;73H   [8;8H[34m[1K[7;68H[39m(B[m                                  [K[8;8H[1K[7;33H[7;25H[7;17H[7;9H[7;22r[22;1H
+[1;24r[6;77H [7;8H[34m[1K[6;76H[39m(B[m   [7;8H[1K[6;73H   [7;8H[34m[1K[6;68H[39m(B[m                                  [K[7;8H[1K[6;33H[6;25H[6;17H[6;9H[6;22r[22;1H
+[1;24r[5;77H [6;8H[34m[1K[5;76H[39m(B[m   [6;8H[1K[5;73H   [6;8H[34m[1K[5;68H[39m(B[m                                  [K[6;8H[1K[5;33H[5;25H[5;17H[5;9H[5;22r[22;1H
+[1;24r[4;76H [5;8H[34m[1K[4;75H[39m(B[m   [5;8H[1K[4;72H   [5;8H[34m[1K[4;68H[39m(B[m                                  [K[5;8H[1K[4;33H[4;25H[4;17H[4;9H[4;22r[22;1H
+[1;24r[3;50H [4;8H[34m[1K[3;49H[39m(B[m   [4;8H[1K[3;46H             [4;8H[34m[1K[3;29H[39m(B[m               [K[4;8H[1K[3;13H[2;22r[2;1H[9T[1;24r[3;13H[34m<td valign="top">[39m(B[m5[34m<br>[4;13H</td>[5;13H<td valign="top">[39m(B[m(t6)[34m<br>[6;13H</td>[7;13H<td valign="top">[39m(B[mNo work file[34m<br>[8;13H</td>[9;13H<td valign="top">[39m(B[m24-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs17d/cs18c47/2402/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[39m(B[m [13;8H[34m[1K[12;17H[39m(B[m   [K[13;8H[1K[12;13H[11;22r[22;1H
+[1;24r[11;1H$ort.txt[34m</a><br>[39m(B[m [12;8H[34m[1K[11;16H[39m(B[m   [12;8H[1K[11;13H [12;8H[34m[1K[11;12H[39m(B[m   [12d[1K[At     [1K [34m<td valign="top"><a href="/cs17d/cs18c47/2402/report.txt">[39m(B[mreport.t         [12;8H[34m[1K[11;70H[39m(B[m                                        [12;8H[1K[11;30H [12;8H[34m[1K[11;29H[39m(B[m               [K[12;8H[1K[11;13H[11;22r[22;1H
+[1;24r[10;18H [11;8H[34m[1K[10;17H[39m(B[m   [K[11;8H[1K[10;13H[10;22r[22;1H
+[1;24r[9;44H [10;8H[34m[1K[9;43H[39m(B[m   [10;8H[1K[9;40H           [10;8H[34m[1K[9;29H[39m(B[m               [K[10;8H[1K[9;13H[9;22r[22;1H
+[1;24r[8;18H [9;8H[34m[1K[8;17H[39m(B[m   [K[9;8H[1K[8;13H[8;22r[22;1H
+[1;24r[7;46H [8;8H[34m[1K[7;45H[39m(B[m   [8;8H[1K[7;42H           [8;8H[34m[1K[7;29H[39m(B[m               [K[8;8H[1K[7;13H[7;22r[22;1H
+[1;24r[6;18H [7;8H[34m[1K[6;17H[39m(B[m [3d[2;22r[2;1H[10T[1;24r[3;13H[34m</td>[4;13H<td valign="top">[39m(B[m28-02-2020[34m<br>[5;13H</td>[6;13H<td valign="top"><a href="/cs18c/cs18c16/2802/report.txt">[39m(B[mreport.tx$[7;13H[34m</td>[8;13H<td valign="top"><br>[9;13H</td>[10;11H</tr>[11;11H<tr>[12d</td>[10d[39m(B[m[11d[12;16H[13d[14d[15d[16d  [K[17;8H[1K[16;13H[16;22r[22;1H
+[1;24r[15;38H [16;8H[34m[1K[15;37H[39m(B[m   [16;8H[1K[15;34H     [16;8H[34m[1K[15;29H[39m(B[m               [K[16;8H[1K[15;13H[15;22r[22;1H
+[1;24r[21;9H[34m<div align="center"><a href="https://github.com/ceccs18c47/cs232">[39m(B[mLink $[14;18H [15;8H[34m[1K[14;17H[39m(B[m   [K[15;8H[1K[14;13H[14;22r[22;1H
+[1;24r[21;3H[34m</body>[13;35H[39m(B[m [14;8H[34m[1K[13;34H[39m(B[m   [14;8H[1K[13;31H  [14;8H[34m[1K[13;29H[39m(B[m               [K[14;8H[1K[13;13H[13;22r[22;1H
+[1;24r[21;1H[34m</html>[12;18H[39m(B[m [13;8H[34m[1K[12;17H[39m(B[m   [K[13;8H[1K[12;13H[12;22r[22;1H
+[1;24r[11;15H [12;8H[34m[1K[11;14H[39m(B[m  [K[12;8H[1K[A   [22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: index.html                              [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[22;31H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 98 lines ](B[m[K[24;80H[24;1H[?1049l[?1l>]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ nano index.html
+[?1049h[1;24r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6              File: index.html                                  [4;1H(B[m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[5d[34m<html>[6;3H<head>[7;5H<meta http-equiv="content-type" content="text/html; charset=UTF-8">[8;5H<title>[39m(B[mcs18c16[34m</title>[9;3H</head>[10;3H<body>[11;5H<div align="center">[39m(B[mS4C[34m<b>[39m(B[m CS232 Free and Open Source Software Lab[34m<br>[12;9H<br>[13;9H[39m(B[mHome page of cs18c16 Sample[34m<br>[14;7H</b>[16d<br><br>[17;2H<table width="100%" border="1" cellspacing="2" cellpadding="2">[18;9H<tbody>[19;11H<tr>[20d<td valign="top"><b>[39m(B[mNo[34m</b><br>[21;13H</td>[22;32H[39m(B[0;7m[ Read 98 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m WriteOut  (B[0;7m^R(B[m Read File (B[0;7m^Y(B[m Prev Page (B[0;7m^K(B[m Cut Text  (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^J(B[m Justify   (B[0;7m^W(B[m Where Is  (B[0;7m^V(B[m Next Page (B[0;7m^U(B[m UnCut Text(B[0;7m^T(B[m To Spell[3d[4d[34m<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">[39m(B[m[5d[6d[7d[8d[9d[10d[11d[12d[13d[14d[15d[16d[17d[18d[19d[20d[21d7[2;21r8[10S[1;24r[2;1H[K[12;13H[34m<td valign="top">[39m(B[mExperiment Description[34m<br>[13;13H</td>[14;13H<td valign="top">[39m(B[mCode Link[34m<br>[15;13H</td>[16;13H<td valign="top">[39m(B[mDate of [34m<br>[17;15H[39m(B[mUpload[34m<br>[18;13H</td>[19;13H<td valign="top">[39m(B[mDescription/Link[34m<br>[20;13H</td>[21;13H<td valign="top">[39m(B[mResult/Link[34m<br>[12d[39m(B[m[13d[14d[15d[16d[17d[18d[22d[K[19d[20d[21d7[3;21r8[10S[1;24r[9;21r[9;1H[5T[1;24r[9;13H[34m<td valign="top">[39m(B[mDescription/Link[34m<br>[10;13H</td>[11;13H<td valign="top">[39m(B[mResult/Link[34m<br>[12;13H</td>[13;11H</tr>[14;11H<tr>[39m(B[m[K[15d[34mtd valign="top">[39m(B[m1[34m<br>[16;14H/td>[39m(B[m[K[17;13H[34m<td valign="top">[39m(B[m(t1)[34m<br>[18;13H</td>[19;13H<td valign="top"><a href="/cs18c/cs18c16/3101/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[20;13H[34m</td>[21;13H<td valign="top">[39m(B[m31-01-2020[34m<br>[12d[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top"><a href="/cs18c/cs18c16/3101/report.txt">[39m(B[mreport.tx$[14;13H[34m</td>[15;13H<td valign="top"><br>[16;13H</td>[17;11H</tr>[18;11H<tr>[19d<td valign="top">[39m(B[m2[34m<br>[20;13H</td>[21;13H<td valign="top">[39m(B[m(t3)[34m<br>[12d[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m</td>[13;13H<td valign="top"><a href="/cs18c/cs18c16/0702/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[14;13H[34m</td>[15;13H<td valign="top">[39m(B[mo7-02-2020[34m<br>[16;13H</td>[17;13H<td valign="top"><a href="/cs18c/cs18c16/0702/report.txt">[39m(B[mreport.tx$[18;13H[34m</td>[19;13H<td valign="top"><br>[20;13H</td>[21;11H</tr>[12d[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d[2;21r[2;1H[4T[1;24r[3;13H[34m<td valign="top"><a href="/cs18c/cs18c16/0702/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[4;13H[34m</td>[5;13H<td valign="top">[39m(B[mo7-02-2020[34m<br>[6;13H</td>[7;54H0702[13;30H[39m(B[m3[15dt4[17;54H[34m1[19;30H[39m(B[m1[21;54H[34m1[12d[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;21r8[10S[1;24r[9;21r[9;1H[4T[1;24r[9;13H[34m<td valign="top">[39m(B[m17-02-2020[34m<br>[10;13H</td>[11;13H<td valign="top"><a href="/cs18c/cs18c16/1702/report.txt">[39m(B[mreport.tx$[12;13H[34m</td>[13;30H<br>[39m(B[m[K[15;11H[34m</tr>[39m(B[m[K[16;11H[34m<tr>[17d</td>[18;13H<td valign="top">[39m(B[m4[34m<br>[19;13H</td>[20;13H<td valign="top">[39m(B[m(t2),(t5),(t9)[34m<br>[21;13H</td>[12d[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;13H[34m<td valign="top"><a href="/cs18c/cs18c16/2802/work.txt">[39m(B[mwork.txt[34m</a[39m(B[m$[13;13H[34m</td>[14;13H<td valign="top">[39m(B[m28-02-2020[34m<br>[15;13H</td>[16;13H<td valign="top"><a href="/cs18c/cs18c16/2802/report.txt">[39m(B[mreport.tx$[17;13H[34m</td>[18;13H<td valign="top"><br>[19;13H</td>[20;11H</tr>[12d[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d7[3;22r8[22d[10S[1;24r[12;9H[34m</tbody>[13;7H</table>[14;7H<b><br>[15;9H<br>[16;7H</b></div>[18;9H<div align="center"><a href="https://github.com/ceccs18c47/cs232">[39m(B[mLink $[19;3H[34m</body>[20d</html>[12d[39m(B[m[13d[14d[15d[16d[17d[18d[19d[20d[21d[A[A[A[18;9H[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1;71H(B[0;7mModified[18;66H(B[0m[34m/cs232">[39m(B[mLink t[18;66H[34m/cs232">[39m(B[mLink to[18;65H[34m1/cs232">[39m(B[mLink t[18;66H[34m6/cs232">[39m(B[mLink [18;67H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: index.html                              [23d^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[22;31H[23d[39;49m(B[m[J[1;71H(B[0;7m        [22;31H(B[m[1K (B[0;7m[ Wrote 98 lines ](B[m[K[24;80H[24;1H[?1049l[?1l>]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ mk[K[Kcd s1
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s1s4c2@CC2-25:~/ceccs18c16/2802/s1$ ft[K[Kst[Kftp 19[K[Kcs18c16@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c16@192.168.0.30's password: 
+Connection closed by 192.168.0.30
+Couldn't read packet: Connection reset by peer
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s1s4c2@CC2-25:~/ceccs18c16/2802/s1$ sftp cs18c16@192.168.0.30cd s1[Ksftp cs18c16@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c16@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0702                1702                2802                3101                
+examples.desktop    temp2.txt           
+sftp> cd 2802
+sftp> get[K[K[Kls
+s1  
+sftp> cd s1
+sftp> ls
+cgpa2.txt       result2.pdf     result_CHN.txt  script2.txt     student.txt     
+sftp> get result2.pdf
+Fetching /home/cs18c16/2802/s1/result2.pdf to result2.pdf
+/home/cs18c16/2802/s1/result2.pdf               0%    0     0.0KB/s   --:-- ETA/home/cs18c16/2802/s1/result2.pdf             100%   28KB  27.5KB/s   00:00    
+sftp> exit
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s1s4c2@CC2-25:~/ceccs18c16/2802/s1$ sftp cs18c16@192.168.0.30cd s1[Ksftp cs18c16@192.168.0.30cd s1[K[K2[K[K[K[K[Kifconfig
+eth0      Link encap:Ethernet  HWaddr 38:d5:47:b8:d2:08  
+          inet addr:192.168.0.187  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::3ad5:47ff:feb8:d208/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:237193 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:24886 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:37428380 (37.4 MB)  TX bytes:4702238 (4.7 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:935 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:935 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:233876 (233.8 KB)  TX bytes:233876 (233.8 KB)
+
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s1s4c2@CC2-25:~/ceccs18c16/2802/s1$ ifconfigsftp cs18c16@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c16@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> put cgpa.txt
+Uploading cgpa.txt to /home/cs18c16/cgpa.txt
+cgpa.txt                                        0%    0     0.0KB/s   --:-- ETAcgpa.txt                                      100% 2174     2.1KB/s   00:00    
+sftp> putr[K result_CHN.txt
+Uploading result_CHN.txt to /home/cs18c16/result_CHN.txt
+result_CHN.txt                                  0%    0     0.0KB/s   --:-- ETAresult_CHN.txt                                100%   43KB  43.5KB/s   00:00    
+sftp> put result2.pdf
+Uploading result2.pdf to /home/cs18c16/result2.pdf
+result2.pdf                                     0%    0     0.0KB/s   --:-- ETAresult2.pdf                                   100%   28KB  27.5KB/s   00:00    
+sftp> put result_CHN.pdf
+Uploading result_CHN.pdf to /home/cs18c16/result_CHN.pdf
+result_CHN.pdf                                  0%    0     0.0KB/s   --:-- ETAresult_CHN.pdf                                100%   26KB  26.4KB/s   00:00    
+sftp> put scripo[Kt.txt
+Uploading script.txt to /home/cs18c16/script.txt
+script.txt                                      0%    0     0.0KB/s   --:-- ETAscript.txt                                    100% 1513     1.5KB/s   00:00    
+sftp> put student.txt
+Uploading student.txt to /home/cs18c16/student.txt
+student.txt                                     0%    0     0.0KB/s   --:-- ETAstudent.txt                                   100% 1677     1.6KB/s   00:00    
+sftp> put work.txt
+Uploading work.txt to /home/cs18c16/work.txt
+work.txt                                        0%    0     0.0KB/s   --:-- ETAwork.txt                                      100% 4096     4.0KB/s   00:00    
+sftp> ls
+0702                1702                2802                3101                
+cgpa.txt            examples.desktop    result2.pdf         result_CHN.pdf      
+result_CHN.txt      script.txt          student.txt         temp2.txt           
+work.txt            
+sftp> mc [Kv re
+result2.pdf     result_CHN.pdf  result_CHN.txt  
+[Ksftp> mv result2.pdf [1@.r[1@/rresult2.pdf 2802/
+Invalid command.
+sftp> claer[K[K[K[K[Krm res
+result2.pdf     result_CHN.pdf  result_CHN.txt  
+[Ksftp> rm result2[Ksftp> rm result2.pdf 
+Removing /home/cs18c16/result2.pdf
+sftp> ls
+0702                1702                2802                3101                
+cgpa.txt            examples.desktop    result_CHN.pdf      result_CHN.txt      
+script.txt          student.txt         temp2.txt           work.txt            
+sftp> rm cgpa.txt
+Removing /home/cs18c16/cgpa.txt
+sftp> r[Kls
+0702                1702                2802                3101                
+examples.desktop    result_CHN.pdf      result_CHN.txt      script.txt          
+student.txt         temp2.txt           work.txt            
+sftp> rm work.txt
+`\024\010N#\177                                                           0%    9     3.6KB/s   00:01 ETARemoving /home/cs18c16/work.txt
+sftp> rm re
+result_CHN.pdf   result_CHN.txt   
+[Ksftp> rm result_CHN.txt
+Removing /home/cs18c16/result_CHN.txt
+sftp> rm
+rm     rmdir  
+[Ksftp> rm 
+0702/                1702/                2802/                3101/                examples.desktop     
+result_CHN.pdf       script.txt           student.txt          temp2.txt            
+[Ksftp> rm re[Ksftp> rm result_CHN.pdf 
+Removing /home/cs18c16/result_CHN.pdf
+sftp> rm script.txt
+Removing /home/cs18c16/script.txt
+sftp> ls
+0702                 1702                 2802                 3101                 examples.desktop     
+student.txt          temp2.txt            
+sftp> rm student.txt
+Removing /home/cs18c16/student.txt
+sftp> vd[K[Kcs[Kd 2802
+sftp> ls
+s1  
+sftp> mkdu[Kir s2
+sftp> cd s2
+sftp> put cgpa.txt
+Uploading cgpa.txt to /home/cs18c16/2802/s2/cgpa.txt
+`\024\010N#\177                                 0%    9     3.2KB/s - stalled -cgpa.txt                                        0%    0     0.0KB/s   --:-- ETAcgpa.txt                                      100% 2174     2.1KB/s   00:00    
+sftp> put result_CHN.pdf
+Uploading result_CHN.pdf to /home/cs18c16/2802/s2/result_CHN.pdf
+result_CHN.pdf                                  0%    0     0.0KB/s   --:-- ETAresult_CHN.pdf                                100%   26KB  26.4KB/s   00:00    
+sftp> put result_CHN.txt
+Uploading result_CHN.txt to /home/cs18c16/2802/s2/result_CHN.txt
+result_CHN.txt                                  0%    0     0.0KB/s   --:-- ETAresult_CHN.txt                                100%   43KB  43.5KB/s   00:00    
+sftp> put script.txt
+Uploading script.txt to /home/cs18c16/2802/s2/script.txt
+script.txt                                      0%    0     0.0KB/s   --:-- ETAscript.txt                                    100% 1513     1.5KB/s   00:00    
+sftp> put student.txct[K[Kt\
+Uploading student.txt to /home/cs18c16/2802/s2/student.txt
+student.txt                                     0%    0     0.0KB/s   --:-- ETAstudent.txt                                   100% 1677     1.6KB/s   00:00    
+sftp> ls
+cgpa.txt        result_CHN.pdf  result_CHN.txt  script.txt      student.txt     
+sftp> ../
+Invalid command.
+sftp> cd ../
+sftp> ls
+s1  s2  
+sftp> exit
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s1s4c2@CC2-25:~/ceccs18c16/2802/s1$ ../
+bash: ../: Is a directory
+]0;s4c2@CC2-25: ~/ceccs18c16/2802/s1s4c2@CC2-25:~/ceccs18c16/2802/s1$ cd .//[K[K./
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ ls
+cgpa.txt     result_CHN.pdf  [0m[01;34ms2[0m           student.txt   work.txt
+index.html   result_CHN.txt  [01;32mscript.txt[0m   student.txt~
+index.html~  [01;34ms1[0m              [01;32mscript.txt~[0m  work2.txt
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ lscd ../[3P../sftp cs18c16@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c16@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0702                1702                2802                3101                
+examples.desktop    temp2.txt           
+sftp> cd 2802
+sftp> mkdir webpage
+sftp> ld[Ks
+s1        s2        webpage   
+sftp> cd webpage
+sftp> put index.html
+Uploading index.html to /home/cs18c16/2802/webpage/index.html
+index.html                                      0%    0     0.0KB/s   --:-- ETAindex.html                                    100% 3116     3.0KB/s   00:00    
+sftp> cd ../
+sftp> ls
+s1        s2        webpage   
+sftp> exit
+]0;s4c2@CC2-25: ~/ceccs18c16/2802s4c2@CC2-25:~/ceccs18c16/2802$ sftp cs18c16@192.168.0.30ls[Ksftp cs18c16@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c16@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+0702                1702                2802                3101                
+examples.desktop    temp2.txt           
+sftp> cd 1702
+sftp> ls
+Report.txt      s1.txt          s1result.txt    work.txt        work1.txt       
+sftp> ../
+Invalid command.
+sftp> cd ../
+sftp> ls
+0702                1702                2802                3101                
+examples.desktop    temp2.txt           
+sftp> cd 2802
+sftp> ls
+s1        s2        webpage   
+sftp> cd ../
+sftp> pwd
+Remote working directory: /home/cs18c16
+sftp> put index.html

@@ -1,0 +1,68 @@
+CEC CS 18 c16
+Emmanuel Shine Joseph
+28-02-2020
+--------------------------------
+#1: Aim/task
+---------------------------------
+t2-Scripting task
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+1.result_CHN.pdf
+2.student.txt
+3.result2.pdf (s2 Result) 
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+1.cgpa.txt
+2.cgpa2.txt
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:Aim 
+ t5-ftp usage
+
+Input -
+commands-
+put
+get
+mkdir
+cd
+ls
+rm
+ 
+Output-
+put-copy one file from the local to the remote machine.
+cd - change directory on the remote machine
+get - copy one file from the remote to the local machine.
+
+Result:
+ uploaded file to the ftp.
+#3:
+
+Aim 
+
+t9-Upload webpage to the server
+
+Command/Shell script/Program name
+
+	touch index.html
+	sftp cs18c06@192.169.0.30
+	put index.html
+Result:
+---------------
+
+	Uploaded page can be viewed in http://192.168.0.30/cs18c/cs18c16/
+
+#4:
+
+#5:
+
