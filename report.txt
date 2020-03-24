@@ -1,33 +1,29 @@
-CEC CS 18 c16
+CEC CS 18 C16 24-03-2020
 Emmanuel Shine Joseph
-31/01/2020
+
 --------------------------------
-#1: Aim/task
-Familiarisation of linux commands
+#1: Aim/task: Setting up http and ftp server
 ---------------------------------
 Command/Shell script/Program name
 
-
-
-touch
-cut -f-3
-cat >
-ls
-pwd
-mkdir
-
 ---------------------------------
+	sudo apt-get install vsftpd
+	
+	sudo gedit /tec/vsftpd.conf
 
-Input: (If relevant)
----------------
-sort1.txt
-country.txt
-state.txt
+	ftp localhost
 
---------------------------------
+	sudo apt-get install apache2
+
+	sudo gedit /var/www/html/index.html 
+
+
+
 Output: or Input & Output (whichever is applicable)
 
-output received in the terminal.
+	#ftp server available at 192.168.1.2 : screen shot of 		localhost accessed is attached.
+
+	#Apache2 http server : screenshot of weebpage attached 
 -------------------
 Remarks if any:
 
@@ -37,11 +33,9 @@ Remarks if any:
 
 -------------------------------------
 -------------------------------------
-#2:
 
-#3:
 
-#4:
 
-#5:
+
+
 
