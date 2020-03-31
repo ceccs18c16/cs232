@@ -1,0 +1,106 @@
+Script started on Sunday 29 March 2020 11:02:58 AM IST
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit perl[K[K[K[Khelloworl[K[K[K[K[K[K[K[K[Kp1.pl
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl p1.pl
+Hello world !.
+I am fine]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit uppercase.p1
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl uppercase.pl
+Can't open perl script "uppercase.pl": No such file or directory
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl uppercase.pl[Kgedit uppercase.pl
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl uppercaes[K[Kse.pl
+WELCOMING TO PROGRAMMING
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ [K]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit subtracyt[K[Kt.pl
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl subtraction.pl
+Can't open perl script "subtraction.pl": No such file or directory
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl subtraction.pl[1P.pl[1P.pl[1P.pl
+Value of  = 9 and Value of  = 5Value of c is =4
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl subtract.plion.pl[2Pgedit subtract.pl
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit subtract.pl[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C
+Value of  = 9 and Value of  = 5
+Value of c is =4
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit fibonacci.pl
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl fibonacci.pl
+5
+The fibonacci series :0The fibonacci series :1The fibonacci series :1The fibonacci series :2The fibonacci series :3]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl fibonacci.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit fibonacci.pl[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C
+7
+0: 
+1: 
+1: 
+2: 
+3: 
+5: 
+8: 
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit report.txt
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit report.txtperl fibonacci.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ prel[K[K[Kerl fibonacci.pl 
+Enter the number:7
+0: 
+1: 
+1: 
+2: 
+3: 
+5: 
+8: 
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl fibonacci.pl gedit fibonacci.pl[2Preport.txtperl fibonacci.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pperl subtract.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl subtract.pl 
+Enter first value :	5
+Enter second value :	4
+Value of  = 5
+ and Value of  = 4
+
+Value of c is =1
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit uppercase.p
+^Z
+[1]+  Stopped                 gedit uppercase.p
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit uppercase.pl
+Failed to register: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+[1]+  Killed                  gedit uppercase.p
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit uppercase.pl
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl uppercase.pl
+hello
+ HELLO
+ 
+WELCOMING TO PROGRAMMING
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl uppercase.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit uppercase.pl[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C
+Enter the string:	hello
+ HELLO
+ WELCOMING TO PROGRAMMING
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit report.txt 
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit report.txt perl uppercase.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[Kperl subtract.pl gedit subtract.pl
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl subtract.pl 
+Enter first value :	5
+Enter second value :	4
+Value of a = 5
+ and Value of b = 4
+
+Value of c is =1
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl subtract.pl gedit subtract.plreport.txt perl uppercase.plgedit report.txt perl uppercase.plgedit report.txt 
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit report.txt perl subtract.pl[Cgedit subtract.pl
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit subtract.plreport.txt perl subtract.pl[C
+Enter first value :	5
+Enter second value :	4
+Value of a = 5
+ and Value of b = 4
+Value of c is =1
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl subtract.pl gedit subtract.plreport.txt perl subtract.pl[Cgedit report.txt[Csubtract.pl
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit subtract.plperl subtract.pl 
+Enter first value :	5
+Enter second value :	4
+Value of a = 5
+ 	 and Value of b = 4
+Value of c is =1
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ perl subtract.pl gedit subtract.pl
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ gedit subtract.plperl subtract.pl 
+Enter first value :	7
+Enter second value :	9
+Value of a =7
+ and Value of b = 9
+Value of c is =-2
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ ls
+fibonacci.pl  report.txt   uppercase.p1  work.txt
+p1.pl         subtract.pl  uppercase.pl
+]0;emmanuel@emmanuel-Satellite-C850: ~/2903[01;32memmanuel@emmanuel-Satellite-C850[00m:[01;34m~/2903[00m$ exit
+exit
+
+Script done on Sunday 29 March 2020 12:11:41 PM IST

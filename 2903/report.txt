@@ -1,0 +1,65 @@
+CEC CS 18 C16
+Emmanuel Shine Joseph
+29/03/2020
+
+--------------------------------
+#1: Aim/task:Perl(t8.2)
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+	#Hello World program
+	/Perl/p1.pl
+
+	#Program to subtract two numbers:
+	/Perl/subtract.pl
+
+	#Program to find fibonacci series:
+	/Perl/fibonacci.pl
+
+	#Program to print the uppercase
+	/Perl/uppercase.pl
+
+
+
+
+--------------------------------
+Output: 
+	#Output of p1.pl
+	Hello world !.
+	I am fine
+
+	#Output of uppercase.pl
+	Enter the string: hello
+	HELLO
+	WELCOMING TO PROGRAMMING
+
+	#Output of subtract.pl
+	Enter first value: 5
+	Enter Second value :4
+	Values of a =5 and Value of b = 4
+	value of c is =1
+
+	#Output of fibonacci.pl
+	Enter the number :7
+	0
+	1
+	1
+	2
+	3
+	5
+	8	
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+
+
