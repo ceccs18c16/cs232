@@ -1,0 +1,65 @@
+CEC CS 18 C16
+Emmanuel Shine Joseph
+
+--------------------------------
+#1:Kernel Compilation (t8.4)
+---------------------------------
+Command/Shell script/Program name
+
+# To get the latest Linux kernel source code:
+	
+	wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.1.tar.xz
+
+# To extract tar.xz:
+	
+	$ unxz -v linux-5.4.1.tar.xz
+
+# To verify linux kernel tartball with pgp:
+
+	$ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.1.tar.sign
+
+	
+	$ tar xvf linux-5.4.1.tar
+# To configure the Linux kernel features and modules
+
+	$ cd linux-5.4.1
+	$ cp -v /boot/config-$(uname -r) .config
+
+# To install the required compilers and other tools (To install GCC)
+
+	$ sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev	
+
+
+# To configure the Kernel:
+
+	$make menuconfig
+
+# To compile a Linux Kernel
+	
+	$ make
+
+# To install the linux kernel modules and Linux kernel:
+
+	$ sudo make modules_install
+	$ sudo make install
+
+
+---------------------------------
+
+
+Output: or Input & Output (whichever is applicable)
+
+	# Compiled Kernel at /linux-5.4.1.
+	Screenshot of the comppiled files is attached - linux.png
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+
+
