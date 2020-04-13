@@ -1,0 +1,74 @@
+CEC CS 18 C16
+Emmanuel Shine Joseph
+
+--------------------------------
+#1: Aim/task :t 8.3: Lamp stack.
+---------------------------------
+Command/Shell script/Program name
+
+ #To update the package 
+	sudo apt-get update
+
+ # To install Apache
+	sudo apt-get install apache2
+
+ # To stop,start and enable Apache2 service
+	sudo systemctl stop apache2.service
+	sudo systemctl start apache2.service
+	sudo systemctl enable apache2.service
+
+# To install MariaDB Database Server
+	sudo apt-get install mariadb-server mariadb-client
+
+# The commands below can be used to stop, start and enable MariaDB service to always start up when the server boots:
+	sudo systemctl stop mysql.service
+	sudo systemctl start mysql.service
+	sudo systemctl enable mysql.service 
+
+# To install PHP and related modules. 
+
+	sudo apt install php libapache2-mod-php php-common php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli php-zip php-curl
+
+
+# To restar the apache2:
+	sudo systemctl restart apache2.service
+
+#8: Test PHP Processing on Web Server
+	sudo nano /var/www/html/info.php
+---------------------------------
+
+Input: (If relevant)
+---------------
+1: php file for showing version info
+	info.php
+	
+2: php file hosted in local host
+	index.php	
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:Linux installation 
+Command/Shell script/Program name
+---------------------------------
+	
+	# ubuntu installation of
+       	  Ubuntu 16.04.6 LTS
+
+	
+Output: 
+	
+	# Photos 1-5 (.jpg , .png) shows various steps of installation
+	
+	# Ubuntu 16.04.6 LTS is installed .
+
