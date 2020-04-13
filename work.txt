@@ -1,0 +1,448 @@
+Script started on Monday 13 April 2020 11:22:54 AM IST
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ apache2
+[Mon Apr 13 11:23:11.106154 2020] [core:warn] [pid 4384] AH00111: Config variable ${APACHE_LOCK_DIR} is not defined
+[Mon Apr 13 11:23:11.106212 2020] [core:warn] [pid 4384] AH00111: Config variable ${APACHE_PID_FILE} is not defined
+[Mon Apr 13 11:23:11.106226 2020] [core:warn] [pid 4384] AH00111: Config variable ${APACHE_RUN_USER} is not defined
+[Mon Apr 13 11:23:11.106230 2020] [core:warn] [pid 4384] AH00111: Config variable ${APACHE_RUN_GROUP} is not defined
+[Mon Apr 13 11:23:11.106242 2020] [core:warn] [pid 4384] AH00111: Config variable ${APACHE_LOG_DIR} is not defined
+[Mon Apr 13 11:23:11.113622 2020] [core:warn] [pid 4384] AH00111: Config variable ${APACHE_LOG_DIR} is not defined
+[Mon Apr 13 11:23:11.113783 2020] [core:warn] [pid 4384] AH00111: Config variable ${APACHE_LOG_DIR} is not defined
+[Mon Apr 13 11:23:11.113793 2020] [core:warn] [pid 4384] AH00111: Config variable ${APACHE_LOG_DIR} is not defined
+AH00526: Syntax error on line 74 of /etc/apache2/apache2.conf:
+Invalid Mutex directory in argument file:${APACHE_LOCK_DIR}
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudp[Ko m[Kapt install apache2
+[sudo] password for emmanuel: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+apache2 is already the newest version (2.4.18-2ubuntu3.14).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo systemctl stop apache2.service
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ ^V[Ksudo systemctl start apache2.service
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo systemctl enable apache2.service
+apache2.service is not a native service, redirecting to systemd-sysv-install
+Executing /lib/systemd/systemd-sysv-install enable apache2
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo apt-get install mariadb-server mariadb-cl ient
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libevent-core-2.0-5
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  libdbd-mysql-perl libdbi-perl libmysqlclient20 libreadline5
+  libterm-readkey-perl mariadb-client-10.0 mariadb-client-core-10.0
+  mariadb-common mariadb-server-10.0 mariadb-server-core-10.0
+Suggested packages:
+  libmldbm-perl libnet-daemon-perl libsql-statement-perl mailx mariadb-test
+  tinyca
+The following packages will be REMOVED:
+  mysql-client-5.7 mysql-client-core-5.7 mysql-server mysql-server-5.7
+  mysql-server-core-5.7
+The following NEW packages will be installed:
+  libdbd-mysql-perl libdbi-perl libmysqlclient20 libreadline5
+  libterm-readkey-perl mariadb-client mariadb-client-10.0
+  mariadb-client-core-10.0 mariadb-common mariadb-server mariadb-server-10.0
+  mariadb-server-core-10.0
+0 upgraded, 12 newly installed, 5 to remove and 0 not upgraded.
+Need to get 16.2 MB of archives.
+After this operation, 10.3 MB disk space will be freed.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 mariadb-common all 10.0.38-0ubuntu0.16.04.1 [15.7 kB]
+0% [1 mariadb-common 5,367 B/15.7 kB 34%]                                         2% [Working]            Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main i386 libdbi-perl i386 1.634-1build1 [747 kB]
+2% [2 libdbi-perl 1,141 B/747 kB 0%]3% [2 libdbi-perl 207 kB/747 kB 28%]4% [2 libdbi-perl 419 kB/747 kB 56%]5% [2 libdbi-perl 632 kB/747 kB 85%]                                    7% [Working]            Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 libmysqlclient20 i386 5.7.29-0ubuntu0.16.04.1 [674 kB]
+7% [3 libmysqlclient20 1,378 B/674 kB 0%]8% [3 libmysqlclient20 214 kB/674 kB 32%]9% [3 libmysqlclient20 426 kB/674 kB 63%]10% [3 libmysqlclient20 639 kB/674 kB 95%]                                          12% [Working]             Get:4 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 libdbd-mysql-perl i386 4.033-1ubuntu0.1 [85.7 kB]
+12% [4 libdbd-mysql-perl 296 B/85.7 kB 0%]                                          14% [Working]             Get:5 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 libterm-readkey-perl i386 2.33-1build1 [28.2 kB]
+14% [5 libterm-readkey-perl 1,325 B/28.2 kB 5%]                                               16% [Working]             Get:6 http://in.archive.ubuntu.com/ubuntu xenial/main i386 libreadline5 i386 5.2+dfsg-3build1 [103 kB]
+16% [6 libreadline5 990 B/103 kB 1%]                                    18% [Working]             Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 mariadb-client-core-10.0 i386 10.0.38-0ubuntu0.16.04.1 [4,363 kB]
+18% [7 mariadb-client-core-10.0 701 B/4,363 kB 0%]19% [7 mariadb-client-core-10.0 212 kB/4,363 kB 5%]20% [7 mariadb-client-core-10.0 425 kB/4,363 kB 10%]21% [7 mariadb-client-core-10.0 636 kB/4,363 kB 15%]22% [7 mariadb-client-core-10.0 851 kB/4,363 kB 20%]               392 kB/s 34s23% [7 mariadb-client-core-10.0 1,064 kB/4,363 kB 24%]             392 kB/s 34s24% [7 mariadb-client-core-10.0 1,277 kB/4,363 kB 29%]             392 kB/s 33s26% [7 mariadb-client-core-10.0 1,489 kB/4,363 kB 34%]             392 kB/s 33s26% [7 mariadb-client-core-10.0 1,613 kB/4,363 kB 37%]             392 kB/s 32s28% [7 mariadb-client-core-10.0 1,914 kB/4,363 kB 44%]             392 kB/s 32s29% [7 mariadb-client-core-10.0 2,127 kB/4,363 kB 49%]             392 kB/s 31s30% [7 mariadb-client-core-10.0 2,327 kB/4,363 kB 53%]             392 kB/s 31s31% [7 mariadb-client-core-10.0 2,540 kB/4,363 kB 58%]             392 kB/s 30s32% [7 mariadb-client-core-10.0 2,752 kB/4,363 kB 63%]             392 kB/s 30s33% [7 mariadb-client-core-10.0 2,965 kB/4,363 kB 68%]             392 kB/s 29s34% [7 mariadb-client-core-10.0 3,177 kB/4,363 kB 73%]             392 kB/s 28s35% [7 mariadb-client-core-10.0 3,391 kB/4,363 kB 78%]             423 kB/s 26s36% [7 mariadb-client-core-10.0 3,604 kB/4,363 kB 83%]             423 kB/s 25s37% [7 mariadb-client-core-10.0 3,817 kB/4,363 kB 87%]             423 kB/s 25s38% [7 mariadb-client-core-10.0 4,026 kB/4,363 kB 92%]             423 kB/s 24s39% [7 mariadb-client-core-10.0 4,239 kB/4,363 kB 97%]             423 kB/s 24s41% [Waiting for headers]                                          423 kB/s 24s                                                                               Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 mariadb-client-10.0 i386 10.0.38-0ubuntu0.16.04.1 [1,192 kB]
+41% [8 mariadb-client-10.0 759 B/1,192 kB 0%]                      423 kB/s 24s42% [8 mariadb-client-10.0 213 kB/1,192 kB 18%]                    423 kB/s 23s44% [8 mariadb-client-10.0 426 kB/1,192 kB 36%]                    423 kB/s 23s45% [8 mariadb-client-10.0 637 kB/1,192 kB 53%]                    423 kB/s 22s46% [8 mariadb-client-10.0 850 kB/1,192 kB 71%]                    423 kB/s 22s47% [8 mariadb-client-10.0 1,064 kB/1,192 kB 89%]                  423 kB/s 21s49% [Working]                                                      423 kB/s 21s                                                                               Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 mariadb-server-core-10.0 i386 10.0.38-0ubuntu0.16.04.1 [4,778 kB]
+49% [9 mariadb-server-core-10.0 0 B/4,778 kB 0%]                   423 kB/s 21s50% [9 mariadb-server-core-10.0 212 kB/4,778 kB 4%]                423 kB/s 20s51% [9 mariadb-server-core-10.0 425 kB/4,778 kB 9%]                424 kB/s 20s52% [9 mariadb-server-core-10.0 637 kB/4,778 kB 13%]               424 kB/s 19s53% [9 mariadb-server-core-10.0 850 kB/4,778 kB 18%]               424 kB/s 19s54% [9 mariadb-server-core-10.0 1,064 kB/4,778 kB 22%]             424 kB/s 18s55% [9 mariadb-server-core-10.0 1,277 kB/4,778 kB 27%]             424 kB/s 18s56% [9 mariadb-server-core-10.0 1,489 kB/4,778 kB 31%]             424 kB/s 17s57% [9 mariadb-server-core-10.0 1,699 kB/4,778 kB 36%]             424 kB/s 17s58% [9 mariadb-server-core-10.0 1,912 kB/4,778 kB 40%]             424 kB/s 16s59% [9 mariadb-server-core-10.0 2,123 kB/4,778 kB 44%]             424 kB/s 16s61% [9 mariadb-server-core-10.0 2,335 kB/4,778 kB 49%]             424 kB/s 15s62% [9 mariadb-server-core-10.0 2,548 kB/4,778 kB 53%]             424 kB/s 15s63% [9 mariadb-server-core-10.0 2,762 kB/4,778 kB 58%]             424 kB/s 14s64% [9 mariadb-server-core-10.0 2,973 kB/4,778 kB 62%]             424 kB/s 14s65% [9 mariadb-server-core-10.0 3,186 kB/4,778 kB 67%]             424 kB/s 13s66% [9 mariadb-server-core-10.0 3,399 kB/4,778 kB 71%]             424 kB/s 13s67% [9 mariadb-server-core-10.0 3,610 kB/4,778 kB 76%]             424 kB/s 12s68% [9 mariadb-server-core-10.0 3,824 kB/4,778 kB 80%]             424 kB/s 12s69% [9 mariadb-server-core-10.0 4,036 kB/4,778 kB 84%]             424 kB/s 11s70% [9 mariadb-server-core-10.0 4,249 kB/4,778 kB 89%]             424 kB/s 11s71% [9 mariadb-server-core-10.0 4,386 kB/4,778 kB 92%]             424 kB/s 10s71% [9 mariadb-server-core-10.0 4,386 kB/4,778 kB 92%]             424 kB/s 10s71% [9 mariadb-server-core-10.0 4,386 kB/4,778 kB 92%]             424 kB/s 10s71% [9 mariadb-server-core-10.0 4,386 kB/4,778 kB 92%]             424 kB/s 10s74% [Waiting for headers]                                           424 kB/s 9s                                                                               Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 mariadb-server-10.0 i386 10.0.38-0ubuntu0.16.04.1 [4,169 kB]
+75% [10 mariadb-server-10.0 65.5 kB/4,169 kB 2%]                    424 kB/s 9s77% [10 mariadb-server-10.0 530 kB/4,169 kB 13%]                    424 kB/s 8s78% [10 mariadb-server-10.0 757 kB/4,169 kB 18%]                    425 kB/s 8s79% [10 mariadb-server-10.0 918 kB/4,169 kB 22%]                    425 kB/s 7s79% [10 mariadb-server-10.0 918 kB/4,169 kB 22%]                    425 kB/s 7s81% [10 mariadb-server-10.0 1,395 kB/4,169 kB 33%]                  425 kB/s 6s82% [10 mariadb-server-10.0 1,608 kB/4,169 kB 39%]                  425 kB/s 6s83% [10 mariadb-server-10.0 1,820 kB/4,169 kB 44%]                  425 kB/s 5s84% [10 mariadb-server-10.0 1,937 kB/4,169 kB 46%]                  425 kB/s 5s84% [10 mariadb-server-10.0 1,937 kB/4,169 kB 46%]                  425 kB/s 5s86% [10 mariadb-server-10.0 2,458 kB/4,169 kB 59%]                  425 kB/s 4s87% [10 mariadb-server-10.0 2,671 kB/4,169 kB 64%]                  425 kB/s 3s89% [10 mariadb-server-10.0 2,885 kB/4,169 kB 69%]                  425 kB/s 3s90% [10 mariadb-server-10.0 3,097 kB/4,169 kB 74%]                  425 kB/s 2s91% [10 mariadb-server-10.0 3,308 kB/4,169 kB 79%]                  425 kB/s 2s91% [10 mariadb-server-10.0 3,321 kB/4,169 kB 80%]                  425 kB/s 2s93% [10 mariadb-server-10.0 3,718 kB/4,169 kB 89%]                  425 kB/s 1s93% [10 mariadb-server-10.0 3,865 kB/4,169 kB 93%]                  425 kB/s 0s95% [10 mariadb-server-10.0 4,160 kB/4,169 kB 100%]                 425 kB/s 0s97% [Working]                                                       425 kB/s 0s                                                                               Get:11 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 mariadb-client all 10.0.38-0ubuntu0.16.04.1 [13.0 kB]
+97% [11 mariadb-client 0 B/13.0 kB 0%]                              425 kB/s 0s                                                                               Get:12 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 mariadb-server all 10.0.38-0ubuntu0.16.04.1 [13.1 kB]
+98% [12 mariadb-server 322 B/13.1 kB 2%]                            425 kB/s 0s100% [Working]                                                      425 kB/s 0s                                                                               Fetched 16.2 MB in 38s (419 kB/s)
+Preconfiguring packages ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 213742 files and directories currently installed.)
+Removing mysql-server (5.7.29-0ubuntu0.16.04.1) ...
+Removing mysql-server-5.7 (5.7.29-0ubuntu0.16.04.1) ...
+update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Removing mysql-client-5.7 (5.7.29-0ubuntu0.16.04.1) ...
+Removing mysql-client-core-5.7 (5.7.29-0ubuntu0.16.04.1) ...
+Removing mysql-server-core-5.7 (5.7.29-0ubuntu0.16.04.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Selecting previously unselected package mariadb-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 213522 files and directories currently installed.)
+Preparing to unpack .../mariadb-common_10.0.38-0ubuntu0.16.04.1_all.deb ...
+Unpacking mariadb-common (10.0.38-0ubuntu0.16.04.1) ...
+Selecting previously unselected package libdbi-perl.
+Preparing to unpack .../libdbi-perl_1.634-1build1_i386.deb ...
+Unpacking libdbi-perl (1.634-1build1) ...
+Selecting previously unselected package libmysqlclient20:i386.
+Preparing to unpack .../libmysqlclient20_5.7.29-0ubuntu0.16.04.1_i386.deb ...
+Unpacking libmysqlclient20:i386 (5.7.29-0ubuntu0.16.04.1) ...
+Selecting previously unselected package libdbd-mysql-perl.
+Preparing to unpack .../libdbd-mysql-perl_4.033-1ubuntu0.1_i386.deb ...
+Unpacking libdbd-mysql-perl (4.033-1ubuntu0.1) ...
+Selecting previously unselected package libterm-readkey-perl.
+Preparing to unpack .../libterm-readkey-perl_2.33-1build1_i386.deb ...
+Unpacking libterm-readkey-perl (2.33-1build1) ...
+Selecting previously unselected package libreadline5:i386.
+Preparing to unpack .../libreadline5_5.2+dfsg-3build1_i386.deb ...
+Unpacking libreadline5:i386 (5.2+dfsg-3build1) ...
+Selecting previously unselected package mariadb-client-core-10.0.
+Preparing to unpack .../mariadb-client-core-10.0_10.0.38-0ubuntu0.16.04.1_i386.deb ...
+Unpacking mariadb-client-core-10.0 (10.0.38-0ubuntu0.16.04.1) ...
+Selecting previously unselected package mariadb-client-10.0.
+Preparing to unpack .../mariadb-client-10.0_10.0.38-0ubuntu0.16.04.1_i386.deb ...
+Unpacking mariadb-client-10.0 (10.0.38-0ubuntu0.16.04.1) ...
+Selecting previously unselected package mariadb-server-core-10.0.
+Preparing to unpack .../mariadb-server-core-10.0_10.0.38-0ubuntu0.16.04.1_i386.deb ...
+Unpacking mariadb-server-core-10.0 (10.0.38-0ubuntu0.16.04.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Setting up mariadb-common (10.0.38-0ubuntu0.16.04.1) ...
+update-alternatives: using /etc/mysql/mariadb.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Selecting previously unselected package mariadb-server-10.0.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 213872 files and directories currently installed.)
+Preparing to unpack .../mariadb-server-10.0_10.0.38-0ubuntu0.16.04.1_i386.deb ...
+/var/lib/mysql: found previous version 5.7
+[?1049h[1;24r[4l[?25l(B[m[37m[40m[1;24r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[4;2H[30m[47m┌────────────────────┤ [31mConfiguring mariadb-server-10.0[30m ├────────────────────┐[5;2H│                                                                           │[97m[40m [6;2H[30m[47m│ The old data directory will be saved at new location.                     │[97m[40m [7;2H[30m[47m│                                                                           │[97m[40m [8;2H[30m[47m│ A file named /var/lib/mysql/debian-*.flag exists on this system. The      │[97m[40m [9;2H[30m[47m│ number indicated a database binary format version that cannot             │[97m[40m [10;2H[30m[47m│ automatically be upgraded (or downgraded).                                │[97m[40m [11;2H[30m[47m│                                                                           │[97m[40m [12;2H[30m[47m│ Therefore the previous data directory will be renamed to                  │[97m[40m [13;2H[30m[47m│ /var/lib/mysql-* and a new data directory will be initialized at          │[97m[40m [14;2H[30m[47m│ /var/lib/mysql.                                                           │[97m[40m [15;2H[30m[47m│                                                                           │[97m[40m [16;2H[30m[47m│ Please manually export/import your data (e.g. with mysqldump) if needed.  │[97m[40m [17;2H[30m[47m│                                                                           │[97m[40m [18;2H[30m[47m│                                  [37m[41m<Ok>[30m[47m                                     │[97m[40m [19;2H[30m[47m│                                                                           │[97m[40m [20;2H[30m[47m└───────────────────────────────────────────────────────────────────────────┘[97m[40m [21;3H                                                                             [18;38H[?12l[?25h[24;1H[37m(B[m[39;49m[K[?1049lThe file /var/lib/mysql/debian-5.7.flag indicated a
+version that cannot automatically be upgraded. Therefore the
+previous data directory will be renamed to /var/lib/mysql-5.7 and
+a new data directory will be initialized at /var/lib/mysql.
+Please manually export/import your data (e.g. with mysqldump) if needed.
+Unpacking mariadb-server-10.0 (10.0.38-0ubuntu0.16.04.1) ...
+Selecting previously unselected package mariadb-client.
+Preparing to unpack .../mariadb-client_10.0.38-0ubuntu0.16.04.1_all.deb ...
+Unpacking mariadb-client (10.0.38-0ubuntu0.16.04.1) ...
+Selecting previously unselected package mariadb-server.
+Preparing to unpack .../mariadb-server_10.0.38-0ubuntu0.16.04.1_all.deb ...
+Unpacking mariadb-server (10.0.38-0ubuntu0.16.04.1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for ureadahead (0.100.0-19.1) ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for systemd (229-4ubuntu21.27) ...
+Setting up libdbi-perl (1.634-1build1) ...
+Setting up libmysqlclient20:i386 (5.7.29-0ubuntu0.16.04.1) ...
+Setting up libdbd-mysql-perl (4.033-1ubuntu0.1) ...
+Setting up libterm-readkey-perl (2.33-1build1) ...
+Setting up libreadline5:i386 (5.2+dfsg-3build1) ...
+Setting up mariadb-client-core-10.0 (10.0.38-0ubuntu0.16.04.1) ...
+Setting up mariadb-client-10.0 (10.0.38-0ubuntu0.16.04.1) ...
+Setting up mariadb-server-core-10.0 (10.0.38-0ubuntu0.16.04.1) ...
+Setting up mariadb-server-10.0 (10.0.38-0ubuntu0.16.04.1) ...
+Installing new version of config file /etc/apparmor.d/usr.sbin.mysqld ...
+Installing new version of config file /etc/init.d/mysql ...
+Installing new version of config file /etc/logrotate.d/mysql-server ...
+Installing new version of config file /etc/mysql/debian-start ...
+Setting up mariadb-client (10.0.38-0ubuntu0.16.04.1) ...
+Setting up mariadb-server (10.0.38-0ubuntu0.16.04.1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for ureadahead (0.100.0-19.1) ...
+Processing triggers for systemd (229-4ubuntu21.27) ...
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo systemctl stop mysql.service
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo systemctl start mysql.service
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo systemctl enable mysql.service
+mysql.service is not a native service, redirecting to systemd-sysv-install
+Executing /lib/systemd/systemd-sysv-install enable mysql
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo mysql_secure_installation
+
+NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
+      SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!
+
+In order to log into MariaDB to secure it, we'll need the current
+password for the root user.  If you've just installed MariaDB, and
+you haven't set the root password yet, the password will be blank,
+so you should just press enter here.
+
+Enter current password for root (enter for none): 
+OK, successfully used password, moving on...
+
+Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.
+
+You already have a root password set, so you can safely answer 'n'.
+
+Change the root password? [Y/n] n
+ ... skipping.
+
+By default, a MariaDB installation has an anonymous user, allowing anyone
+to log into MariaDB without having to have a user account created for
+them.  This is intended only for testing, and to make the installation
+go a bit smoother.  You should remove them before moving into a
+production environment.
+
+Remove anonymous users? [Y/n] y
+ ... Success!
+
+Normally, root should only be allowed to connect from 'localhost'.  This
+ensures that someone cannot guess at the root password from the network.
+
+Disallow root login remotely? [Y/n] y
+ ... Success!
+
+By default, MariaDB comes with a database named 'test' that anyone can
+access.  This is also intended only for testing, and should be removed
+before moving into a production environment.
+
+Remove test database and access to it? [Y/n] y
+ - Dropping test database...
+ ... Success!
+ - Removing privileges on test database...
+ ... Success!
+
+Reloading the privilege tables will ensure that all changes made so far
+will take effect immediately.
+
+Reload privilege tables now? [Y/n] y
+ ... Success!
+
+Cleaning up...
+
+All done!  If you've completed all of the above steps, your MariaDB
+installation should now be secure.
+
+Thanks for using MariaDB!
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo mysql -u root -p
+Enter password: 
+(B[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \g.
+(B[m(B[0;1mYour MariaDB connection id is 38
+Server version: 10.0.38-MariaDB-0ubuntu0.16.04.1 Ubuntu 16.04
+
+(B[m(B[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+(B[m(B[0;1mType 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+(B[mMariaDB [(none)]> \h
+(B[0;1m
+General information about MariaDB can be found at
+http://mariadb.org
+
+(B[m(B[0;1mList of all MySQL commands:
+(B[m(B[0;1mNote that all text commands must be first on line and end with ';'
+(B[m?         (\?) Synonym for `help'.
+clear     (\c) Clear the current input statement.
+connect   (\r) Reconnect to the server. Optional arguments are db and host.
+delimiter (\d) Set statement delimiter.
+edit      (\e) Edit command with $EDITOR.
+ego       (\G) Send command to mysql server, display result vertically.
+exit      (\q) Exit mysql. Same as quit.
+go        (\g) Send command to mysql server.
+help      (\h) Display this help.
+nopager   (\n) Disable pager, print to stdout.
+notee     (\t) Don't write into outfile.
+pager     (\P) Set PAGER [to_pager]. Print the query results via PAGER.
+print     (\p) Print current command.
+prompt    (\R) Change your mysql prompt.
+quit      (\q) Quit mysql.
+rehash    (\#) Rebuild completion hash.
+source    (\.) Execute an SQL script file. Takes a file name as an argument.
+status    (\s) Get status information from the server.
+system    (\!) Execute a system shell command.
+tee       (\T) Set outfile [to_outfile]. Append everything into given outfile.
+use       (\u) Use another database. Takes database name as argument.
+charset   (\C) Switch to another charset. Might be needed for processing binlog with multi-byte charsets.
+warnings  (\W) Show warnings after every statement.
+nowarning (\w) Don't show warnings after every statement.
+(B[0;1m
+For server side help, type 'help contents'
+
+(B[mMariaDB [(none)]> 
+[1]+  Stopped                 sudo mysql -u root -p
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo apt install php libapache2-mod-php php-co mmon php-mbstring php-xmlrpc php-soap php-gd php-xml php-intl php-mysql php-cli  php-zip php-curl
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+libapache2-mod-php is already the newest version (1:7.0+35ubuntu6.1).
+php is already the newest version (1:7.0+35ubuntu6.1).
+php-common is already the newest version (1:35ubuntu6.1).
+php-common set to manually installed.
+php-mysql is already the newest version (1:7.0+35ubuntu6.1).
+The following package was automatically installed and is no longer required:
+  libevent-core-2.0-5
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  libxmlrpc-epi0 libzip4 php7.0-curl php7.0-gd php7.0-intl php7.0-mbstring
+  php7.0-soap php7.0-xml php7.0-xmlrpc php7.0-zip
+The following NEW packages will be installed:
+  libxmlrpc-epi0 libzip4 php-cli php-curl php-gd php-intl php-mbstring
+  php-soap php-xml php-xmlrpc php-zip php7.0-curl php7.0-gd php7.0-intl
+  php7.0-mbstring php7.0-soap php7.0-xml php7.0-xmlrpc php7.0-zip
+0 upgraded, 19 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1,034 kB of archives.
+After this operation, 3,376 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m[33m0% [Connecting to in.archive.ubuntu.com (103.97.84.254)][0m                                                        Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 libzip4 i386 1.0.1-0ubuntu1 [45.3 kB]
+[33m                                                        0% [1 libzip4 1,143 B/45.3 kB 3%][0m[33m                                 5% [Working][0m            Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 php-cli all 1:7.0+35ubuntu6.1 [2,946 B]
+[33m5% [2 php-cli 2,553 B/2,946 B 87%][0m[33m                                  6% [Working][0m            Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 php7.0-curl i386 7.0.33-0ubuntu0.16.04.12 [29.1 kB]
+[33m6% [3 php7.0-curl 4,974 B/29.1 kB 17%][0m                                      Get:4 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 php-curl all 1:7.0+35ubuntu6.1 [1,928 B]
+[33m                                      9% [4 php-curl 951 B/1,928 B 49%][0m                                 Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 php7.0-gd i386 7.0.33-0ubuntu0.16.04.12 [27.8 kB]
+[33m10% [5 php7.0-gd 166 B/27.8 kB 1%][0m[33m                                  14% [Working][0m             Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 php-gd all 1:7.0+35ubuntu6.1 [1,924 B]
+[33m14% [6 php-gd 239 B/1,924 B 12%][0m[33m                                15% [Working][0m             Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 php7.0-intl i386 7.0.33-0ubuntu0.16.04.12 [133 kB]
+[33m15% [7 php7.0-intl 3,680 B/133 kB 3%][0m[33m                                     26% [Working][0m             Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 php-intl all 1:7.0+35ubuntu6.1 [1,934 B]
+[33m26% [8 php-intl 0 B/1,934 B 0%][0m[33m                               27% [Working][0m             Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 php7.0-mbstring i386 7.0.33-0ubuntu0.16.04.12 [470 kB]
+[33m27% [9 php7.0-mbstring 358 B/470 kB 0%][0m[33m44% [9 php7.0-mbstring 213 kB/470 kB 45%][0m[33m60% [9 php7.0-mbstring 424 kB/470 kB 90%][0m[33m                                         65% [Working][0m             Get:10 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 php-mbstring all 1:7.0+35ubuntu6.1 [1,940 B]
+[33m65% [10 php-mbstring 1,817 B/1,940 B 94%][0m[33m                                         66% [Working][0m             Get:11 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 php7.0-soap i386 7.0.33-0ubuntu0.16.04.12 [122 kB]
+[33m66% [11 php7.0-soap 1,018 B/122 kB 1%][0m[33m                                      76% [Working][0m             Get:12 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 php-soap all 1:7.0+35ubuntu6.1 [1,932 B]
+[33m76% [12 php-soap 41 B/1,932 B 2%][0m[33m                                 78% [Working][0m             Get:13 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 php7.0-xml i386 7.0.33-0ubuntu0.16.04.12 [120 kB]
+[33m78% [13 php7.0-xml 658 B/120 kB 1%][0m[33m                                   88% [Working][0m             Get:14 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 php-xml all 1:7.0+35ubuntu6.1 [1,954 B]
+[33m88% [14 php-xml 1,089 B/1,954 B 56%][0m[33m                                    89% [Waiting for headers][0m                         Get:15 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 libxmlrpc-epi0 i386 0.54.2-1.1ubuntu0.1 [33.6 kB]
+[33m89% [15 libxmlrpc-epi0 278 B/33.6 kB 1%][0m[33m                                        93% [Working][0m             Get:16 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 php7.0-xmlrpc i386 7.0.33-0ubuntu0.16.04.12 [13.6 kB]
+[33m93% [16 php7.0-xmlrpc 1,143 B/13.6 kB 8%][0m[33m                                         95% [Working][0m             Get:17 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 php-xmlrpc all 1:7.0+35ubuntu6.1 [1,938 B]
+[33m95% [17 php-xmlrpc 0 B/1,938 B 0%][0m[33m                                  96% [Working][0m             Get:18 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 php7.0-zip i386 7.0.33-0ubuntu0.16.04.12 [21.4 kB]
+[33m96% [18 php7.0-zip 577 B/21.4 kB 3%][0m[33m                                    99% [Working][0m             Get:19 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 php-zip all 1:7.0+35ubuntu6.1 [1,930 B]
+[33m99% [19 php-zip 1,404 B/1,930 B 73%][0m[33m                                    100% [Working][0m              Fetched 1,034 kB in 3s (312 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package libzip4:i386.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 213968 files and directories currently installed.)
+Preparing to unpack .../libzip4_1.0.1-0ubuntu1_i386.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [  1%][49m[39m [#.........................................................] 8Unpacking libzip4:i386 (1.0.1-0ubuntu1) ...
+7[24;0f[42m[30mProgress: [  2%][49m[39m [##........................................................] 87[24;0f[42m[30mProgress: [  3%][49m[39m [##........................................................] 8Selecting previously unselected package php-cli.
+Preparing to unpack .../php-cli_1%3a7.0+35ubuntu6.1_all.deb ...
+7[24;0f[42m[30mProgress: [  4%][49m[39m [###.......................................................] 8Unpacking php-cli (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [  5%][49m[39m [####......................................................] 87[24;0f[42m[30mProgress: [  6%][49m[39m [####......................................................] 8Selecting previously unselected package php7.0-curl.
+Preparing to unpack .../php7.0-curl_7.0.33-0ubuntu0.16.04.12_i386.deb ...
+7[24;0f[42m[30mProgress: [  7%][49m[39m [#####.....................................................] 8Unpacking php7.0-curl (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [  8%][49m[39m [#####.....................................................] 87[24;0f[42m[30mProgress: [  9%][49m[39m [######....................................................] 8Selecting previously unselected package php-curl.
+Preparing to unpack .../php-curl_1%3a7.0+35ubuntu6.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 10%][49m[39m [#######...................................................] 8Unpacking php-curl (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 11%][49m[39m [#######...................................................] 87[24;0f[42m[30mProgress: [ 12%][49m[39m [########..................................................] 8Selecting previously unselected package php7.0-gd.
+Preparing to unpack .../php7.0-gd_7.0.33-0ubuntu0.16.04.12_i386.deb ...
+7[24;0f[42m[30mProgress: [ 13%][49m[39m [########..................................................] 8Unpacking php7.0-gd (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 14%][49m[39m [#########.................................................] 87[24;0f[42m[30mProgress: [ 15%][49m[39m [##########................................................] 8Selecting previously unselected package php-gd.
+Preparing to unpack .../php-gd_1%3a7.0+35ubuntu6.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 16%][49m[39m [##########................................................] 8Unpacking php-gd (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 17%][49m[39m [###########...............................................] 87[24;0f[42m[30mProgress: [ 18%][49m[39m [###########...............................................] 8Selecting previously unselected package php7.0-intl.
+Preparing to unpack .../php7.0-intl_7.0.33-0ubuntu0.16.04.12_i386.deb ...
+7[24;0f[42m[30mProgress: [ 19%][49m[39m [############..............................................] 8Unpacking php7.0-intl (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 20%][49m[39m [#############.............................................] 87[24;0f[42m[30mProgress: [ 21%][49m[39m [#############.............................................] 8Selecting previously unselected package php-intl.
+Preparing to unpack .../php-intl_1%3a7.0+35ubuntu6.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 22%][49m[39m [##############............................................] 8Unpacking php-intl (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 23%][49m[39m [##############............................................] 87[24;0f[42m[30mProgress: [ 25%][49m[39m [###############...........................................] 8Selecting previously unselected package php7.0-mbstring.
+Preparing to unpack .../php7.0-mbstring_7.0.33-0ubuntu0.16.04.12_i386.deb ...
+7[24;0f[42m[30mProgress: [ 26%][49m[39m [################..........................................] 8Unpacking php7.0-mbstring (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 27%][49m[39m [################..........................................] 87[24;0f[42m[30mProgress: [ 28%][49m[39m [#################.........................................] 8Selecting previously unselected package php-mbstring.
+Preparing to unpack .../php-mbstring_1%3a7.0+35ubuntu6.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 29%][49m[39m [#################.........................................] 8Unpacking php-mbstring (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 30%][49m[39m [##################........................................] 87[24;0f[42m[30mProgress: [ 31%][49m[39m [###################.......................................] 8Selecting previously unselected package php7.0-soap.
+Preparing to unpack .../php7.0-soap_7.0.33-0ubuntu0.16.04.12_i386.deb ...
+7[24;0f[42m[30mProgress: [ 32%][49m[39m [###################.......................................] 8Unpacking php7.0-soap (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [####################......................................] 87[24;0f[42m[30mProgress: [ 34%][49m[39m [####################......................................] 8Selecting previously unselected package php-soap.
+Preparing to unpack .../php-soap_1%3a7.0+35ubuntu6.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 35%][49m[39m [#####################.....................................] 8Unpacking php-soap (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 36%][49m[39m [######################....................................] 87[24;0f[42m[30mProgress: [ 37%][49m[39m [######################....................................] 8Selecting previously unselected package php7.0-xml.
+Preparing to unpack .../php7.0-xml_7.0.33-0ubuntu0.16.04.12_i386.deb ...
+7[24;0f[42m[30mProgress: [ 38%][49m[39m [#######################...................................] 8Unpacking php7.0-xml (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 39%][49m[39m [#######################...................................] 87[24;0f[42m[30mProgress: [ 40%][49m[39m [########################..................................] 8Selecting previously unselected package php-xml.
+Preparing to unpack .../php-xml_1%3a7.0+35ubuntu6.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 41%][49m[39m [#########################.................................] 8Unpacking php-xml (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 42%][49m[39m [#########################.................................] 87[24;0f[42m[30mProgress: [ 43%][49m[39m [##########################................................] 8Selecting previously unselected package libxmlrpc-epi0:i386.
+Preparing to unpack .../libxmlrpc-epi0_0.54.2-1.1ubuntu0.1_i386.deb ...
+7[24;0f[42m[30mProgress: [ 44%][49m[39m [##########################................................] 8Unpacking libxmlrpc-epi0:i386 (0.54.2-1.1ubuntu0.1) ...
+7[24;0f[42m[30mProgress: [ 45%][49m[39m [###########################...............................] 87[24;0f[42m[30mProgress: [ 46%][49m[39m [############################..............................] 8Selecting previously unselected package php7.0-xmlrpc.
+Preparing to unpack .../php7.0-xmlrpc_7.0.33-0ubuntu0.16.04.12_i386.deb ...
+7[24;0f[42m[30mProgress: [ 47%][49m[39m [############################..............................] 8Unpacking php7.0-xmlrpc (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 48%][49m[39m [#############################.............................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 8Selecting previously unselected package php-xmlrpc.
+Preparing to unpack .../php-xmlrpc_1%3a7.0+35ubuntu6.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 51%][49m[39m [##############################............................] 8Unpacking php-xmlrpc (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 52%][49m[39m [###############################...........................] 87[24;0f[42m[30mProgress: [ 53%][49m[39m [###############################...........................] 8Selecting previously unselected package php7.0-zip.
+Preparing to unpack .../php7.0-zip_7.0.33-0ubuntu0.16.04.12_i386.deb ...
+7[24;0f[42m[30mProgress: [ 54%][49m[39m [################################..........................] 8Unpacking php7.0-zip (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 55%][49m[39m [#################################.........................] 87[24;0f[42m[30mProgress: [ 56%][49m[39m [#################################.........................] 8Selecting previously unselected package php-zip.
+Preparing to unpack .../php-zip_1%3a7.0+35ubuntu6.1_all.deb ...
+7[24;0f[42m[30mProgress: [ 57%][49m[39m [##################################........................] 8Unpacking php-zip (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 58%][49m[39m [##################################........................] 87[24;0f[42m[30mProgress: [ 59%][49m[39m [###################################.......................] 8Processing triggers for libapache2-mod-php7.0 (7.0.33-0ubuntu0.16.04.12) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Setting up libzip4:i386 (1.0.1-0ubuntu1) ...
+7[24;0f[42m[30mProgress: [ 60%][49m[39m [####################################......................] 87[24;0f[42m[30mProgress: [ 61%][49m[39m [####################################......................] 8Setting up php-cli (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 62%][49m[39m [#####################################.....................] 87[24;0f[42m[30mProgress: [ 63%][49m[39m [#####################################.....................] 8Setting up php7.0-curl (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 64%][49m[39m [######################################....................] 8
+Creating config file /etc/php/7.0/mods-available/curl.ini with new version
+7[24;0f[42m[30mProgress: [ 65%][49m[39m [#######################################...................] 8Setting up php-curl (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 66%][49m[39m [#######################################...................] 87[24;0f[42m[30mProgress: [ 67%][49m[39m [########################################..................] 8Setting up php7.0-gd (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 68%][49m[39m [########################################..................] 8
+Creating config file /etc/php/7.0/mods-available/gd.ini with new version
+7[24;0f[42m[30mProgress: [ 69%][49m[39m [#########################################.................] 8Setting up php-gd (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 70%][49m[39m [##########################################................] 87[24;0f[42m[30mProgress: [ 71%][49m[39m [##########################################................] 8Setting up php7.0-intl (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 72%][49m[39m [###########################################...............] 8
+Creating config file /etc/php/7.0/mods-available/intl.ini with new version
+7[24;0f[42m[30mProgress: [ 73%][49m[39m [###########################################...............] 8Setting up php-intl (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 75%][49m[39m [############################################..............] 87[24;0f[42m[30mProgress: [ 76%][49m[39m [#############################################.............] 8Setting up php7.0-mbstring (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 77%][49m[39m [#############################################.............] 8
+Creating config file /etc/php/7.0/mods-available/mbstring.ini with new version
+7[24;0f[42m[30mProgress: [ 78%][49m[39m [##############################################............] 8Setting up php-mbstring (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 79%][49m[39m [##############################################............] 87[24;0f[42m[30mProgress: [ 80%][49m[39m [###############################################...........] 8Setting up php7.0-soap (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 81%][49m[39m [################################################..........] 8
+Creating config file /etc/php/7.0/mods-available/soap.ini with new version
+7[24;0f[42m[30mProgress: [ 82%][49m[39m [################################################..........] 8Setting up php-soap (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 83%][49m[39m [#################################################.........] 87[24;0f[42m[30mProgress: [ 84%][49m[39m [#################################################.........] 8Setting up php7.0-xml (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 85%][49m[39m [##################################################........] 8
+Creating config file /etc/php/7.0/mods-available/dom.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/simplexml.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/wddx.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/xml.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/xmlreader.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/xmlwriter.ini with new version
+
+Creating config file /etc/php/7.0/mods-available/xsl.ini with new version
+7[24;0f[42m[30mProgress: [ 86%][49m[39m [###################################################.......] 8Setting up php-xml (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 87%][49m[39m [###################################################.......] 87[24;0f[42m[30mProgress: [ 88%][49m[39m [####################################################......] 8Setting up libxmlrpc-epi0:i386 (0.54.2-1.1ubuntu0.1) ...
+7[24;0f[42m[30mProgress: [ 89%][49m[39m [####################################################......] 87[24;0f[42m[30mProgress: [ 90%][49m[39m [#####################################################.....] 8Setting up php7.0-xmlrpc (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 91%][49m[39m [######################################################....] 8
+Creating config file /etc/php/7.0/mods-available/xmlrpc.ini with new version
+7[24;0f[42m[30mProgress: [ 92%][49m[39m [######################################################....] 8Setting up php-xmlrpc (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 93%][49m[39m [#######################################################...] 87[24;0f[42m[30mProgress: [ 94%][49m[39m [#######################################################...] 8Setting up php7.0-zip (7.0.33-0ubuntu0.16.04.12) ...
+7[24;0f[42m[30mProgress: [ 95%][49m[39m [########################################################..] 8
+Creating config file /etc/php/7.0/mods-available/zip.ini with new version
+7[24;0f[42m[30mProgress: [ 96%][49m[39m [#########################################################.] 8Setting up php-zip (1:7.0+35ubuntu6.1) ...
+7[24;0f[42m[30mProgress: [ 97%][49m[39m [#########################################################.] 87[24;0f[42m[30mProgress: [ 98%][49m[39m [##########################################################] 8Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for libapache2-mod-php7.0 (7.0.33-0ubuntu0.16.04.12) ...
+
+7[0;24r8[1A[J]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ php -v
+PHP 7.0.33-0ubuntu0.16.04.12 (cli) ( NTS )
+Copyright (c) 1997-2017 The PHP Group
+Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
+    with Zend OPcache v7.0.33-0ubuntu0.16.04.12, Copyright (c) 1999-2017, by Zend Technologies
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo nano /etc/apache2/mods-enabled/dir.conf
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;39H(B[0;7m 5 lines[8d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3      File: /etc/apache2/mods-enabled/dir.conf                  [3;1H(B[m<IfModule mod_dir.c>[4;9HDirectoryIndex index.php index.html index.cgi index.pl  index.xhtml ind$[5;1H</IfModule>[7d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[4d[4;9HDirectoryInde[22d(B[0;7mFile Name to Write: /etc/apache2/mods-enabled/dir.conf                          [23;14H(B[m   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[K[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[K[22;55H(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7mi(B[m(B[0;7mn(B[m(B[0;7md(B[m(B[0;7me(B[m(B[0;7mx(B[m(B[0;7m.(B[m(B[0;7mp(B[m(B[0;7mh(B[m(B[0;7mp(B[m(B[0;7mSave file under DIFFERENT NAME ?[23d Y(B[m Yes[K[24d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[22;34H[?25l[5d(B[0;1m[33m</IfModule>[22;31H[39m(B[m[1K (B[0;7m[ Wrote 5 lines ](B[m[K[4;22H[?12l[?25h[1;23H(B[0;7m        File: index.php                 [23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[4;22H[22d[J[24;80H[24;1H[?1049l[?1l>]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo nano /etc/apache2/mods-enabled/dir.conf
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;39H(B[0;7m 5 lines[8d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3      File: /etc/apache2/mods-enabled/dir.conf                  [3;1H(B[m<IfModule mod_dir.c>[4;9HDirectoryIndex index.php index.html index.cgi index.pl  index.xhtml ind$[5;1H</IfModule>[7d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[24;1H[?1049l[?1l>[?1049h[1;25r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3      File: /etc/apache2/mods-enabled/dir.conf                  [3;1H(B[m<IfModule mod_dir.c>[4;9HDirectoryIndex index.php index.html index.cgi index.pl  index.xhtml ind$[5;1H</IfModule>[7d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[22;33H(B[0;7m[ Read 5 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3      File: /etc/apache2/mods-enabled/dir.conf                  [3;1H(B[m<IfModule mod_dir.c>[4;9HDirectoryIndex index.php index.html index.cgi index.pl  index.xhtml ind$[5;1H</IfModule>[7d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[22;33H(B[0;7m[ Read 5 lines ][23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[8d[L[23d[K[3d[25;1H[?1049l[?1l>[?1049h[1;51r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3      File: /etc/apache2/mods-enabled/dir.conf                  [3d(B[m<IfModule mod_dir.c>[4;9HDirectoryIndex index.php index.html index.cgi index.pl  index.xhtml ind$[5d</IfModule>[7d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[24d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[25d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3      File: /etc/apache2/mods-enabled/dir.conf                  [3d(B[m<IfModule mod_dir.c>[4;9HDirectoryIndex index.php index.html index.cgi index.pl  index.xhtml ind$[5d</IfModule>[7d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[24d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[25d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[1;23H(B[0;7m                             File: /etc/apache2/mods-enabled/dir.conf                                                                              [4;80H(B[mex.htm[24d[K[25d[K[50d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line  (B[0;7mM-W(B[m WhereIs Next(B[0;7m^^(B[m Mark Text[51d(B[0;7m^X(B[m Exit[51;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line   (B[0;7mM-](B[m To Bracket  (B[0;7mM-^(B[m Copy Text[3d[51;1H[?1049l[?1l>[?1049h[1;24r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3                                   File: /etc/apache2/mods-enabl[3;1H(B[m<IfModule mod_dir.c>[4;9HDirectoryIndex index.php index.html index.cgi index.pl  index.xhtml inde[5;1H</IfModule>[7d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[3d[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3                                   File: /etc/apache2/mods-enabl[3;1H(B[m<IfModule mod_dir.c>[4;9HDirectoryIndex index.php index.html index.cgi index.pl  index.xhtml inde[5;1H</IfModule>[7d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[3d[1;23H(B[0;7mFile: /etc/apache2/mods-enabled/dir.conf                  [4;80H(B[m$[23;1H(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[22d(B[0;7mFile Name to Write: /etc/apache2/mods-enabled/dir.conf                          [23;14H(B[m   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[K[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[K[22;55H[?25l[22;31H[39;49m(B[m[1K (B[0;7m[ Wrote 5 lines ](B[m[K[3d[?12l[?25h[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[22d[J[24;80H[24;1H[?1049l[?1l>]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo systemctl restart apache2
+[sudo] password for emmanuel: 
+]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo nano /var/www/html/info.php
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;39H(B[0;7m 3 lines[6d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3          File: /var/www/html/info.php                          [3;1H(B[0;1m[32m<?php[4d[39m(B[mphpinfo ();[5d(B[0;1m[32m?>[23d[39m(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[22d(B[0;7mFile Name to Write: /var/www/html/info.php                                      [23;14H(B[m   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[K[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[K[22;43H(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7mi(B[m(B[0;7mn(B[m(B[0;7mf(B[m(B[0;7mo(B[m(B[0;7m.(B[m(B[0;7mp(B[m(B[0;7mh(B[m(B[0;7mp(B[m(B[0;7mSave file under DIFFERENT NAME ?[23d Y(B[m Yes[K[24d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[22;34H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[3d[?12l[?25h[1;27H(B[0;7m    File: info.php          [23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[22d[J[24;80H[24;1H[?1049l[?1l>]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo nano /var/www/html/info.php
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;39H(B[0;7m 3 lines[6d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3          File: /var/www/html/info.php                          [3;1H(B[0;1m[32m<?php[4d[39m(B[mphpinfo ();[5d(B[0;1m[32m?>[23d[39m(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[3;21r[21;1H
+[1;24r[1;71H(B[0;7mModified[3d(B[m[3;21r[21;1H
+[1;24r[3;1H[Kk[K(B[0;1m[32m<?php[4d[39m(B[mecho (B[0;1m[33m"<h1>Hello PHP</h1>"[39m(B[m;[5d(B[0;1m[32m?>[22d[39m(B[m[K[5;3H[22d(B[0;7mFile Name to Write: /var/www/html/info.php                                      [23;14H(B[m   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[K[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[K[22;43H(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7mi(B[m(B[0;7mn(B[m(B[0;7md(B[m(B[0;7me(B[m(B[0;7mx(B[m(B[0;7m1(B[m(B[0;7m.(B[m(B[0;7mp(B[m(B[0;7mh(B[m(B[0;7mp(B[m(B[0;7mSave file under DIFFERENT NAME ?[23d Y(B[m Yes[K[24d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[22;34H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[5;3H[?12l[?25h[1;27H(B[0;7m    File: index1.php        [1;71H        [23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[5;3H[22d[J[24;80H[24;1H[?1049l[?1l>]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ sudo nano /etc/apache2/mods-enabled/dir.conf
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;39H(B[0;7m 5 lines[8d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3      File: /etc/apache2/mods-enabled/dir.conf                  [3;1H(B[m<IfModule mod_dir.c>[4;9HDirectoryIndex index.php index.html index.cgi index.pl  index.xhtml ind$[5;1H</IfModule>[7d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[3;21r[21;1H
+[1;24r[1;71H(B[0;7mModified[3d(B[m[3;21r[21;1H
+[1;24r[3;1H[3;21r[21;1H
+[1;24r[3;1H[2;21r[21;1H
+[1;24r[3;1H[K<?php[4decho "<h1>Hello PHP</h1>";[5d?>[22d[K[5d?>[22d(B[0;7mFile Name to Write: /etc/apache2/mods-enabled/dir.conf                          [23;14H(B[m   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[K[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[K[22;55H(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7mi(B[m(B[0;7mn(B[m(B[0;7md(B[m(B[0;7me(B[m(B[0;7mx(B[m(B[0;7m2(B[m(B[0;7m.(B[m(B[0;7mp(B[m(B[0;7mh(B[m(B[0;7mp(B[m(B[0;7mSave file under DIFFERENT NAME ?[23d Y(B[m Yes[K[24d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[22;34H[?25l[3d(B[0;1m[32m<?php[4d[33m"<h1>Hello PHP</h1>"[5d[32m?>[22;31H[39m(B[m[1K (B[0;7m[ Wrote 3 lines ](B[m[K[5;3H[?12l[?25h[1;23H(B[0;7m        File: index2.php                [1;71H        [23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[5;3H[1;71H(B[0;7mModified[6d(B[m[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: index2.php                              [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;31H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 4 lines ](B[m[K[6d[22d[J[1;71H(B[0;7m        [24;80H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;emmanuel@emmanuel-desktop: ~/0904[01;32memmanuel@emmanuel-desktop[00m:[01;34m~/0904[00m$ nano index3.php
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: index3.php                                  [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[1;71H(B[0;7mModified[3d(B[0;1m[32m<?php[4d[39m(B[mecho (B[0;1m[33m"<h1>Hello PHP</h1>"[39m(B[m;[5d(B[0;1m[32m?>[22d[39m(B[m[K[5;3H[22d(B[0;7mFile Name to Write: index3.php                                                  [23;14H(B[m   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[K[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[K[22;31H[?25l[39;49m
