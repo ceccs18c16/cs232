@@ -1,0 +1,25 @@
+CEC CS 18 C16 10-06-2020
+Emmanuel Shine Joseph
+ip address :59.98.248.5
+
+--------------------------------
+#1: Aim/task:Menu Driven Calculator (s6)
+
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+ 	#s6.sh
+Input: (If relevant)
+---------------
+
+--------------------------------
+Output: 
+	pict.png
+
+
+-------------------
+
+
+
+
